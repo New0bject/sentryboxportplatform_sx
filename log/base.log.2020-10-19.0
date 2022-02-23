@@ -1,0 +1,46 @@
+2020-10-19 09:21:07,286 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 10580 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-10-19 09:21:07,308 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-10-19 09:21:07,310 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-10-19 09:21:13,223 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 7.338 seconds (JVM running for 10.875)
+2020-10-19 10:02:58,961 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-10-19 10:02:59,385 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 281361287361287638(String), null, null, null
+2020-10-19 10:02:59,583 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-10-19 10:02:59,584 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-10-19 10:02:59,668 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_user b ON a.handle_user = b.id WHERE a.attribution_dept in ( ? ) 
+2020-10-19 10:02:59,672 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 281361287361287638(String)
+2020-10-19 10:02:59,725 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-10-19 10:03:45,581 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-10-19 10:03:45,710 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 281361287361287638(String), null, null, null
+2020-10-19 10:03:45,756 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-10-19 10:03:45,757 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-10-19 10:04:02,933 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url, b.real_name as handle_user_name FROM visit_user_access a LEFT JOIN sys_user b ON a.handle_user = b.id WHERE a.attribution_dept in ( ? ) ORDER BY a.create_time DESC LIMIT ?,? 
+2020-10-19 10:04:02,935 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 281361287361287638(String), 0(Integer), 0(Integer)
+2020-10-19 10:04:02,945 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-10-19 10:04:57,040 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-10-19 10:04:57,094 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 281361287361287638(String), null, null, null
+2020-10-19 10:04:57,129 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-10-19 10:04:57,130 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-10-19 10:04:57,132 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_user b ON a.handle_user = b.id WHERE a.attribution_dept in ( ? ) 
+2020-10-19 10:04:57,132 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 281361287361287638(String)
+2020-10-19 10:04:57,141 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-10-19 10:05:00,979 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-10-19 10:05:01,026 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 281361287361287638(String), null, null, null
+2020-10-19 10:05:01,060 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-10-19 10:05:01,060 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-10-19 10:05:01,062 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url, b.real_name as handle_user_name FROM visit_user_access a LEFT JOIN sys_user b ON a.handle_user = b.id WHERE a.attribution_dept in ( ? ) ORDER BY a.create_time DESC LIMIT ?,? 
+2020-10-19 10:05:01,062 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 281361287361287638(String), 0(Integer), 10(Integer)
+2020-10-19 10:05:01,092 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 10
+2020-10-19 13:35:31,344 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 11928 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-10-19 13:35:31,359 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-10-19 13:35:31,360 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-10-19 13:35:36,125 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 6.161 seconds (JVM running for 8.268)
+2020-10-19 13:35:45,537 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-10-19 13:35:45,684 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 423458681322154876(String), null, null, null
+2020-10-19 13:35:45,732 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 59
+2020-10-19 13:35:45,733 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-10-19 13:35:52,644 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_visitor ( name, id_card, phone, temperature, img_picture, car_no, health_code, visit_group, visit_person, visit_reason, rank, create_time, create_user, apparatus_name, address, event_type, attribution_dept, visit_status ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, ?, ?, ?, ?, ? ) 
+2020-10-19 13:35:52,650 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 斯日古楞(String), 152322198204154112(String), 15184721327(String), null, https://xf-test6.obs.cn-east-3.myhuaweicloud.com:443/1602844228252(String), null, null, 支队部(String), 车斌(String), 3(String), null, siriguleng-15184721327(String), null, null, 访客登记(String), 423458681322154876(String), 0(String)
+2020-10-19 13:35:52,678 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-10-19 13:35:52,681 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT client_id FROM sys_user WHERE id = ? 
+2020-10-19 13:35:52,682 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: chebin-13386281938(String)
+2020-10-19 13:35:52,687 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1

@@ -1,0 +1,70 @@
+2020-10-30 16:03:43,496 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 19620 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-10-30 16:03:43,514 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-10-30 16:03:43,515 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-10-30 16:03:48,442 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 6.025 seconds (JVM running for 9.649)
+2020-10-30 16:05:48,382 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM enter_leave_history WHERE car_number = ? AND timestampdiff(SECOND,create_time,NOW()) < 10 
+2020-10-30 16:06:48,445 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM enter_leave_history WHERE car_number = ? AND timestampdiff(SECOND,create_time,NOW()) < 10 
+2020-10-30 16:07:56,975 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 20692 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-10-30 16:07:56,979 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-10-30 16:07:56,980 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-10-30 16:08:00,913 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 4.438 seconds (JVM running for 5.628)
+2020-10-30 16:08:17,897 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM enter_leave_history WHERE car_number = ? AND timestampdiff(SECOND,create_time,NOW()) < 10 
+2020-10-30 16:09:54,294 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 20692 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-10-30 16:09:54,294 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-10-30 16:09:54,295 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-10-30 16:09:55,522 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.267 seconds (JVM running for 120.237)
+2020-10-30 16:12:01,731 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 15852 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-10-30 16:12:01,734 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-10-30 16:12:01,735 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-10-30 16:12:04,932 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 3.623 seconds (JVM running for 4.416)
+2020-10-30 16:12:34,761 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM enter_leave_history WHERE car_number = ? AND timestampdiff(SECOND,create_time,NOW()) < 10 
+2020-10-30 16:12:34,789 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 沪A12121(String)
+2020-10-30 16:12:35,060 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-10-30 16:12:35,063 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO enter_leave_history ( car_number, in_out, car_attribution, create_time ) VALUES ( ?, ?, ?, NOW() ) 
+2020-10-30 16:12:35,064 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 沪A12121(String), 12(Integer), 1(Integer)
+2020-10-30 16:12:35,075 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-10-30 16:12:38,978 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM enter_leave_history WHERE car_number = ? AND timestampdiff(SECOND,create_time,NOW()) < 10 
+2020-10-30 16:12:38,978 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 沪A12121(String)
+2020-10-30 16:12:38,991 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-10-30 16:12:40,426 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM enter_leave_history WHERE car_number = ? AND timestampdiff(SECOND,create_time,NOW()) < 10 
+2020-10-30 16:12:40,427 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 沪A12121(String)
+2020-10-30 16:12:40,439 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-10-30 16:12:41,500 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM enter_leave_history WHERE car_number = ? AND timestampdiff(SECOND,create_time,NOW()) < 10 
+2020-10-30 16:12:41,503 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 沪A12121(String)
+2020-10-30 16:12:41,522 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-10-30 16:12:42,562 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM enter_leave_history WHERE car_number = ? AND timestampdiff(SECOND,create_time,NOW()) < 10 
+2020-10-30 16:12:42,563 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 沪A12121(String)
+2020-10-30 16:12:42,577 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-10-30 16:12:43,659 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM enter_leave_history WHERE car_number = ? AND timestampdiff(SECOND,create_time,NOW()) < 10 
+2020-10-30 16:12:43,659 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 沪A12121(String)
+2020-10-30 16:12:43,672 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-10-30 16:12:44,653 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM enter_leave_history WHERE car_number = ? AND timestampdiff(SECOND,create_time,NOW()) < 10 
+2020-10-30 16:12:44,654 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 沪A12121(String)
+2020-10-30 16:12:44,694 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-10-30 16:12:45,840 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM enter_leave_history WHERE car_number = ? AND timestampdiff(SECOND,create_time,NOW()) < 10 
+2020-10-30 16:12:45,841 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 沪A12121(String)
+2020-10-30 16:12:45,864 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-10-30 16:12:45,865 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO enter_leave_history ( car_number, in_out, car_attribution, create_time ) VALUES ( ?, ?, ?, NOW() ) 
+2020-10-30 16:12:45,866 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 沪A12121(String), 12(Integer), 1(Integer)
+2020-10-30 16:12:45,872 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-10-30 16:12:53,025 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM enter_leave_history WHERE car_number = ? AND timestampdiff(SECOND,create_time,NOW()) < 10 
+2020-10-30 16:12:53,025 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 沪A12121(String)
+2020-10-30 16:12:53,039 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-10-30 16:12:53,941 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM enter_leave_history WHERE car_number = ? AND timestampdiff(SECOND,create_time,NOW()) < 10 
+2020-10-30 16:12:53,942 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 沪A12121(String)
+2020-10-30 16:12:53,949 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-10-30 16:12:54,565 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM enter_leave_history WHERE car_number = ? AND timestampdiff(SECOND,create_time,NOW()) < 10 
+2020-10-30 16:12:54,567 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 沪A12121(String)
+2020-10-30 16:12:54,580 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-10-30 16:12:55,617 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM enter_leave_history WHERE car_number = ? AND timestampdiff(SECOND,create_time,NOW()) < 10 
+2020-10-30 16:12:55,618 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 沪A12121(String)
+2020-10-30 16:12:55,630 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-10-30 16:12:55,632 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO enter_leave_history ( car_number, in_out, car_attribution, create_time ) VALUES ( ?, ?, ?, NOW() ) 
+2020-10-30 16:12:55,633 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 沪A12121(String), 2(Integer), 1(Integer)
+2020-10-30 16:12:55,649 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-10-30 16:13:00,297 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM enter_leave_history WHERE car_number = ? AND timestampdiff(SECOND,create_time,NOW()) < 10 
+2020-10-30 16:13:00,298 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 沪A12121(String)
+2020-10-30 16:13:00,334 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-10-30 16:13:00,983 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM enter_leave_history WHERE car_number = ? AND timestampdiff(SECOND,create_time,NOW()) < 10 
+2020-10-30 16:13:00,985 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 沪A12121(String)
+2020-10-30 16:13:00,996 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1

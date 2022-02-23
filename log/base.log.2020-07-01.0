@@ -1,0 +1,20 @@
+2020-07-01 13:54:19,346 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 13632 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-01 13:54:19,359 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-01 13:54:19,360 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-01 13:54:25,215 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 7.458 seconds (JVM running for 11.485)
+2020-07-01 13:55:19,742 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id, apparatus_name, address FROM ef_apparatus WHERE serial_no = ? 
+2020-07-01 13:55:19,786 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 5C04R310001(String)
+2020-07-01 13:55:19,856 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-01 13:55:19,859 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT c.id_ AS group_id, c.name_ AS group_name, a.id as user_id FROM sys_user a LEFT JOIN sys_group_user b ON a.id = b.user_id LEFT JOIN sys_group c ON b.group_id = c.id_ WHERE a.id like concat('%',?,'%') 
+2020-07-01 13:55:19,859 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 15921120077(String)
+2020-07-01 13:55:19,887 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-01 13:55:56,968 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 13632 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-01 13:55:56,969 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-01 13:55:56,969 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-01 13:55:58,101 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.175 seconds (JVM running for 104.373)
+2020-07-01 13:56:53,756 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id, apparatus_name, address FROM ef_apparatus WHERE serial_no = ? 
+2020-07-01 13:56:53,757 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 5C04R310001(String)
+2020-07-01 13:56:53,787 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-01 13:56:53,788 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT c.id_ AS group_id, c.name_ AS group_name, a.id as user_id FROM sys_user a LEFT JOIN sys_group_user b ON a.id = b.user_id LEFT JOIN sys_group c ON b.group_id = c.id_ WHERE a.id like concat('%',?,'%') 
+2020-07-01 13:56:53,789 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 15921120077(String)
+2020-07-01 13:56:53,822 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1

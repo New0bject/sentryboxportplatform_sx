@@ -1,0 +1,17 @@
+2020-06-22 01:25:12,264 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 7492 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-06-22 01:25:12,268 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-06-22 01:25:12,269 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-06-22 01:25:17,558 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 6.081 seconds (JVM running for 9.571)
+2020-06-22 10:14:27,526 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id, apparatus_name, address FROM ef_apparatus WHERE serial_no = ? 
+2020-06-22 10:14:27,582 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 8T01R010029(String)
+2020-06-22 10:14:27,677 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-06-22 10:14:27,762 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_monitor ( apparatus_id, apparatus_name, address, person_id, person_name, sex, age, group_id, group_name, temperature, create_time, create_user, img_url ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, ? ) 
+2020-06-22 10:14:27,765 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 64(String), 人脸识别A1(String), 123(String), null, 陌生人(String), null, null, null, null, 0.0(Float), null, /uploadfile/attachment/1592792067115.jpg(String)
+2020-06-22 10:14:27,822 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-06-22 10:15:04,364 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id, apparatus_name, address FROM ef_apparatus WHERE serial_no = ? 
+2020-06-22 10:15:04,364 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 8T01R010029(String)
+2020-06-22 10:15:04,399 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-06-22 10:16:23,587 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 7492 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-06-22 10:16:23,588 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-06-22 10:16:23,588 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-06-22 10:16:25,507 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.987 seconds (JVM running for 31877.52)

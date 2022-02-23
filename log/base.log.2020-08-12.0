@@ -1,0 +1,44 @@
+2020-08-12 15:35:39,818 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 11620 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-12 15:35:39,821 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-12 15:35:39,822 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-12 15:35:44,472 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 5.467 seconds (JVM running for 6.949)
+2020-08-12 15:36:57,885 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 11620 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-12 15:36:57,885 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-12 15:36:57,886 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-12 15:36:58,889 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.04 seconds (JVM running for 81.367)
+2020-08-12 15:37:05,715 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 11620 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-12 15:37:05,716 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-12 15:37:05,716 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-12 15:37:06,743 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.058 seconds (JVM running for 89.221)
+2020-08-12 15:37:34,799 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 11620 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-12 15:37:34,800 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-12 15:37:34,800 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-12 15:37:35,569 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.796 seconds (JVM running for 118.047)
+2020-08-12 15:38:10,583 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 11620 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-12 15:38:10,584 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-12 15:38:10,584 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-12 15:38:11,308 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.748 seconds (JVM running for 153.787)
+2020-08-12 15:40:36,392 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 11620 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-12 15:40:36,392 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-12 15:40:36,392 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-12 15:40:37,146 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.775 seconds (JVM running for 299.624)
+2020-08-12 15:41:06,197 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 11620 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-12 15:41:06,197 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-12 15:41:06,197 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-12 15:41:06,845 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.69 seconds (JVM running for 329.323)
+2020-08-12 15:41:39,930 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 11620 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-12 15:41:39,931 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-12 15:41:39,931 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-12 15:41:40,525 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.618 seconds (JVM running for 363.003)
+2020-08-12 15:42:11,652 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 11620 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-12 15:42:11,653 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-12 15:42:11,653 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-12 15:42:12,274 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.644 seconds (JVM running for 394.752)
+2020-08-12 16:14:57,682 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 11620 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-12 16:14:57,683 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-12 16:14:57,683 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-12 16:14:58,370 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.707 seconds (JVM running for 2360.847)
+2020-08-12 16:19:59,995 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 11620 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-12 16:19:59,995 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-12 16:19:59,995 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-12 16:20:00,529 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.551 seconds (JVM running for 2663.007)

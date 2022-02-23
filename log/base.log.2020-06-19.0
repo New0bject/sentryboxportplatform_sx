@@ -1,0 +1,90 @@
+2020-06-19 16:48:25,120 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 19860 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-06-19 16:48:25,124 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-06-19 16:48:25,125 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-06-19 16:48:28,550 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 3.957 seconds (JVM running for 4.91)
+2020-06-19 16:48:56,847 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id, apparatus_name, address FROM ef_apparatus WHERE serial_no = ? 
+2020-06-19 16:48:57,125 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 8T01R010029(String)
+2020-06-19 16:48:57,366 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-06-19 16:50:31,453 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id, apparatus_name, address FROM ef_apparatus WHERE serial_no = ? 
+2020-06-19 16:50:31,456 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 8T01R010029(String)
+2020-06-19 16:50:31,507 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-06-19 16:51:11,475 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 19860 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-06-19 16:51:11,476 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-06-19 16:51:11,476 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-06-19 16:51:12,599 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.17 seconds (JVM running for 168.959)
+2020-06-19 16:51:28,483 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 19860 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-06-19 16:51:28,483 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-06-19 16:51:28,483 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-06-19 16:51:29,729 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.285 seconds (JVM running for 186.089)
+2020-06-19 16:52:36,898 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 19860 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-06-19 16:52:36,898 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-06-19 16:52:36,898 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-06-19 16:52:37,816 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.956 seconds (JVM running for 254.176)
+2020-06-19 16:52:47,858 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 20000 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-06-19 16:52:47,863 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-06-19 16:52:47,863 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-06-19 16:52:51,297 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 3.936 seconds (JVM running for 4.873)
+2020-06-19 16:53:17,549 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id, apparatus_name, address FROM ef_apparatus WHERE serial_no = ? 
+2020-06-19 16:53:17,815 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 8T01R010029(String)
+2020-06-19 16:53:18,053 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-06-19 16:54:08,041 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 19852 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-06-19 16:54:08,045 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-06-19 16:54:08,046 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-06-19 16:54:12,333 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 4.84 seconds (JVM running for 5.839)
+2020-06-19 16:54:28,693 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id, apparatus_name, address FROM ef_apparatus WHERE serial_no = ? 
+2020-06-19 16:54:28,722 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 8T01R010029(String)
+2020-06-19 16:54:28,788 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-06-19 16:54:28,804 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_monitor ( apparatus_id, apparatus_name, address, person_id, person_name, sex, group_id, group_name, temperature, create_time, create_user, img_url ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, ? ) 
+2020-06-19 16:54:28,808 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 64(String), 人脸识别A1(String), 123(String), null, 陌生人(String), 男(String), null, null, 0.0(Float), null, /uploadfile/attachment/1592556868588.jpg(String)
+2020-06-19 16:54:28,926 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-06-19 16:57:04,209 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 19852 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-06-19 16:57:04,209 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-06-19 16:57:04,210 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-06-19 16:57:05,291 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.12 seconds (JVM running for 178.797)
+2020-06-19 16:57:35,216 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 19852 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-06-19 16:57:35,216 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-06-19 16:57:35,217 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-06-19 16:57:36,219 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.043 seconds (JVM running for 209.725)
+2020-06-19 16:57:42,010 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 19852 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-06-19 16:57:42,010 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-06-19 16:57:42,011 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-06-19 16:57:42,869 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.906 seconds (JVM running for 216.374)
+2020-06-19 17:05:03,846 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id, apparatus_name, address FROM ef_apparatus WHERE serial_no = ? 
+2020-06-19 17:05:03,848 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 8T01R010029(String)
+2020-06-19 17:05:03,879 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-06-19 17:05:03,883 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_monitor ( apparatus_id, apparatus_name, address, person_id, person_name, sex, group_id, group_name, temperature, create_time, create_user, img_url ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, ? ) 
+2020-06-19 17:05:03,884 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 64(String), 人脸识别A1(String), 123(String), null, 陌生人(String), 男(String), null, null, 0.0(Float), null, /uploadfile/attachment/1592557503843.jpg(String)
+2020-06-19 17:05:03,942 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-06-19 17:08:56,820 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_monitor WHERE 1 = 1 
+2020-06-19 17:08:56,821 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-06-19 17:08:56,883 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-06-19 17:09:21,449 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 19852 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-06-19 17:09:21,449 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-06-19 17:09:21,450 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-06-19 17:09:22,249 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.833 seconds (JVM running for 915.755)
+2020-06-19 17:09:24,972 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 19852 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-06-19 17:09:24,972 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-06-19 17:09:24,972 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-06-19 17:09:25,776 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.839 seconds (JVM running for 919.282)
+2020-06-19 17:09:36,967 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 19812 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-06-19 17:09:36,972 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-06-19 17:09:36,973 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-06-19 17:09:40,410 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 4.046 seconds (JVM running for 5.099)
+2020-06-19 17:09:56,336 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_monitor WHERE 1 = 1 
+2020-06-19 17:09:56,366 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-06-19 17:09:56,418 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-06-19 17:09:56,421 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id, apparatus_id, apparatus_name, address, person_id, person_name, sex, group_id, group_name, temperature, DATE_FORMAT(create_time,"%Y-%m-%d %H:%i") as create_time, create_user, replace(CONVERT(img_url USING utf8mb4),' ','+') as img_url FROM visit_monitor WHERE 1 = 1 ORDER BY create_time DESC LIMIT ?,? 
+2020-06-19 17:09:56,423 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 2(Integer)
+2020-06-19 17:09:56,452 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-06-19 17:11:06,246 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id, apparatus_id, apparatus_name, address, person_id, person_name, sex, group_id, group_name, temperature, DATE_FORMAT(create_time,"%Y-%m-%d %H:%i") as create_time, create_user, replace(CONVERT(img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access WHERE id = ? 
+2020-06-19 17:11:06,247 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 141(Integer)
+2020-06-19 17:11:34,883 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 19812 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-06-19 17:11:34,884 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-06-19 17:11:34,884 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-06-19 17:11:35,952 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.105 seconds (JVM running for 120.641)
+2020-06-19 17:11:42,819 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id, apparatus_id, apparatus_name, address, person_id, person_name, sex, group_id, group_name, temperature, DATE_FORMAT(create_time,"%Y-%m-%d %H:%i") as create_time, create_user, replace(CONVERT(img_url USING utf8mb4),' ','+') as img_url FROM visit_monitor WHERE id = ? 
+2020-06-19 17:11:42,820 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 141(Integer)
+2020-06-19 17:11:42,848 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-06-19 17:11:58,863 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 19812 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-06-19 17:11:58,863 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-06-19 17:11:58,863 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default

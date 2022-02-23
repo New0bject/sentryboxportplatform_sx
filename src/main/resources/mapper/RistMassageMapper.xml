@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.RistMassageMapper">
+
+	<select id="getAlarmList" resultType="com.example.demo.model.RiskAlarmBean" parameterType="com.example.demo.model.RiskAlarmBean">
+		select a.* from (SELECT
+			id,
+			apparatus_id,
+			apparatus_name,
+			address,
+			create_time,
+			alarm_type,
+			alarm_message,
+			handle_status,
+			handle_message,
+			handle_user,
+			handle_time,
+			attribution_dept 
+		FROM
+			visit_visitor_alarm UNION
+		SELECT
+			id,
+			apparatus_id,
+			apparatus_name,
+			address,
+			create_time,
+			alarm_type,
+			alarm_message,
+			handle_status,
+			handle_message,
+			handle_user,
+			handle_time,
+			attribution_dept  
+		FROM
+			visit_alarm UNION
+		SELECT
+			id,
+			apparatus_id,
+			apparatus_name,
+			address,
+			create_time,
+			alarm_type,
+			alarm_message,
+			handle_status,
+			handle_message,
+			handle_user,
+			handle_time,
+			attribution_dept  
+		FROM
+			visit_car_alarm) a
+		WHERE a.attribution_dept = #{attribution_dept,jdbcType=VARCHAR}
+		AND handle_status = #{handle_status,jdbcType=VARCHAR}
+		<if test="start_time != '' and start_time != null">
+			and a.create_time &gt;= #{start_time,jdbcType=VARCHAR}
+		</if>
+		<if test="end_time != '' and end_time != null">
+			and a.create_time &lt;= #{end_time,jdbcType=VARCHAR}
+		</if>
+		ORDER BY a.create_time DESC
+		LIMIT
+		#{page,jdbcType=VARCHAR},#{lineCount,jdbcType=VARCHAR}
+	</select>
+	
+	<select id="getCount" resultType="java.lang.Integer" parameterType="com.example.demo.model.RiskAlarmBean">
+		select count(*) from (SELECT
+			id,
+			apparatus_id,
+			apparatus_name,
+			address,
+			create_time,
+			alarm_type,
+			alarm_message,
+			handle_status,
+			handle_message,
+			handle_user,
+			handle_time,
+			attribution_dept 
+		FROM
+			visit_visitor_alarm UNION
+		SELECT
+			id,
+			apparatus_id,
+			apparatus_name,
+			address,
+			create_time,
+			alarm_type,
+			alarm_message,
+			handle_status,
+			handle_message,
+			handle_user,
+			handle_time,
+			attribution_dept  
+		FROM
+			visit_alarm UNION
+		SELECT
+			id,
+			apparatus_id,
+			apparatus_name,
+			address,
+			create_time,
+			alarm_type,
+			alarm_message,
+			handle_status,
+			handle_message,
+			handle_user,
+			handle_time,
+			attribution_dept  
+		FROM
+			visit_car_alarm) a
+		WHERE a.attribution_dept = #{attribution_dept,jdbcType=VARCHAR}
+		AND handle_status = #{handle_status,jdbcType=VARCHAR}
+		<if test="start_time != '' and start_time != null">
+			and a.create_time &gt;= #{start_time,jdbcType=VARCHAR}
+		</if>
+		<if test="end_time != '' and end_time != null">
+			and a.create_time &lt;= #{end_time,jdbcType=VARCHAR}
+		</if>
+	</select>
+	
+</mapper>

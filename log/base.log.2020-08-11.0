@@ -1,0 +1,260 @@
+2020-08-11 09:08:49,042 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 24528 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-11 09:08:49,043 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-11 09:08:49,043 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-11 18:06:14,058 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 472 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-11 18:06:14,061 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-11 18:06:14,062 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-11 18:06:17,423 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 3.826 seconds (JVM running for 4.938)
+2020-08-11 18:12:26,654 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 472 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-11 18:12:26,654 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-11 18:12:26,654 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-11 18:12:36,652 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 12204 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-11 18:12:36,657 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-11 18:12:36,658 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-11 18:12:40,874 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 4.823 seconds (JVM running for 6.053)
+2020-08-11 18:13:56,285 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT c.id_ AS group_id, c.name_ AS group_name, a.id as user_id FROM sys_user a LEFT JOIN sys_group_user b ON a.id = b.user_id LEFT JOIN sys_group c ON b.group_id = c.id_ WHERE a.id like concat('%',?,'%') 
+2020-08-11 18:13:56,340 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 15921120077(String)
+2020-08-11 18:13:56,375 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-11 18:13:56,378 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id, apparatus_name, address, competent_unit_id FROM ef_apparatus WHERE serial_no = ? 
+2020-08-11 18:13:56,380 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 5C04R310002(String)
+2020-08-11 18:13:56,387 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-11 18:13:56,455 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT *, CASE vacate_type WHEN 1 THEN '病假' WHEN 2 THEN '婚假' WHEN 3 THEN '其他' WHEN 4 THEN '调休' WHEN 5 THEN '探亲假' WHEN 6 THEN '轮休' WHEN 7 THEN '事假' END as vacate_name FROM vac_apply_record WHERE user_id = ? AND apply_state in (2,3) AND NOW( ) BETWEEN start_time AND end_time 
+2020-08-11 18:13:56,456 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: zhangweicheng-15921120077(String)
+2020-08-11 18:13:56,470 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-11 18:13:56,471 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: UPDATE vac_apply_record SET apply_state = apply_state + 1 WHERE id = ? 
+2020-08-11 18:13:56,471 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1(String)
+2020-08-11 18:13:56,477 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 18:13:56,478 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_user_access ( apparatus_id, apparatus_name, address, event_type, person_id, person_name, group_id, group_name, car_no, temperature, handle_result, handle_status, handle_time, handle_user, create_time, create_user, img_url, attribution_dept ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, ?, ? ) 
+2020-08-11 18:13:56,483 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(String), 123(String), 1(String), zhangweicheng-15921120077(String), 张维诚(String), 382944592616640692(String), 新浜中队(String), (String), 36.6(Float), 病假null(String), 1(String), null, null, null, /uploadfile/attachment/1597140835988.jpg(String), 281361287361287638(String)
+2020-08-11 18:13:56,501 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 18:13:56,510 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_user_access ( apparatus_id, apparatus_name, address, event_type, person_id, person_name, group_id, group_name, car_no, temperature, handle_result, handle_status, handle_time, handle_user, create_time, create_user, img_url, attribution_dept ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, ?, ? ) 
+2020-08-11 18:13:56,511 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(String), 123(String), 3(String), zhangweicheng-15921120077(String), 张维诚(String), 382944592616640692(String), 新浜中队(String), (String), 36.6(Float), null, 1(String), null, null, null, /uploadfile/attachment/1597140835988.jpg(String), 281361287361287638(String)
+2020-08-11 18:13:56,531 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 18:13:56,534 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_alarm ( apparatus_id, apparatus_name, address, create_time, access_id, alarm_type, alarm_message, attribution_dept, handle_status, handle_message, handle_user, handle_time ) VALUES ( ?, ?, ?, now(), ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-08-11 18:13:56,536 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(String), 123(String), 719(Integer), 进出异常(String), 未带口罩(String), 281361287361287638(String), 0(String), null, null, null
+2020-08-11 18:13:56,567 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 18:17:48,495 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 12204 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-11 18:17:48,495 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-11 18:17:48,496 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-11 18:17:49,797 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.351 seconds (JVM running for 314.976)
+2020-08-11 18:18:37,014 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 12204 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-11 18:18:37,015 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-11 18:18:37,015 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-11 18:18:38,163 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.19 seconds (JVM running for 363.342)
+2020-08-11 18:19:14,657 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 12204 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-11 18:19:14,657 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-11 18:19:14,657 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-11 18:19:15,745 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.127 seconds (JVM running for 400.924)
+2020-08-11 18:19:29,641 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 12204 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-11 18:19:29,642 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-11 18:19:29,642 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-11 18:19:30,668 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.061 seconds (JVM running for 415.847)
+2020-08-11 18:27:33,202 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 23668 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-11 18:27:33,206 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-11 18:27:33,207 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-11 18:27:39,737 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 18140 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-11 18:27:39,741 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-11 18:27:39,742 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-11 18:27:44,374 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 5.193 seconds (JVM running for 6.223)
+2020-08-11 18:28:04,371 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT c.id_ AS group_id, c.name_ AS group_name, a.id as user_id FROM sys_user a LEFT JOIN sys_group_user b ON a.id = b.user_id LEFT JOIN sys_group c ON b.group_id = c.id_ WHERE a.id like concat('%',?,'%') 
+2020-08-11 18:28:04,401 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 15921120077(String)
+2020-08-11 18:28:04,437 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-11 18:28:04,439 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id, apparatus_name, address, competent_unit_id FROM ef_apparatus WHERE serial_no = ? 
+2020-08-11 18:28:04,440 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 5C04R310002(String)
+2020-08-11 18:28:04,444 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-11 18:28:08,000 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT *, CASE vacate_type WHEN 1 THEN '病假' WHEN 2 THEN '婚假' WHEN 3 THEN '其他' WHEN 4 THEN '调休' WHEN 5 THEN '探亲假' WHEN 6 THEN '轮休' WHEN 7 THEN '事假' END as vacate_name FROM vac_apply_record WHERE user_id = ? AND apply_state in (2,3) AND NOW( ) BETWEEN start_time AND end_time 
+2020-08-11 18:28:08,002 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: zhangweicheng-15921120077(String)
+2020-08-11 18:28:08,037 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-11 18:28:32,782 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: UPDATE vac_apply_record SET apply_state = apply_state + 1 WHERE id = ? 
+2020-08-11 18:28:32,785 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1(String)
+2020-08-11 18:28:32,796 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 18:28:40,968 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_user_access ( apparatus_id, apparatus_name, address, event_type, person_id, person_name, group_id, group_name, car_no, temperature, handle_result, handle_status, handle_time, handle_user, create_time, create_user, img_url, attribution_dept ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, ?, ? ) 
+2020-08-11 18:28:40,972 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(String), 123(String), 1(String), zhangweicheng-15921120077(String), 张维诚(String), 382944592616640692(String), 新浜中队(String), (String), 36.7(Float), null, 1(String), null, null, null, /uploadfile/attachment/1597141684255.jpg(String), 281361287361287638(String)
+2020-08-11 18:28:41,033 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 18:28:41,041 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_user_access ( apparatus_id, apparatus_name, address, event_type, person_id, person_name, group_id, group_name, car_no, temperature, handle_result, handle_status, handle_time, handle_user, create_time, create_user, img_url, attribution_dept ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, ?, ? ) 
+2020-08-11 18:28:41,043 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(String), 123(String), 3(String), zhangweicheng-15921120077(String), 张维诚(String), 382944592616640692(String), 新浜中队(String), (String), 36.7(Float), null, 1(String), null, null, null, /uploadfile/attachment/1597141684255.jpg(String), 281361287361287638(String)
+2020-08-11 18:28:41,070 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 18:28:41,072 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_alarm ( apparatus_id, apparatus_name, address, create_time, access_id, alarm_type, alarm_message, attribution_dept, handle_status, handle_message, handle_user, handle_time ) VALUES ( ?, ?, ?, now(), ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-08-11 18:28:41,073 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(String), 123(String), 721(Integer), 进出异常(String), 未带口罩(String), 281361287361287638(String), 0(String), null, null, null
+2020-08-11 18:28:41,133 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 18:32:11,076 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT *, CASE vacate_type WHEN 1 THEN '病假' WHEN 2 THEN '婚假' WHEN 3 THEN '其他' WHEN 4 THEN '调休' WHEN 5 THEN '探亲假' WHEN 6 THEN '轮休' WHEN 7 THEN '事假' END as vacate_name FROM vac_apply_record WHERE user_id = ? AND apply_state in (2,3) AND NOW( ) BETWEEN start_time AND end_time 
+2020-08-11 18:32:11,080 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: zhangweicheng-15921120077(String)
+2020-08-11 18:32:11,101 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-08-11 18:34:01,801 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 8220 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-11 18:34:01,805 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-11 18:34:01,806 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-11 18:34:06,171 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 4.887 seconds (JVM running for 5.894)
+2020-08-11 18:34:19,551 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT *, CASE vacate_type WHEN 1 THEN '病假' WHEN 2 THEN '婚假' WHEN 3 THEN '其他' WHEN 4 THEN '调休' WHEN 5 THEN '探亲假' WHEN 6 THEN '轮休' WHEN 7 THEN '事假' END as vacate_name FROM vac_apply_record WHERE user_id = ? AND apply_state in (2,3) AND NOW( ) BETWEEN start_time AND end_time 
+2020-08-11 18:34:19,833 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: zhangweicheng-15921120077(String)
+2020-08-11 18:34:20,066 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-11 18:34:27,715 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: UPDATE visit_user_access SET handle_result = CONCAT(IFNULL(handle_result,''),'_', ?), handle_time = NOW(), handle_status = ?, handle_user = ? WHERE id = ? 
+2020-08-11 18:34:27,717 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 病假正常外出(String), 2(String), null, 720(Integer)
+2020-08-11 18:34:27,728 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 18:34:27,729 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id as id, a.apparatus_id as apparatus_id, a.apparatus_name as apparatus_name, a.address as address, a.event_type as event_type, a.person_id as person_id, a.person_name as person_name, a.group_id as group_id, a.group_name as group_name, a.car_no as car_no, a.temperature as temperature, a.handle_result as handle_result, a.handle_status as handle_status, a.handle_user as handle_user, b.real_name as handle_user_name, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user as create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_user b ON a.handle_user = b.id WHERE a.id = ? 
+2020-08-11 18:34:27,730 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 720(Integer)
+2020-08-11 18:34:27,776 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-11 18:40:33,152 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT c.id_ AS group_id, c.name_ AS group_name, a.id as user_id FROM sys_user a LEFT JOIN sys_group_user b ON a.id = b.user_id LEFT JOIN sys_group c ON b.group_id = c.id_ WHERE a.id like concat('%',?,'%') 
+2020-08-11 18:40:33,153 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: AUTOCODE_1590299737_547217304904(String)
+2020-08-11 18:40:33,160 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-08-11 18:40:39,956 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT c.id_ AS group_id, c.name_ AS group_name, a.id as user_id FROM sys_user a LEFT JOIN sys_group_user b ON a.id = b.user_id LEFT JOIN sys_group c ON b.group_id = c.id_ WHERE a.id like concat('%',?,'%') 
+2020-08-11 18:40:39,957 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 15921120077(String)
+2020-08-11 18:40:39,975 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-11 18:40:39,976 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id, apparatus_name, address, competent_unit_id FROM ef_apparatus WHERE serial_no = ? 
+2020-08-11 18:40:39,977 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 5C04R310002(String)
+2020-08-11 18:40:39,988 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-11 18:41:09,087 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT c.id_ AS group_id, c.name_ AS group_name, a.id as user_id FROM sys_user a LEFT JOIN sys_group_user b ON a.id = b.user_id LEFT JOIN sys_group c ON b.group_id = c.id_ WHERE a.id like concat('%',?,'%') 
+2020-08-11 18:41:09,088 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: AUTOCODE_1590299737_547217304904(String)
+2020-08-11 18:41:09,097 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-08-11 18:41:43,185 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT *, CASE vacate_type WHEN 1 THEN '病假' WHEN 2 THEN '婚假' WHEN 3 THEN '其他' WHEN 4 THEN '调休' WHEN 5 THEN '探亲假' WHEN 6 THEN '轮休' WHEN 7 THEN '事假' END as vacate_name FROM vac_apply_record WHERE user_id = ? AND apply_state in (2,3) AND NOW( ) BETWEEN start_time AND end_time 
+2020-08-11 18:41:43,186 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: zhangweicheng-15921120077(String)
+2020-08-11 18:41:43,193 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-11 18:41:43,194 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: UPDATE vac_apply_record SET apply_state = apply_state + 1 WHERE id = ? 
+2020-08-11 18:41:43,195 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1(String)
+2020-08-11 18:41:43,219 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 18:41:43,220 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_user_access ( apparatus_id, apparatus_name, address, event_type, person_id, person_name, group_id, group_name, car_no, temperature, handle_result, handle_status, handle_time, handle_user, create_time, create_user, img_url, attribution_dept ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, ?, ? ) 
+2020-08-11 18:41:43,223 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(String), 123(String), 1(String), zhangweicheng-15921120077(String), 张维诚(String), 382944592616640692(String), 新浜中队(String), (String), 36.5(Float), null, 1(String), null, null, null, /uploadfile/attachment/1597142439955.jpg(String), 525191794643643223(String)
+2020-08-11 18:41:43,256 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 18:41:43,264 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_user_access ( apparatus_id, apparatus_name, address, event_type, person_id, person_name, group_id, group_name, car_no, temperature, handle_result, handle_status, handle_time, handle_user, create_time, create_user, img_url, attribution_dept ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, ?, ? ) 
+2020-08-11 18:41:43,265 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(String), 123(String), 3(String), zhangweicheng-15921120077(String), 张维诚(String), 382944592616640692(String), 新浜中队(String), (String), 36.5(Float), null, 1(String), null, null, null, /uploadfile/attachment/1597142439955.jpg(String), 525191794643643223(String)
+2020-08-11 18:41:43,269 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT c.id_ AS group_id, c.name_ AS group_name, a.id as user_id FROM sys_user a LEFT JOIN sys_group_user b ON a.id = b.user_id LEFT JOIN sys_group c ON b.group_id = c.id_ WHERE a.id like concat('%',?,'%') 
+2020-08-11 18:41:43,269 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 15921120077(String)
+2020-08-11 18:41:43,274 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 18:41:43,275 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_alarm ( apparatus_id, apparatus_name, address, create_time, access_id, alarm_type, alarm_message, attribution_dept, handle_status, handle_message, handle_user, handle_time ) VALUES ( ?, ?, ?, now(), ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-08-11 18:41:43,276 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(String), 123(String), 723(Integer), 进出异常(String), 未带口罩(String), 525191794643643223(String), 0(String), null, null, null
+2020-08-11 18:41:43,278 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-11 18:41:43,279 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id, apparatus_name, address, competent_unit_id FROM ef_apparatus WHERE serial_no = ? 
+2020-08-11 18:41:43,280 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 5C04R310002(String)
+2020-08-11 18:41:43,289 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-11 18:41:43,295 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT *, CASE vacate_type WHEN 1 THEN '病假' WHEN 2 THEN '婚假' WHEN 3 THEN '其他' WHEN 4 THEN '调休' WHEN 5 THEN '探亲假' WHEN 6 THEN '轮休' WHEN 7 THEN '事假' END as vacate_name FROM vac_apply_record WHERE user_id = ? AND apply_state in (2,3) AND NOW( ) BETWEEN start_time AND end_time 
+2020-08-11 18:41:43,296 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: zhangweicheng-15921120077(String)
+2020-08-11 18:41:43,299 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 18:41:43,306 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-11 18:41:43,307 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: UPDATE vac_apply_record SET apply_state = apply_state + 1 WHERE id = ? 
+2020-08-11 18:41:43,308 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1(String)
+2020-08-11 18:41:43,315 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 18:41:43,317 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_user_access ( apparatus_id, apparatus_name, address, event_type, person_id, person_name, group_id, group_name, car_no, temperature, handle_result, handle_status, handle_time, handle_user, create_time, create_user, img_url, attribution_dept ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, ?, ? ) 
+2020-08-11 18:41:43,319 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(String), 123(String), 1(String), zhangweicheng-15921120077(String), 张维诚(String), 382944592616640692(String), 新浜中队(String), (String), 0.0(Float), null, 1(String), null, null, null, /uploadfile/attachment/1597142503269.jpg(String), 525191794643643223(String)
+2020-08-11 18:41:43,345 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 18:41:43,348 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_user_access ( apparatus_id, apparatus_name, address, event_type, person_id, person_name, group_id, group_name, car_no, temperature, handle_result, handle_status, handle_time, handle_user, create_time, create_user, img_url, attribution_dept ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, ?, ? ) 
+2020-08-11 18:41:43,350 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(String), 123(String), 3(String), zhangweicheng-15921120077(String), 张维诚(String), 382944592616640692(String), 新浜中队(String), (String), 0.0(Float), null, 1(String), null, null, null, /uploadfile/attachment/1597142503269.jpg(String), 525191794643643223(String)
+2020-08-11 18:41:43,375 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 18:41:43,376 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_alarm ( apparatus_id, apparatus_name, address, create_time, access_id, alarm_type, alarm_message, attribution_dept, handle_status, handle_message, handle_user, handle_time ) VALUES ( ?, ?, ?, now(), ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-08-11 18:41:43,377 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(String), 123(String), 725(Integer), 进出异常(String), 未带口罩(String), 525191794643643223(String), 0(String), null, null, null
+2020-08-11 18:41:43,395 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 18:42:28,247 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT c.id_ AS group_id, c.name_ AS group_name, a.id as user_id FROM sys_user a LEFT JOIN sys_group_user b ON a.id = b.user_id LEFT JOIN sys_group c ON b.group_id = c.id_ WHERE a.id like concat('%',?,'%') 
+2020-08-11 18:42:28,248 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 15921120077(String)
+2020-08-11 18:42:28,258 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-11 18:42:28,258 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id, apparatus_name, address, competent_unit_id FROM ef_apparatus WHERE serial_no = ? 
+2020-08-11 18:42:28,259 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 5C04R310002(String)
+2020-08-11 18:42:28,262 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-11 18:42:28,266 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT *, CASE vacate_type WHEN 1 THEN '病假' WHEN 2 THEN '婚假' WHEN 3 THEN '其他' WHEN 4 THEN '调休' WHEN 5 THEN '探亲假' WHEN 6 THEN '轮休' WHEN 7 THEN '事假' END as vacate_name FROM vac_apply_record WHERE user_id = ? AND apply_state in (2,3) AND NOW( ) BETWEEN start_time AND end_time 
+2020-08-11 18:42:28,267 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: zhangweicheng-15921120077(String)
+2020-08-11 18:42:28,271 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-08-11 18:42:28,272 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_user_access ( apparatus_id, apparatus_name, address, event_type, person_id, person_name, group_id, group_name, car_no, temperature, handle_result, handle_status, handle_time, handle_user, create_time, create_user, img_url, attribution_dept ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, ?, ? ) 
+2020-08-11 18:42:28,272 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(String), 123(String), 1(String), zhangweicheng-15921120077(String), 张维诚(String), 382944592616640692(String), 新浜中队(String), (String), 36.5(Float), null, 1(String), null, null, null, /uploadfile/attachment/1597142548247.jpg(String), 525191794643643223(String)
+2020-08-11 18:42:28,305 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 18:42:28,310 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_user_access ( apparatus_id, apparatus_name, address, event_type, person_id, person_name, group_id, group_name, car_no, temperature, handle_result, handle_status, handle_time, handle_user, create_time, create_user, img_url, attribution_dept ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, ?, ? ) 
+2020-08-11 18:42:28,311 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(String), 123(String), 3(String), zhangweicheng-15921120077(String), 张维诚(String), 382944592616640692(String), 新浜中队(String), (String), 36.5(Float), null, 1(String), null, null, null, /uploadfile/attachment/1597142548247.jpg(String), 525191794643643223(String)
+2020-08-11 18:42:28,362 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 18:42:28,364 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_alarm ( apparatus_id, apparatus_name, address, create_time, access_id, alarm_type, alarm_message, attribution_dept, handle_status, handle_message, handle_user, handle_time ) VALUES ( ?, ?, ?, now(), ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-08-11 18:42:28,366 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(String), 123(String), 727(Integer), 进出异常(String), 未带口罩(String), 525191794643643223(String), 0(String), null, null, null
+2020-08-11 18:42:28,385 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 18:42:28,394 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_user_access ( apparatus_id, apparatus_name, address, event_type, person_id, person_name, group_id, group_name, car_no, temperature, handle_result, handle_status, handle_time, handle_user, create_time, create_user, img_url, attribution_dept ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, ?, ? ) 
+2020-08-11 18:42:28,396 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(String), 123(String), 4(String), zhangweicheng-15921120077(String), 张维诚(String), 382944592616640692(String), 新浜中队(String), (String), 36.5(Float), null, 1(String), null, null, null, /uploadfile/attachment/1597142548247.jpg(String), 525191794643643223(String)
+2020-08-11 18:42:28,434 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 18:42:28,435 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_alarm ( apparatus_id, apparatus_name, address, create_time, access_id, alarm_type, alarm_message, attribution_dept, handle_status, handle_message, handle_user, handle_time ) VALUES ( ?, ?, ?, now(), ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-08-11 18:42:28,436 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(String), 123(String), 728(Integer), 进出异常(String), 未请假(String), 525191794643643223(String), 0(String), null, null, null
+2020-08-11 18:42:28,468 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 18:42:43,097 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT c.id_ AS group_id, c.name_ AS group_name, a.id as user_id FROM sys_user a LEFT JOIN sys_group_user b ON a.id = b.user_id LEFT JOIN sys_group c ON b.group_id = c.id_ WHERE a.id like concat('%',?,'%') 
+2020-08-11 18:42:43,098 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 15921120077(String)
+2020-08-11 18:42:43,108 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-11 18:42:43,110 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id, apparatus_name, address, competent_unit_id FROM ef_apparatus WHERE serial_no = ? 
+2020-08-11 18:42:43,110 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 5C04R310002(String)
+2020-08-11 18:42:43,114 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-11 18:42:43,157 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT *, CASE vacate_type WHEN 1 THEN '病假' WHEN 2 THEN '婚假' WHEN 3 THEN '其他' WHEN 4 THEN '调休' WHEN 5 THEN '探亲假' WHEN 6 THEN '轮休' WHEN 7 THEN '事假' END as vacate_name FROM vac_apply_record WHERE user_id = ? AND apply_state in (2,3) AND NOW( ) BETWEEN start_time AND end_time 
+2020-08-11 18:42:43,158 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: zhangweicheng-15921120077(String)
+2020-08-11 18:42:43,170 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-08-11 18:42:43,171 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_user_access ( apparatus_id, apparatus_name, address, event_type, person_id, person_name, group_id, group_name, car_no, temperature, handle_result, handle_status, handle_time, handle_user, create_time, create_user, img_url, attribution_dept ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, ?, ? ) 
+2020-08-11 18:42:43,172 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(String), 123(String), 1(String), zhangweicheng-15921120077(String), 张维诚(String), 382944592616640692(String), 新浜中队(String), (String), 36.8(Float), null, 1(String), null, null, null, /uploadfile/attachment/1597142563095.jpg(String), 525191794643643223(String)
+2020-08-11 18:42:43,197 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 18:42:43,200 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_user_access ( apparatus_id, apparatus_name, address, event_type, person_id, person_name, group_id, group_name, car_no, temperature, handle_result, handle_status, handle_time, handle_user, create_time, create_user, img_url, attribution_dept ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, ?, ? ) 
+2020-08-11 18:42:43,201 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(String), 123(String), 3(String), zhangweicheng-15921120077(String), 张维诚(String), 382944592616640692(String), 新浜中队(String), (String), 36.8(Float), null, 1(String), null, null, null, /uploadfile/attachment/1597142563095.jpg(String), 525191794643643223(String)
+2020-08-11 18:42:43,225 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 18:42:43,225 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_alarm ( apparatus_id, apparatus_name, address, create_time, access_id, alarm_type, alarm_message, attribution_dept, handle_status, handle_message, handle_user, handle_time ) VALUES ( ?, ?, ?, now(), ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-08-11 18:42:43,227 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(String), 123(String), 730(Integer), 进出异常(String), 未带口罩(String), 525191794643643223(String), 0(String), null, null, null
+2020-08-11 18:42:43,245 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 18:42:43,248 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_user_access ( apparatus_id, apparatus_name, address, event_type, person_id, person_name, group_id, group_name, car_no, temperature, handle_result, handle_status, handle_time, handle_user, create_time, create_user, img_url, attribution_dept ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, ?, ? ) 
+2020-08-11 18:42:43,250 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(String), 123(String), 4(String), zhangweicheng-15921120077(String), 张维诚(String), 382944592616640692(String), 新浜中队(String), (String), 36.8(Float), null, 1(String), null, null, null, /uploadfile/attachment/1597142563095.jpg(String), 525191794643643223(String)
+2020-08-11 18:42:43,275 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 18:42:43,276 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_alarm ( apparatus_id, apparatus_name, address, create_time, access_id, alarm_type, alarm_message, attribution_dept, handle_status, handle_message, handle_user, handle_time ) VALUES ( ?, ?, ?, now(), ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-08-11 18:42:43,277 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(String), 123(String), 731(Integer), 进出异常(String), 未请假(String), 525191794643643223(String), 0(String), null, null, null
+2020-08-11 18:42:43,295 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 19:03:46,949 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT c.id_ AS group_id, c.name_ AS group_name, a.id as user_id FROM sys_user a LEFT JOIN sys_group_user b ON a.id = b.user_id LEFT JOIN sys_group c ON b.group_id = c.id_ WHERE a.id like concat('%',?,'%') 
+2020-08-11 19:03:46,949 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 15921120077(String)
+2020-08-11 19:03:46,958 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-11 19:03:46,958 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id, apparatus_name, address, competent_unit_id FROM ef_apparatus WHERE serial_no = ? 
+2020-08-11 19:03:46,959 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 5C04R310002(String)
+2020-08-11 19:03:46,969 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-11 19:03:51,483 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT *, CASE vacate_type WHEN 1 THEN '病假' WHEN 2 THEN '婚假' WHEN 3 THEN '其他' WHEN 4 THEN '调休' WHEN 5 THEN '探亲假' WHEN 6 THEN '轮休' WHEN 7 THEN '事假' END as vacate_name FROM vac_apply_record WHERE user_id = ? AND apply_state in (2,3) AND NOW( ) BETWEEN start_time AND end_time 
+2020-08-11 19:03:51,486 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: zhangweicheng-15921120077(String)
+2020-08-11 19:03:51,521 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-11 19:04:00,587 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: UPDATE vac_apply_record SET apply_state = apply_state + 1 WHERE id = ? 
+2020-08-11 19:04:00,592 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1(String)
+2020-08-11 19:04:00,605 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 19:04:04,151 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_user_access ( apparatus_id, apparatus_name, address, event_type, person_id, person_name, group_id, group_name, car_no, temperature, handle_result, handle_status, handle_time, handle_user, create_time, create_user, img_url, attribution_dept ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, ?, ? ) 
+2020-08-11 19:04:04,168 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(进)(String), 123(String), 1(String), zhangweicheng-15921120077(String), 张维诚(String), 382944592616640692(String), 新浜中队(String), (String), 36.3(Float), 病假正常进入(String), 2(String), 2020-08-11 19:03:57(String), null, null, /uploadfile/attachment/1597143826948.jpg(String), 525191794643643223(String)
+2020-08-11 19:04:04,189 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 19:04:05,287 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_user_access ( apparatus_id, apparatus_name, address, event_type, person_id, person_name, group_id, group_name, car_no, temperature, handle_result, handle_status, handle_time, handle_user, create_time, create_user, img_url, attribution_dept ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, ?, ? ) 
+2020-08-11 19:04:05,290 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(进)(String), 123(String), 3(String), zhangweicheng-15921120077(String), 张维诚(String), 382944592616640692(String), 新浜中队(String), (String), 36.3(Float), null, 1(String), null, null, null, /uploadfile/attachment/1597143826948.jpg(String), 525191794643643223(String)
+2020-08-11 19:04:05,339 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 19:04:05,340 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_alarm ( apparatus_id, apparatus_name, address, create_time, access_id, alarm_type, alarm_message, attribution_dept, handle_status, handle_message, handle_user, handle_time ) VALUES ( ?, ?, ?, now(), ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-08-11 19:04:05,341 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(进)(String), 123(String), 733(Integer), 进出异常(String), 未带口罩(String), 525191794643643223(String), 0(String), null, null, null
+2020-08-11 19:04:05,368 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 19:19:56,672 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT c.id_ AS group_id, c.name_ AS group_name, a.id as user_id FROM sys_user a LEFT JOIN sys_group_user b ON a.id = b.user_id LEFT JOIN sys_group c ON b.group_id = c.id_ WHERE a.id like concat('%',?,'%') 
+2020-08-11 19:19:56,673 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 13111111111(String)
+2020-08-11 19:19:56,682 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-11 19:19:56,682 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id, apparatus_name, address, competent_unit_id FROM ef_apparatus WHERE serial_no = ? 
+2020-08-11 19:19:56,683 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 5C04R310002(String)
+2020-08-11 19:19:56,689 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-11 19:20:00,572 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT c.id_ AS group_id, c.name_ AS group_name, a.id as user_id FROM sys_user a LEFT JOIN sys_group_user b ON a.id = b.user_id LEFT JOIN sys_group c ON b.group_id = c.id_ WHERE a.id like concat('%',?,'%') 
+2020-08-11 19:20:00,573 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 13111111111(String)
+2020-08-11 19:20:00,581 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-11 19:20:00,582 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id, apparatus_name, address, competent_unit_id FROM ef_apparatus WHERE serial_no = ? 
+2020-08-11 19:20:00,582 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 5C04R310002(String)
+2020-08-11 19:20:00,588 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-11 19:20:12,115 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT *, CASE vacate_type WHEN 1 THEN '病假' WHEN 2 THEN '婚假' WHEN 3 THEN '其他' WHEN 4 THEN '调休' WHEN 5 THEN '探亲假' WHEN 6 THEN '轮休' WHEN 7 THEN '事假' END as vacate_name FROM vac_apply_record WHERE user_id = ? AND apply_state in (2,3) AND NOW( ) BETWEEN start_time AND end_time 
+2020-08-11 19:20:12,118 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: liuzhiwei-13111111111(String)
+2020-08-11 19:20:12,126 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-08-11 19:20:22,157 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_user_access ( apparatus_id, apparatus_name, address, event_type, person_id, person_name, group_id, group_name, car_no, temperature, handle_result, handle_status, handle_time, handle_user, create_time, create_user, img_url, attribution_dept ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, ?, ? ) 
+2020-08-11 19:20:22,160 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(String), 123(String), 1(String), liuzhiwei-13111111111(String), 刘志威(String), 525191794643643223(String), 真光消防救援站(String), (String), 0.0(Float), null, 1(String), null, null, null, /uploadfile/attachment/1597144796672.jpg(String), 525191794643643223(String)
+2020-08-11 19:20:22,181 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 19:20:22,185 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_user_access ( apparatus_id, apparatus_name, address, event_type, person_id, person_name, group_id, group_name, car_no, temperature, handle_result, handle_status, handle_time, handle_user, create_time, create_user, img_url, attribution_dept ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, ?, ? ) 
+2020-08-11 19:20:22,186 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(String), 123(String), 3(String), liuzhiwei-13111111111(String), 刘志威(String), 525191794643643223(String), 真光消防救援站(String), (String), 0.0(Float), null, 1(String), null, null, null, /uploadfile/attachment/1597144796672.jpg(String), 525191794643643223(String)
+2020-08-11 19:20:22,212 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 19:20:22,214 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_alarm ( apparatus_id, apparatus_name, address, create_time, access_id, alarm_type, alarm_message, attribution_dept, handle_status, handle_message, handle_user, handle_time ) VALUES ( ?, ?, ?, now(), ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-08-11 19:20:22,214 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(String), 123(String), 735(Integer), 进出异常(String), 未带口罩(String), 525191794643643223(String), 0(String), null, null, null
+2020-08-11 19:20:22,256 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 19:20:22,260 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_user_access ( apparatus_id, apparatus_name, address, event_type, person_id, person_name, group_id, group_name, car_no, temperature, handle_result, handle_status, handle_time, handle_user, create_time, create_user, img_url, attribution_dept ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, ?, ? ) 
+2020-08-11 19:20:22,261 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(String), 123(String), 4(String), liuzhiwei-13111111111(String), 刘志威(String), 525191794643643223(String), 真光消防救援站(String), (String), 0.0(Float), null, 1(String), null, null, null, /uploadfile/attachment/1597144796672.jpg(String), 525191794643643223(String)
+2020-08-11 19:20:22,293 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 19:20:22,294 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_alarm ( apparatus_id, apparatus_name, address, create_time, access_id, alarm_type, alarm_message, attribution_dept, handle_status, handle_message, handle_user, handle_time ) VALUES ( ?, ?, ?, now(), ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-08-11 19:20:22,295 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(String), 123(String), 736(Integer), 进出异常(String), 未请假(String), 525191794643643223(String), 0(String), null, null, null
+2020-08-11 19:20:22,322 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 19:20:25,956 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT *, CASE vacate_type WHEN 1 THEN '病假' WHEN 2 THEN '婚假' WHEN 3 THEN '其他' WHEN 4 THEN '调休' WHEN 5 THEN '探亲假' WHEN 6 THEN '轮休' WHEN 7 THEN '事假' END as vacate_name FROM vac_apply_record WHERE user_id = ? AND apply_state in (2,3) AND NOW( ) BETWEEN start_time AND end_time 
+2020-08-11 19:20:25,957 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: liuzhiwei-13111111111(String)
+2020-08-11 19:20:25,967 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-08-11 19:20:25,969 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_user_access ( apparatus_id, apparatus_name, address, event_type, person_id, person_name, group_id, group_name, car_no, temperature, handle_result, handle_status, handle_time, handle_user, create_time, create_user, img_url, attribution_dept ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, ?, ? ) 
+2020-08-11 19:20:25,972 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(String), 123(String), 1(String), liuzhiwei-13111111111(String), 刘志威(String), 525191794643643223(String), 真光消防救援站(String), (String), 36.2(Float), null, 1(String), null, null, null, /uploadfile/attachment/1597144800571.jpg(String), 525191794643643223(String)
+2020-08-11 19:20:25,991 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 19:20:25,995 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_user_access ( apparatus_id, apparatus_name, address, event_type, person_id, person_name, group_id, group_name, car_no, temperature, handle_result, handle_status, handle_time, handle_user, create_time, create_user, img_url, attribution_dept ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, ?, ? ) 
+2020-08-11 19:20:25,996 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(String), 123(String), 3(String), liuzhiwei-13111111111(String), 刘志威(String), 525191794643643223(String), 真光消防救援站(String), (String), 36.2(Float), null, 1(String), null, null, null, /uploadfile/attachment/1597144800571.jpg(String), 525191794643643223(String)
+2020-08-11 19:20:26,021 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 19:20:26,022 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_alarm ( apparatus_id, apparatus_name, address, create_time, access_id, alarm_type, alarm_message, attribution_dept, handle_status, handle_message, handle_user, handle_time ) VALUES ( ?, ?, ?, now(), ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-08-11 19:20:26,023 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(String), 123(String), 738(Integer), 进出异常(String), 未带口罩(String), 525191794643643223(String), 0(String), null, null, null
+2020-08-11 19:20:26,041 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 19:20:26,045 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_user_access ( apparatus_id, apparatus_name, address, event_type, person_id, person_name, group_id, group_name, car_no, temperature, handle_result, handle_status, handle_time, handle_user, create_time, create_user, img_url, attribution_dept ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, ?, ? ) 
+2020-08-11 19:20:26,046 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(String), 123(String), 4(String), liuzhiwei-13111111111(String), 刘志威(String), 525191794643643223(String), 真光消防救援站(String), (String), 36.2(Float), null, 1(String), null, null, null, /uploadfile/attachment/1597144800571.jpg(String), 525191794643643223(String)
+2020-08-11 19:20:26,085 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-08-11 19:20:26,086 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_alarm ( apparatus_id, apparatus_name, address, create_time, access_id, alarm_type, alarm_message, attribution_dept, handle_status, handle_message, handle_user, handle_time ) VALUES ( ?, ?, ?, now(), ?, ?, ?, ?, ?, ?, ?, ? ) 
+2020-08-11 19:20:26,087 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 65(String), 人脸识别B1(String), 123(String), 739(Integer), 进出异常(String), 未请假(String), 525191794643643223(String), 0(String), null, null, null
+2020-08-11 19:20:26,112 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1

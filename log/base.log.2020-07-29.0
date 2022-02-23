@@ -1,0 +1,15 @@
+2020-07-29 19:17:00,396 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 19084 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-29 19:17:00,400 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-29 19:17:00,401 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-29 19:17:04,394 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 4.77 seconds (JVM running for 6.211)
+2020-07-29 19:18:41,930 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 19084 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-29 19:18:41,931 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-29 19:18:41,931 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-29 19:18:42,821 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.929 seconds (JVM running for 104.639)
+2020-07-29 19:19:05,449 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO enter_leave_history ( car_number, in_out, car_attribution, create_time ) VALUES ( ?, ?, ?, NOW() ) 
+2020-07-29 19:19:05,488 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 沪A11223(String), 1(Integer), 1(Integer)
+2020-07-29 19:19:38,181 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO enter_leave_history ( car_number, in_out, car_attribution, create_time ) VALUES ( ?, ?, ?, NOW() ) 
+2020-07-29 19:19:38,183 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 沪A11223(String), 1(Integer), 1(Integer)
+2020-07-29 19:20:08,740 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO enter_leave_history ( car_number, in_out, car_attribution, create_time ) VALUES ( ?, ?, ?, NOW() ) 
+2020-07-29 19:20:08,741 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 沪A11223(String), 1(Integer), 1(Integer)
+2020-07-29 19:20:08,796 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1

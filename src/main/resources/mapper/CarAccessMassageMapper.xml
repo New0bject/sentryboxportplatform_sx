@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.CarAccessMassageMapper">
+
+	<select id="getCarAlarmCount" resultType="java.lang.Integer" parameterType="com.example.demo.model.RiskAlarmBean">
+		SELECT
+			count(*)
+		FROM
+			visit_car_alarm 
+		WHERE
+			attribution_dept = #{attribution_dept,jdbcType=VARCHAR}
+		<if test="start_time != '' and start_time != null">
+			and create_time &gt;= #{start_time,jdbcType=VARCHAR}
+		</if>
+		<if test="end_time != '' and end_time != null">
+			and create_time &lt;= #{end_time,jdbcType=VARCHAR}
+		</if>
+	</select>
+	
+	<select id="getCarAccessAlarmById" resultType="com.example.demo.model.CarAccessAlarmBean" parameterType="java.lang.Integer">
+		SELECT
+			*
+		FROM
+			visit_car_alarm 
+		WHERE
+			id = #{id,jdbcType=VARCHAR}
+	</select>
+	
+	<select id="getCount" resultType="java.lang.Integer" parameterType="com.example.demo.model.CarAccessAlarmBean">
+		SELECT
+			count(*)
+		FROM
+			visit_car_alarm 
+		WHERE
+			attribution_dept = #{attribution_dept,jdbcType=VARCHAR}
+		<if test="start_time != '' and start_time != null">
+			and create_time &gt;= #{start_time,jdbcType=VARCHAR}
+		</if>
+		<if test="end_time != '' and end_time != null">
+			and create_time &lt;= #{end_time,jdbcType=VARCHAR}
+		</if>
+	</select>
+	
+	<select id="getCarAccessAlarmList" resultType="com.example.demo.model.CarAccessAlarmBean" parameterType="com.example.demo.model.CarAccessAlarmBean">
+		SELECT
+			*
+		FROM
+			visit_car_alarm 
+		WHERE
+			attribution_dept = #{attribution_dept,jdbcType=VARCHAR}
+		AND
+			handle_status = #{handle_status,jdbcType=VARCHAR}
+		<if test="start_time != '' and start_time != null">
+			and create_time &gt;= #{start_time,jdbcType=VARCHAR}
+		</if>
+		<if test="end_time != '' and end_time != null">
+			and create_time &lt;= #{end_time,jdbcType=VARCHAR}
+		</if>
+		ORDER BY create_time
+		LIMIT
+		#{page,jdbcType=VARCHAR},#{lineCount,jdbcType=VARCHAR}
+	</select>
+	
+	<insert id="insertCarAccessMessage" parameterType="com.example.demo.model.CarAccessBean" useGeneratedKeys="true" keyProperty="id">
+		INSERT INTO
+		enter_leave_history (
+			car_number,
+			in_out,
+			car_attribution,
+			create_time,
+			img
+		)
+		VALUES
+		(
+			#{car_number,jdbcType=VARCHAR},
+			#{in_out,jdbcType=INTEGER},
+			#{car_attribution,jdbcType=INTEGER},
+			NOW(),
+			#{img,jdbcType=VARCHAR}
+		)
+	</insert>
+	
+	<select id="checkRepeatRequest" resultType="java.lang.Integer" parameterType="com.example.demo.model.CarAccessAlarmBean">
+		SELECT
+			count(*)
+		FROM
+			enter_leave_history 
+		WHERE
+			car_number = #{car_number,jdbcType=VARCHAR}
+		AND 
+			timestampdiff(SECOND,(SELECT create_time from enter_leave_history where car_number = #{car_number,jdbcType=VARCHAR} ORDER BY create_time DESC LIMIT 1),NOW()) &lt; 10
+	</select>
+	
+</mapper>

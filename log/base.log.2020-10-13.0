@@ -1,0 +1,67 @@
+2020-10-13 15:22:38,341 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 10912 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-10-13 15:22:38,347 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-10-13 15:22:38,348 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-10-13 15:22:43,784 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 6.541 seconds (JVM running for 10.223)
+2020-10-13 15:23:26,235 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-10-13 15:23:26,639 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 423458681322154876(String), null, null, null
+2020-10-13 15:23:26,879 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 59
+2020-10-13 15:23:26,880 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-10-13 15:45:58,692 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-10-13 15:45:58,830 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 423458681322154876(String), null, null, null
+2020-10-13 15:45:58,950 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 59
+2020-10-13 15:45:58,951 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-10-13 15:46:06,580 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_visitor ( name, id_card, phone, temperature, img_picture, car_no, health_code, visit_group, visit_person, visit_reason, rank, create_time, create_user, apparatus_name, address, event_type, attribution_dept, visit_status ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, ?, ?, ?, ?, ? ) 
+2020-10-13 15:46:06,589 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 张三(String), 210503198703051515(String), 13111111111(String), 36.5(String), https://xf-test6.obs.cn-east-3.myhuaweicloud.com:443/1602484812633,https://xf-test6.obs.cn-east-3.myhuaweicloud.com:443/1602484812929(String), 111(String), 1(String), 作战训练处(String), 高飞武(String), 4(String), (String), siriguleng-15184721327(String), (String), (String), 访客登记(String), 423458681322154876(String), 0(String)
+2020-10-13 15:46:06,745 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-10-13 15:46:06,750 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT client_id FROM sys_user WHERE id = ? 
+2020-10-13 15:46:06,751 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2020-10-13 15:46:06,755 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-10-13 15:47:56,111 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_visitor ( name, id_card, phone, temperature, img_picture, car_no, health_code, visit_group, visit_person, visit_reason, rank, create_time, create_user, apparatus_name, address, event_type, attribution_dept, visit_status ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, ?, ?, ?, ?, ? ) 
+2020-10-13 15:47:56,113 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 张三(String), 210503198703051515(String), 13111111111(String), 36.5(String), https://xf-test6.obs.cn-east-3.myhuaweicloud.com:443/1600415690326(String), 111(String), 1(String), 作战训练处(String), 高飞武(String), 4(String), (String), siriguleng-15184721327(String), (String), (String), 访客登记(String), 423458681322154876(String), 0(String)
+2020-10-13 15:47:56,151 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-10-13 15:47:56,152 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT client_id FROM sys_user WHERE id = ? 
+2020-10-13 15:47:56,153 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2020-10-13 15:47:56,157 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-10-13 15:49:08,274 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 2508 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-10-13 15:49:08,292 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-10-13 15:49:08,293 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-10-13 15:49:13,694 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 6.57 seconds (JVM running for 8.341)
+2020-10-13 15:50:19,187 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 2508 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-10-13 15:50:19,187 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-10-13 15:50:19,188 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-10-13 15:50:20,767 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.641 seconds (JVM running for 75.414)
+2020-10-13 15:50:48,834 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 2508 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-10-13 15:50:48,835 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-10-13 15:50:48,835 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-10-13 15:50:49,985 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.187 seconds (JVM running for 104.633)
+2020-10-13 16:07:05,129 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 3440 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-10-13 16:07:05,133 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-10-13 16:07:05,134 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-10-13 16:07:08,928 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 4.27 seconds (JVM running for 5.335)
+2020-10-13 16:09:25,925 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-10-13 16:09:26,412 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 423458681322154876(String), null, null, null
+2020-10-13 16:09:26,666 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 59
+2020-10-13 16:09:26,666 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-10-13 16:10:28,002 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 3440 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-10-13 16:10:28,002 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-10-13 16:10:28,003 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-10-13 16:10:29,415 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.481 seconds (JVM running for 205.822)
+2020-10-13 16:11:09,719 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 3440 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-10-13 16:11:09,720 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-10-13 16:11:09,720 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-10-13 16:11:10,999 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.319 seconds (JVM running for 247.406)
+2020-10-13 16:11:53,770 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_visitor ( name, id_card, phone, temperature, img_picture, car_no, health_code, visit_group, visit_person, visit_reason, rank, create_time, create_user, apparatus_name, address, event_type, attribution_dept, visit_status ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, ?, ?, ?, ?, ? ) 
+2020-10-13 17:12:18,051 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 21544 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-10-13 17:12:18,055 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-10-13 17:12:18,056 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-10-13 17:12:22,024 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 4.463 seconds (JVM running for 5.547)
+2020-10-13 17:12:53,914 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-10-13 17:12:54,011 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 423458681322154876(String), null, null, null
+2020-10-13 17:12:54,102 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 59
+2020-10-13 17:12:54,103 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-10-13 17:13:17,539 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: INSERT INTO visit_visitor ( name, id_card, phone, temperature, img_picture, car_no, health_code, visit_group, visit_person, visit_reason, rank, create_time, create_user, apparatus_name, address, event_type, attribution_dept, visit_status ) VALUES ( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, now(), ?, ?, ?, ?, ?, ? ) 
+2020-10-13 17:13:17,543 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 张三(String), 210503198703051515(String), 13111111111(String), 36.5(String), https://xf-test6.obs.cn-east-3.myhuaweicloud.com/1602576377531(String), 111(String), 1(String), 作战训练处(String), 高飞武(String), 4(String), (String), siriguleng-15184721327(String), (String), (String), 访客登记(String), 423458681322154876(String), 0(String)
+2020-10-13 17:13:17,551 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-10-13 17:13:17,554 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT client_id FROM sys_user WHERE id = ? 
+2020-10-13 17:13:17,555 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (String)
+2020-10-13 17:13:17,560 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0

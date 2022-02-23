@@ -1,0 +1,20 @@
+2020-06-29 18:03:17,904 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 17360 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-06-29 18:03:17,920 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-06-29 18:03:17,920 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-06-29 18:03:23,990 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 7.449 seconds (JVM running for 10.468)
+2020-06-29 18:36:02,537 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 17360 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-06-29 18:36:02,538 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-06-29 18:36:02,538 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-06-29 18:36:03,643 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.143 seconds (JVM running for 1970.122)
+2020-06-29 18:39:05,729 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_alarm WHERE 1 = 1 
+2020-06-29 18:39:05,754 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-06-29 18:39:05,804 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-06-29 18:39:05,807 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM visit_alarm WHERE 1 = 1 ORDER BY create_time DESC LIMIT ?,? 
+2020-06-29 18:39:05,808 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 2(Integer)
+2020-06-29 18:39:05,839 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-06-29 18:40:04,120 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM visit_alarm WHERE id = ? 
+2020-06-29 18:40:04,121 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1(String)
+2020-06-29 18:40:04,149 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-06-29 18:43:02,961 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 17360 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-06-29 18:43:02,961 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-06-29 18:43:02,961 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default

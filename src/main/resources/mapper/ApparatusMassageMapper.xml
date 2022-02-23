@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.ApparatusMassageMapper">
+
+	<select id="getApparatusMessage" resultType="com.example.demo.model.ApparatusMessageBean" parameterType="com.example.demo.model.ApparatusCategoryBean">
+		SELECT
+			id,apparatus_name
+		FROM
+			ef_apparatus
+		where
+			apparatus_category_id = #{id,jdbcType=INTEGER}
+		and
+			competent_unit_id = #{attribution_dept,jdbcType=VARCHAR}
+	</select>
+	
+	<select id="getApparatusCategory" resultType="com.example.demo.model.ApparatusCategoryBean">
+		SELECT
+			*
+		FROM
+			ef_apparatus_category
+		WHERE id = 2
+		GROUP BY apparatus_category_name
+	</select>
+	
+	<select id="getApparatusByGroup" resultType="com.example.demo.model.ApparatusCategoryBean">
+		SELECT
+			remark,
+			apparatus_name
+		FROM
+			ef_apparatus
+		WHERE
+			competent_unit_id = #{group_id,jdbcType=VARCHAR}
+		AND
+			apparatus_category_id = #{apparatus_category_id,jdbcType=VARCHAR}
+	</select>
+</mapper>

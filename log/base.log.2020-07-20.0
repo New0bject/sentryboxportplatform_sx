@@ -1,0 +1,142 @@
+2020-07-20 11:37:20,885 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 17188 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-20 11:37:20,888 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-20 11:37:20,889 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-20 11:37:26,222 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 5.816 seconds (JVM running for 8.269)
+2020-07-20 11:41:32,385 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.create_time, CASE WHEN b.id IS NULL THEN 0 ELSE 1 END as unusual_type FROM (SELECT ADDDATE(y.first, x.d - 1) as create_time FROM (SELECT 1 AS d UNION ALL SELECT 2 UNION ALL SELECT 3 UNION ALL SELECT 4 UNION ALL SELECT 5 UNION ALL SELECT 6 UNION ALL SELECT 7 UNION ALL SELECT 8 UNION ALL SELECT 9 UNION ALL SELECT 10 UNION ALL SELECT 11 UNION ALL SELECT 12 UNION ALL SELECT 13 UNION ALL SELECT 14 UNION ALL SELECT 15 UNION ALL SELECT 16 UNION ALL SELECT 17 UNION ALL SELECT 18 UNION ALL SELECT 19 UNION ALL SELECT 20 UNION ALL SELECT 21 UNION ALL SELECT 22 UNION ALL SELECT 23 UNION ALL SELECT 24 UNION ALL SELECT 25 UNION ALL SELECT 26 UNION ALL SELECT 27 UNION ALL SELECT 28 UNION ALL SELECT 29 UNION ALL SELECT 30 UNION ALL SELECT 31) x, (SELECT CONCAT(?,'-01') as FIRST, DAY(LAST_DAY(str_to_date(?,'%Y-%m'))) AS last) y WHERE x.d <= y.last) a LEFT JOIN visit_visitor_alarm b ON a.create_time = DATE_FORMAT(b.create_time,"%Y-%m-%d") GROUP BY a.create_time 
+2020-07-20 11:41:32,425 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 2020-07(String), 2020-07(String)
+2020-07-20 11:41:32,481 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 31
+2020-07-20 11:42:47,039 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 17188 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-20 11:42:47,039 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-20 11:42:47,039 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-20 11:42:48,015 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.006 seconds (JVM running for 330.063)
+2020-07-20 11:43:09,998 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 17188 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-20 11:43:09,998 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-20 11:43:09,998 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-20 11:43:10,809 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.835 seconds (JVM running for 352.856)
+2020-07-20 11:43:15,539 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 17188 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-20 11:43:15,540 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-20 11:43:15,540 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-20 11:43:16,393 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.876 seconds (JVM running for 358.442)
+2020-07-20 11:43:24,377 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.create_time, CASE WHEN b.id IS NULL THEN 0 ELSE 1 END as unusual_type FROM (SELECT ADDDATE(y.first, x.d - 1) as create_time FROM (SELECT 1 AS d UNION ALL SELECT 2 UNION ALL SELECT 3 UNION ALL SELECT 4 UNION ALL SELECT 5 UNION ALL SELECT 6 UNION ALL SELECT 7 UNION ALL SELECT 8 UNION ALL SELECT 9 UNION ALL SELECT 10 UNION ALL SELECT 11 UNION ALL SELECT 12 UNION ALL SELECT 13 UNION ALL SELECT 14 UNION ALL SELECT 15 UNION ALL SELECT 16 UNION ALL SELECT 17 UNION ALL SELECT 18 UNION ALL SELECT 19 UNION ALL SELECT 20 UNION ALL SELECT 21 UNION ALL SELECT 22 UNION ALL SELECT 23 UNION ALL SELECT 24 UNION ALL SELECT 25 UNION ALL SELECT 26 UNION ALL SELECT 27 UNION ALL SELECT 28 UNION ALL SELECT 29 UNION ALL SELECT 30 UNION ALL SELECT 31) x, (SELECT CONCAT(?,'-01') as FIRST, DAY(LAST_DAY(str_to_date(?,'%Y-%m'))) AS last) y WHERE x.d <= y.last) a LEFT JOIN visit_visitor_alarm b ON a.create_time = DATE_FORMAT(b.create_time,"%Y-%m-%d") GROUP BY a.create_time 
+2020-07-20 11:43:24,379 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 2020-07(String), 2020-07(String)
+2020-07-20 11:43:24,414 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 31
+2020-07-20 11:43:44,455 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 17188 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-20 11:43:44,456 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-20 11:43:44,456 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-20 11:43:45,194 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.759 seconds (JVM running for 387.242)
+2020-07-20 11:43:48,906 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 17188 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-20 11:43:48,907 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-20 11:43:48,907 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-20 11:43:49,604 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.719 seconds (JVM running for 391.652)
+2020-07-20 11:43:52,204 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.create_time, CASE WHEN b.id IS NULL THEN 0 ELSE 1 END as unusual_type FROM (SELECT ADDDATE(y.first, x.d - 1) as create_time FROM (SELECT 1 AS d UNION ALL SELECT 2 UNION ALL SELECT 3 UNION ALL SELECT 4 UNION ALL SELECT 5 UNION ALL SELECT 6 UNION ALL SELECT 7 UNION ALL SELECT 8 UNION ALL SELECT 9 UNION ALL SELECT 10 UNION ALL SELECT 11 UNION ALL SELECT 12 UNION ALL SELECT 13 UNION ALL SELECT 14 UNION ALL SELECT 15 UNION ALL SELECT 16 UNION ALL SELECT 17 UNION ALL SELECT 18 UNION ALL SELECT 19 UNION ALL SELECT 20 UNION ALL SELECT 21 UNION ALL SELECT 22 UNION ALL SELECT 23 UNION ALL SELECT 24 UNION ALL SELECT 25 UNION ALL SELECT 26 UNION ALL SELECT 27 UNION ALL SELECT 28 UNION ALL SELECT 29 UNION ALL SELECT 30 UNION ALL SELECT 31) x, (SELECT CONCAT(?,'-01') as FIRST, DAY(LAST_DAY(str_to_date(?,'%Y-%m'))) AS last) y WHERE x.d <= y.last) a LEFT JOIN visit_visitor_alarm b ON a.create_time = DATE_FORMAT(b.create_time,"%Y-%m-%d") GROUP BY a.create_time 
+2020-07-20 11:43:52,206 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 2020-07(String), 2020-07(String)
+2020-07-20 11:43:52,240 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 31
+2020-07-20 11:44:00,491 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 17188 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-20 11:44:00,491 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-20 11:44:00,491 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-20 11:44:01,135 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.667 seconds (JVM running for 403.183)
+2020-07-20 11:44:02,846 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 17188 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-20 11:44:02,846 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-20 11:44:02,846 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-20 11:44:03,369 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.543 seconds (JVM running for 405.417)
+2020-07-20 11:44:06,639 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.create_time, CASE WHEN b.id IS NULL THEN 0 ELSE 1 END as unusual_type FROM (SELECT ADDDATE(y.first, x.d - 1) as create_time FROM (SELECT 1 AS d UNION ALL SELECT 2 UNION ALL SELECT 3 UNION ALL SELECT 4 UNION ALL SELECT 5 UNION ALL SELECT 6 UNION ALL SELECT 7 UNION ALL SELECT 8 UNION ALL SELECT 9 UNION ALL SELECT 10 UNION ALL SELECT 11 UNION ALL SELECT 12 UNION ALL SELECT 13 UNION ALL SELECT 14 UNION ALL SELECT 15 UNION ALL SELECT 16 UNION ALL SELECT 17 UNION ALL SELECT 18 UNION ALL SELECT 19 UNION ALL SELECT 20 UNION ALL SELECT 21 UNION ALL SELECT 22 UNION ALL SELECT 23 UNION ALL SELECT 24 UNION ALL SELECT 25 UNION ALL SELECT 26 UNION ALL SELECT 27 UNION ALL SELECT 28 UNION ALL SELECT 29 UNION ALL SELECT 30 UNION ALL SELECT 31) x, (SELECT CONCAT(?,'-01') as FIRST, DAY(LAST_DAY(str_to_date(?,'%Y-%m'))) AS last) y WHERE x.d <= y.last) a LEFT JOIN visit_visitor_alarm b ON a.create_time = DATE_FORMAT(b.create_time,"%Y-%m-%d") GROUP BY a.create_time 
+2020-07-20 11:44:06,642 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 2020-07(String), 2020-07(String)
+2020-07-20 11:44:06,674 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 31
+2020-07-20 11:44:26,801 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 17188 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-20 11:44:26,802 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-20 11:44:26,802 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-20 16:23:26,718 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 7184 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-20 16:23:26,772 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-20 16:23:26,773 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-20 16:23:30,114 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 3.813 seconds (JVM running for 5.946)
+2020-07-20 16:23:58,527 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select count(*) from (SELECT id, apparatus_id, apparatus_name, address, create_time, alarm_type, alarm_message, handle_status, handle_message, handle_user, handle_time, attribution_dept FROM visit_visitor_alarm UNION SELECT id, apparatus_id, apparatus_name, address, create_time, alarm_type, alarm_message, handle_status, handle_message, handle_user, handle_time, attribution_dept FROM visit_alarm UNION SELECT id, apparatus_id, apparatus_name, address, create_time, alarm_type, alarm_message, handle_status, handle_message, handle_user, handle_time, attribution_dept FROM visit_car_alarm) a WHERE a.attribution_dept = ? AND handle_status = ? 
+2020-07-20 16:23:58,560 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 417884423509245961(String), 0(String)
+2020-07-20 16:23:58,608 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-20 16:23:58,611 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: select a.* from (SELECT id, apparatus_id, apparatus_name, address, create_time, alarm_type, alarm_message, handle_status, handle_message, handle_user, handle_time, attribution_dept FROM visit_visitor_alarm UNION SELECT id, apparatus_id, apparatus_name, address, create_time, alarm_type, alarm_message, handle_status, handle_message, handle_user, handle_time, attribution_dept FROM visit_alarm UNION SELECT id, apparatus_id, apparatus_name, address, create_time, alarm_type, alarm_message, handle_status, handle_message, handle_user, handle_time, attribution_dept FROM visit_car_alarm) a WHERE a.attribution_dept = ? AND handle_status = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-20 16:23:58,612 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 417884423509245961(String), 0(String), 0(Integer), 1(Integer)
+2020-07-20 16:23:58,650 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-20 17:35:39,691 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 7184 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-20 17:35:39,692 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-20 17:35:39,692 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-20 17:35:40,714 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.062 seconds (JVM running for 4336.546)
+2020-07-20 17:36:01,659 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 7184 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-20 17:36:01,660 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-20 17:36:01,660 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-20 17:36:02,470 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.832 seconds (JVM running for 4358.302)
+2020-07-20 17:47:35,408 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 7184 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-20 17:47:35,408 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-20 17:47:35,408 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-20 17:47:36,232 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.849 seconds (JVM running for 5052.064)
+2020-07-20 17:47:44,018 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 7184 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-20 17:47:44,019 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-20 17:47:44,019 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-20 17:47:44,729 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.734 seconds (JVM running for 5060.561)
+2020-07-20 17:49:54,575 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 7184 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-20 17:49:54,575 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-20 17:49:54,575 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-20 17:49:55,255 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.706 seconds (JVM running for 5191.087)
+2020-07-20 17:53:59,148 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 7184 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-20 17:53:59,148 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-20 17:53:59,148 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-20 17:53:59,837 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.716 seconds (JVM running for 5435.669)
+2020-07-20 17:54:34,880 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 7184 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-20 17:54:34,880 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-20 17:54:34,881 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-20 17:54:35,517 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.659 seconds (JVM running for 5471.349)
+2020-07-20 17:54:40,297 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 7184 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-20 17:54:40,297 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-20 17:54:40,297 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-20 17:54:40,894 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.622 seconds (JVM running for 5476.726)
+2020-07-20 18:29:17,321 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 7184 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-20 18:29:17,321 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-20 18:29:17,321 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-20 18:29:17,985 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.686 seconds (JVM running for 7553.818)
+2020-07-20 18:52:11,915 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_alarm WHERE attribution_dept = ? 
+2020-07-20 18:52:11,918 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 417884423509245961(String)
+2020-07-20 18:52:11,945 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-20 18:52:11,948 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_car_alarm WHERE attribution_dept = ? 
+2020-07-20 18:52:11,948 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 417884423509245961(String)
+2020-07-20 18:52:11,984 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-20 18:52:11,985 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor_alarm WHERE attribution_dept = ? 
+2020-07-20 18:52:11,985 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 417884423509245961(String)
+2020-07-20 18:52:12,007 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-20 18:53:05,180 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM visit_car_alarm WHERE id = ? AND handle_status = ? 
+2020-07-20 18:53:05,181 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1(Integer), 1(Integer)
+2020-07-20 18:53:05,204 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-07-20 18:54:41,983 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM visit_car_alarm WHERE id = ? AND handle_status = ? 
+2020-07-20 18:54:41,984 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1(Integer), 1(Integer)
+2020-07-20 18:54:42,025 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-07-20 18:54:46,599 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM visit_car_alarm WHERE id = ? AND handle_status = ? 
+2020-07-20 18:54:46,599 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1(Integer), 1(Integer)
+2020-07-20 18:54:46,623 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-07-20 19:02:14,110 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM visit_visitor_alarm WHERE id = ? AND handle_status = ? 
+2020-07-20 19:02:14,110 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1(Integer), 1(Integer)
+2020-07-20 19:02:14,134 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-07-20 19:11:07,712 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM visit_visitor_alarm WHERE id = ? AND handle_status = ? 
+2020-07-20 19:11:07,713 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1(Integer), 1(Integer)
+2020-07-20 19:11:07,735 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-07-20 19:11:33,310 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 17284 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-20 19:11:33,315 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-20 19:11:33,316 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-20 19:11:37,013 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 4.174 seconds (JVM running for 5.354)
+2020-07-20 19:12:07,597 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM visit_visitor_alarm WHERE id = ? AND handle_status = ? 
+2020-07-20 19:12:07,857 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1(Integer), 1(Integer)
+2020-07-20 19:12:08,069 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-07-20 19:13:27,984 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM visit_visitor_alarm WHERE id = ? AND handle_status = ? 
+2020-07-20 19:13:27,985 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1(Integer), 1(Integer)
+2020-07-20 19:13:28,009 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-07-20 19:13:48,926 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 17284 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-20 19:13:48,926 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-20 19:13:48,926 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-20 19:13:50,193 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.306 seconds (JVM running for 138.534)
+2020-07-20 19:14:05,144 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 17284 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-20 19:14:05,145 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-20 19:14:05,145 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-20 19:14:06,412 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.307 seconds (JVM running for 154.753)
+2020-07-20 19:14:19,268 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 17284 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-20 19:14:19,268 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-20 19:14:19,268 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-20 19:14:20,252 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.019 seconds (JVM running for 168.593)
+2020-07-20 19:22:43,889 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM visit_visitor_alarm WHERE id = ? 
+2020-07-20 19:22:43,891 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1(Integer)
+2020-07-20 19:22:43,931 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1

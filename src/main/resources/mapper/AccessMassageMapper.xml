@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.AccessMassageMapper">
+
+	<select id="getAccessMessage" resultType="com.example.demo.model.AccessMessageBean" parameterType="com.example.demo.model.AccessMessageBean">
+		SELECT
+			a.id,
+			a.apparatus_id,
+			a.apparatus_name,
+			a.address,
+			a.event_type,
+			a.person_id,
+			a.person_name,
+			a.group_id,
+			a.group_name,
+			a.car_no,
+			a.temperature,
+			a.handle_result,
+			a.handle_status,
+			a.handle_user,
+			DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time,
+			DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time,
+			a.create_user,
+			replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url,
+			b.real_name as handle_user_name
+		FROM
+		visit_user_access a
+		LEFT JOIN
+			sys_user b ON a.handle_user = b.id
+		WHERE 
+			a.attribution_dept in
+			<foreach collection="attribution_dept_list" item="item" index="index" open="(" close=")" separator=",">
+			  #{item}
+			</foreach>
+		<if test="event_type != '' and event_type != null">
+			and a.event_type = #{event_type,jdbcType=VARCHAR}
+		</if>
+		<if test="start_time != '' and start_time != null">
+			and a.create_time &gt;= #{start_time,jdbcType=VARCHAR}
+		</if>
+		<if test="end_time != '' and end_time != null">
+			and a.create_time &lt;= #{end_time,jdbcType=VARCHAR}
+		</if>
+		ORDER BY a.create_time DESC
+		LIMIT
+		#{page,jdbcType=VARCHAR},#{lineCount,jdbcType=VARCHAR}
+	</select>
+	
+	<select id="getCount" resultType="java.lang.Integer" parameterType="com.example.demo.model.AccessMessageBean">
+		SELECT
+			count(*)
+		FROM
+			visit_user_access a
+		LEFT JOIN
+			sys_user b ON a.handle_user = b.id
+		WHERE 
+			a.attribution_dept in
+			<foreach collection="attribution_dept_list" item="item" index="index" open="(" close=")" separator=",">
+			  #{item}
+			</foreach>
+		<if test="event_type != '' and event_type != null">
+			and a.event_type = #{event_type,jdbcType=VARCHAR}
+		</if>
+		<if test="start_time != '' and start_time != null">
+			and a.create_time &gt;= #{start_time,jdbcType=VARCHAR}
+		</if>
+		<if test="end_time != '' and end_time != null">
+			and a.create_time &lt;= #{end_time,jdbcType=VARCHAR}
+		</if>
+	</select>
+	
+	<select id="getAccessById" resultType="com.example.demo.model.AccessMessageBean" parameterType="com.example.demo.model.AccessMessageBean">
+		SELECT
+			a.id as id,
+			a.apparatus_id as apparatus_id,
+			a.apparatus_name as apparatus_name,
+			a.address as address,
+			a.event_type as event_type,
+			a.person_id as person_id,
+			a.person_name as person_name,
+			a.group_id as group_id,
+			a.group_name as group_name,
+			a.car_no as car_no,
+			a.temperature as temperature,
+			a.handle_result as handle_result,
+			a.handle_status as handle_status,
+			a.handle_user as handle_user,
+			b.real_name as handle_user_name,
+			DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time,
+			DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time,
+			a.create_user as create_user,
+			replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url
+		FROM
+			visit_user_access a
+		LEFT JOIN
+			sys_user b ON a.handle_user = b.id
+		WHERE
+			a.id = #{id,jdbcType=INTEGER}
+	</select>
+	
+	<update id="handleMessage" parameterType="com.example.demo.model.AccessMessageBean">
+		UPDATE 
+			visit_user_access 
+		SET
+			handle_result = CONCAT(IFNULL(handle_result,''),'_', #{handle_result,jdbcType=VARCHAR}),
+			handle_time = NOW(),
+			handle_status = #{handle_status,jdbcType=VARCHAR},
+			handle_user = #{handle_user,jdbcType=VARCHAR}
+		WHERE
+			id = #{id,jdbcType=INTEGER}
+	</update>
+	
+	<select id="getPersonMessage" resultType="java.util.HashMap" parameterType="com.example.demo.model.AccessMessageBean">
+		SELECT
+			a.temperature as temperature,
+			a.person_id as person_id,
+			a.person_name as person_name,
+			d.name_ as group_name,
+			e.technical as technical
+		FROM
+			visit_user_access a
+			LEFT JOIN sys_group_user c ON a.person_id = c.user_id
+			LEFT JOIN sys_group d ON c.group_id = d.id_
+			LEFT JOIN sys_user_info e ON a.person_id = e.user_id
+		WHERE a.id = #{id,jdbcType=INTEGER}
+	</select>
+	
+	<select id="getAccessLog" resultType="java.util.HashMap" parameterType="com.example.demo.model.AccessMessageBean">
+		SELECT
+			a.handle_result,
+			DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time
+		FROM
+			visit_user_access a
+		WHERE a.person_id = #{person_id,jdbcType=VARCHAR}
+		AND event_type = '1'
+		ORDER BY a.create_time DESC
+	</select>
+	
+	<select id="getAccessByApparatus" resultType="com.example.demo.model.AccessMessageBean" parameterType="com.example.demo.model.AccessMessageBean">
+		SELECT
+			id,
+			apparatus_id,
+			apparatus_name,
+			address,
+			event_type,
+			person_id,
+			person_name,
+			group_id,
+			group_name,
+			car_no,
+			temperature,
+			handle_result,
+			handle_status,
+			handle_user,
+			DATE_FORMAT(handle_time,"%Y-%m-%d %H:%i") as handle_time,
+			DATE_FORMAT(create_time,"%Y-%m-%d %H:%i") as create_time,
+			create_user,
+			replace(CONVERT(img_url USING utf8mb4),' ','+') as img_url
+		FROM
+			visit_user_access
+		WHERE 
+			apparatus_id = #{apparatus_id,jdbcType=VARCHAR}
+		ORDER BY create_time DESC
+	</select>
+	
+	<select id="getGroupByPerson" resultType="java.util.HashMap" parameterType="java.lang.String">
+		SELECT
+			c.id_ AS group_id,
+			c.name_ AS group_name,
+			a.id as user_id
+		FROM
+			sys_user a
+			LEFT JOIN sys_group_user b ON a.id = b.user_id
+			LEFT JOIN sys_group c ON b.group_id = c.id_ 
+		WHERE
+			a.phone = #{person_id,jdbcType=VARCHAR}
+	</select>
+	
+	<insert id="insertAccessMessage" parameterType="com.example.demo.model.AccessMessageBean"
+		useGeneratedKeys="true" keyProperty="id">
+		INSERT INTO
+		visit_user_access (
+			apparatus_id,
+			apparatus_name,
+			address,
+			event_type,
+			person_id,
+			person_name,
+			group_id,
+			group_name,
+			car_no,
+			temperature,
+			handle_result,
+			handle_status,
+			handle_time,
+			handle_user,
+			create_time,
+			create_user,
+			img_url,
+			attribution_dept,
+			access_type
+			
+		)
+		VALUES
+		(
+			#{apparatus_id,jdbcType=VARCHAR},
+			#{apparatus_name,jdbcType=VARCHAR},
+			#{address,jdbcType=VARCHAR},
+			#{event_type,jdbcType=VARCHAR},
+			#{person_id,jdbcType=VARCHAR},
+			#{person_name,jdbcType=VARCHAR},
+			#{group_id,jdbcType=VARCHAR},
+			#{group_name,jdbcType=VARCHAR},
+			#{car_no,jdbcType=VARCHAR},
+			#{temperature,jdbcType=FLOAT},
+			#{handle_result,jdbcType=VARCHAR},
+			#{handle_status,jdbcType=VARCHAR},
+			#{handle_time,jdbcType=VARCHAR},
+			#{handle_user,jdbcType=VARCHAR},
+			now(),
+			#{create_user,jdbcType=VARCHAR},
+			#{save_img},
+			#{attribution_dept,jdbcType=VARCHAR},
+			#{access_type,jdbcType=VARCHAR}
+		)
+	</insert>
+	
+	<select id="getAccessCount" resultType="java.lang.Integer" parameterType="com.example.demo.model.AccessMessageBean">
+		SELECT
+			count(*)
+		FROM
+			visit_user_access 
+		WHERE 
+			event_type = '1'
+		AND
+			attribution_dept in
+			<foreach collection="attribution_dept_list" item="item" index="index" open="(" close=")" separator=",">
+			  #{item}
+			</foreach>
+		<if test="start_time != '' and start_time != null">
+			and create_time &gt;= #{start_time,jdbcType=VARCHAR}
+		</if>
+		<if test="end_time != '' and end_time != null">
+			and create_time &lt;= #{end_time,jdbcType=VARCHAR}
+		</if>
+		<if test="start_time == null and end_time == null">
+			AND
+			TO_DAYS(create_time) = TO_DAYS(NOW())
+		</if>
+	</select>
+	
+	<select id="getVisitCount" resultType="java.lang.Integer" parameterType="com.example.demo.model.AccessMessageBean">
+		SELECT
+			count(*)
+		FROM
+			visit_visitor 
+		WHERE 
+			attribution_dept in
+			<foreach collection="attribution_dept_list" item="item" index="index" open="(" close=")" separator=",">
+			  #{item}
+			</foreach>
+		<if test="start_time != '' and start_time != null">
+			and create_time &gt;= #{start_time,jdbcType=VARCHAR}
+		</if>
+		<if test="end_time != '' and end_time != null">
+			and create_time &lt;= #{end_time,jdbcType=VARCHAR}
+		</if>
+		<if test="start_time == null and end_time == null">
+			AND
+			TO_DAYS(create_time) = TO_DAYS(NOW())
+		</if>
+	</select>
+	
+	<select id="getAlarmCount" resultType="java.lang.Integer" parameterType="com.example.demo.model.AccessMessageBean">
+		SELECT
+			count(*)
+		FROM
+			visit_alarm 
+		WHERE 
+			1=1
+		AND
+			attribution_dept in
+			<foreach collection="attribution_dept_list" item="item" index="index" open="(" close=")" separator=",">
+			  #{item}
+			</foreach>
+		<if test="start_time != '' and start_time != null">
+			and create_time &gt;= #{start_time,jdbcType=VARCHAR}
+		</if>
+		<if test="end_time != '' and end_time != null">
+			and create_time &lt;= #{end_time,jdbcType=VARCHAR}
+		</if>
+		<if test="start_time == null and end_time == null">
+			AND
+			TO_DAYS(create_time) = TO_DAYS(NOW())
+		</if>
+	</select>
+	
+	<select id="getHandleCount" resultType="java.lang.Integer" parameterType="com.example.demo.model.AccessMessageBean">
+		SELECT
+			count(*)
+		FROM
+			visit_user_access 
+		WHERE 
+			handle_status = '1'
+		AND
+			attribution_dept in
+			<foreach collection="attribution_dept_list" item="item" index="index" open="(" close=")" separator=",">
+			  #{item}
+			</foreach>
+		<if test="start_time != '' and start_time != null">
+			and create_time &gt;= #{start_time,jdbcType=VARCHAR}
+		</if>
+		<if test="end_time != '' and end_time != null">
+			and create_time &lt;= #{end_time,jdbcType=VARCHAR}
+		</if>
+		<if test="start_time == null and end_time == null">
+			AND
+			TO_DAYS(create_time) = TO_DAYS(NOW())
+		</if>
+	</select>
+	
+	<select id="getTemperatureCount" resultType="java.lang.Integer" parameterType="com.example.demo.model.AccessMessageBean">
+		SELECT
+			count(*)
+		FROM
+			visit_user_access 
+		WHERE 
+			event_type = '2'
+		AND
+			attribution_dept in
+			<foreach collection="attribution_dept_list" item="item" index="index" open="(" close=")" separator=",">
+			  #{item}
+			</foreach>
+		<if test="start_time != '' and start_time != null">
+			and create_time &gt;= #{start_time,jdbcType=VARCHAR}
+		</if>
+		<if test="end_time != '' and end_time != null">
+			and create_time &lt;= #{end_time,jdbcType=VARCHAR}
+		</if>
+		<if test="start_time == null and end_time == null">
+			AND
+			TO_DAYS(create_time) = TO_DAYS(NOW())
+		</if>
+	</select>
+	
+	<select id="getAccessUnusualCount" resultType="java.lang.Integer" parameterType="com.example.demo.model.AccessMessageBean">
+		SELECT
+			count(*)
+		FROM
+			visit_user_access 
+		WHERE 
+			handle_result like concat('%','异常','%')
+		AND
+			attribution_dept in
+			<foreach collection="attribution_dept_list" item="item" index="index" open="(" close=")" separator=",">
+			  #{item}
+			</foreach>
+		<if test="start_time != '' and start_time != null">
+			and create_time &gt;= #{start_time,jdbcType=VARCHAR}
+		</if>
+		<if test="end_time != '' and end_time != null">
+			and create_time &lt;= #{end_time,jdbcType=VARCHAR}
+		</if>
+		<if test="start_time == null and end_time == null">
+			AND
+			TO_DAYS(create_time) = TO_DAYS(NOW())
+		</if>
+	</select>
+	
+	<select id="getAccessStrangerCount" resultType="java.lang.Integer" parameterType="com.example.demo.model.AccessMessageBean">
+		SELECT
+			count(*)
+		FROM
+			visit_monitor 
+		WHERE 
+			person_name = '陌生人'
+		AND
+			attribution_dept in
+			<foreach collection="attribution_dept_list" item="item" index="index" open="(" close=")" separator=",">
+			  #{item}
+			</foreach>
+		<if test="start_time != '' and start_time != null">
+			and create_time &gt;= #{start_time,jdbcType=VARCHAR}
+		</if>
+		<if test="end_time != '' and end_time != null">
+			and create_time &lt;= #{end_time,jdbcType=VARCHAR}
+		</if>
+	</select>
+	
+	<select id="getAccessMessageMain" resultType="com.example.demo.model.AccessMessageBean" parameterType="com.example.demo.model.AccessMessageBean">
+		SELECT
+			id,
+			apparatus_id,
+			apparatus_name,
+			address,
+			event_type,
+			person_id,
+			person_name,
+			group_id,
+			group_name,
+			car_no,
+			temperature,
+			handle_result,
+			handle_status,
+			handle_user,
+			DATE_FORMAT(handle_time,"%Y-%m-%d %H:%i") as handle_time,
+			DATE_FORMAT(create_time,"%Y-%m-%d %H:%i") as create_time,
+			create_user,
+			replace(CONVERT(img_url USING utf8mb4),' ','+') as img_url
+		FROM
+			visit_user_access
+		WHERE  
+			attribution_dept in
+			<foreach collection="attribution_dept_list" item="item" index="index" open="(" close=")" separator=",">
+			  #{item}
+			</foreach>
+		<if test="event_type != '' and event_type != null">
+			and event_type = #{event_type,jdbcType=VARCHAR}
+		</if>
+		<if test="start_time != '' and start_time != null">
+			and create_time &gt;= #{start_time,jdbcType=VARCHAR}
+		</if>
+		<if test="end_time != '' and end_time != null">
+			and create_time &lt;= #{end_time,jdbcType=VARCHAR}
+		</if>
+		ORDER BY handle_status ASC,create_time  DESC
+		LIMIT
+		#{page,jdbcType=VARCHAR},#{lineCount,jdbcType=VARCHAR}
+	</select>
+	
+	<select id="getApparatusById" resultType="java.util.HashMap" parameterType="java.lang.String">
+		SELECT
+			id,
+			apparatus_name,
+			address,
+			competent_unit_id
+		FROM
+			ef_apparatus 
+		WHERE 
+			serial_no = #{serialNo,jdbcType=VARCHAR}
+	</select>
+	
+	<select id="getAccessAlarmCount" resultType="java.lang.Integer" parameterType="com.example.demo.model.AccessMessageBean">
+		SELECT
+			count(*)
+		FROM
+			visit_alarm 
+		WHERE 
+			a.attribution_dept in
+			<foreach collection="attribution_dept_list" item="item" index="index" open="(" close=")" separator=",">
+			  #{item}
+			</foreach>
+		<if test="start_time != '' and start_time != null">
+			and create_time &gt;= #{start_time,jdbcType=VARCHAR}
+		</if>
+		<if test="end_time != '' and end_time != null">
+			and create_time &lt;= #{end_time,jdbcType=VARCHAR}
+		</if>
+	</select>
+	
+	<select id="getVisitAlarmCount" resultType="java.lang.Integer" parameterType="com.example.demo.model.AccessMessageBean">
+		SELECT
+			count(*)
+		FROM
+			visit_visitor_alarm
+		WHERE 
+			a.attribution_dept in
+			<foreach collection="attribution_dept_list" item="item" index="index" open="(" close=")" separator=",">
+			  #{item}
+			</foreach>
+		<if test="start_time != '' and start_time != null">
+			and create_time &gt;= #{start_time,jdbcType=VARCHAR}
+		</if>
+		<if test="end_time != '' and end_time != null">
+			and create_time &lt;= #{end_time,jdbcType=VARCHAR}
+		</if>
+	</select>
+	
+	<select id="getCarAlarmCount" resultType="java.lang.Integer" parameterType="com.example.demo.model.AccessMessageBean">
+		SELECT
+			count(*)
+		FROM
+			visit_car_alarm 
+		WHERE 
+			a.attribution_dept in
+			<foreach collection="attribution_dept_list" item="item" index="index" open="(" close=")" separator=",">
+			  #{item}
+			</foreach>
+		<if test="start_time != '' and start_time != null">
+			and create_time &gt;= #{start_time,jdbcType=VARCHAR}
+		</if>
+		<if test="end_time != '' and end_time != null">
+			and create_time &lt;= #{end_time,jdbcType=VARCHAR}
+		</if>
+	</select>
+	
+	<select id="getAccessAlarmById" resultType="com.example.demo.model.AlarmBean" parameterType="java.lang.Integer">
+		SELECT
+			*
+		FROM
+			visit_alarm 
+		WHERE
+			id = #{id,jdbcType=VARCHAR}
+	</select>
+	
+	<insert id="insertAccessAlarmMessage" parameterType="com.example.demo.model.AlarmBean"
+		useGeneratedKeys="true" keyProperty="id">
+		INSERT INTO
+		visit_alarm (
+			apparatus_id,
+			apparatus_name,
+			address,
+			create_time,
+			access_id,
+			alarm_type,
+			alarm_message,
+			attribution_dept,
+			handle_status,
+			handle_message,
+			handle_user,
+			handle_time
+		)
+		VALUES
+		(
+			#{apparatus_id,jdbcType=VARCHAR},
+			#{apparatus_name,jdbcType=VARCHAR},
+			#{address,jdbcType=VARCHAR},
+			now(),
+			#{access_id,jdbcType=INTEGER},
+			#{alarm_type,jdbcType=VARCHAR},
+			#{alarm_message,jdbcType=VARCHAR},
+			#{attribution_dept,jdbcType=VARCHAR},
+			#{handle_status,jdbcType=VARCHAR},
+			#{handle_message,jdbcType=VARCHAR},
+			#{handle_user,jdbcType=VARCHAR},
+			#{handle_time,jdbcType=VARCHAR}
+		)
+	</insert>
+	
+	<select id="getApplyNum" resultType="com.example.demo.model.ApplyMessageBean" parameterType="com.example.demo.model.AccessMessageBean">
+		SELECT
+			a.*,
+			b.`name` AS vacate_name 
+		FROM
+			vac_apply_record a
+			LEFT JOIN vac_type b ON a.vacate_type = b.id 
+		WHERE
+			a.user_id = #{person_id,jdbcType=VARCHAR} 
+			AND a.apply_state IN ( 2, 3 ) 
+			AND NOW( ) BETWEEN a.start_time 
+			AND a.end_time
+	</select>
+	
+	<update id="updateApplyStatus" parameterType="com.example.demo.model.ApplyMessageBean">
+		UPDATE 
+			vac_apply_record 
+		SET
+			apply_state = 3
+		WHERE
+			id = #{id,jdbcType=INTEGER}
+	</update>
+	
+	<select id="getDutyDynamics" parameterType="java.lang.String" resultType="java.lang.String">
+		select  
+			agent_user_id 
+		FROM 
+			vac_process_agent
+		WHERE
+			user_id = #{person_id,jdbcType=VARCHAR}
+	</select>
+	
+	<update id="updateDutyDynamics" parameterType="java.util.HashMap">
+		UPDATE 
+			ef_duty_dynamics_item 
+		SET
+		<choose>
+		<when test="new_user_id != '' and new_user_id != null">
+			user_id = #{new_user_id,jdbcType=VARCHAR}
+		</when>
+		<otherwise>
+			user_id = NULL
+		</otherwise>
+		</choose>
+		WHERE
+			user_id = #{old_user_id,jdbcType=VARCHAR}
+	</update>
+	
+</mapper>

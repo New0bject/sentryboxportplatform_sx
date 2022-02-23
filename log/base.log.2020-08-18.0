@@ -1,0 +1,236 @@
+2020-08-18 14:17:05,990 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 18932 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-18 14:17:06,032 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-18 14:17:06,033 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-18 14:17:11,421 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 6.727 seconds (JVM running for 10.097)
+2020-08-18 15:40:23,551 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 18932 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-18 15:40:23,551 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-18 15:40:23,552 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-18 15:40:24,928 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.426 seconds (JVM running for 5003.604)
+2020-08-18 15:40:42,822 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 18932 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-18 15:40:42,823 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-18 15:40:42,823 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-18 15:40:43,979 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.195 seconds (JVM running for 5022.655)
+2020-08-18 15:42:00,915 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-08-18 15:42:01,178 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), null, null, null
+2020-08-18 15:42:01,268 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 8
+2020-08-18 15:42:01,269 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-08-18 15:42:01,297 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor LEFT JOIN visit_visitor_alarm ON visit_visitor.id = visit_visitor_alarm.visit_id WHERE visit_visitor.attribution_dept in ? 
+2020-08-18 15:42:01,300 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: (110972509915651469,281361287361287638,308511184308968738,662392645610717606,826199507250059543,906974456174983694,285553390036786335,525191794643643223)(String)
+2020-08-18 15:47:48,486 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 18972 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-18 15:47:48,491 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-18 15:47:48,491 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-18 15:47:52,587 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 4.621 seconds (JVM running for 6.953)
+2020-08-18 15:47:59,880 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-08-18 15:48:00,206 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), null, null, null
+2020-08-18 15:48:00,312 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 8
+2020-08-18 15:48:00,313 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-08-18 15:49:48,258 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 18972 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-18 15:49:48,258 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-18 15:49:48,258 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-18 15:49:49,598 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.377 seconds (JVM running for 123.964)
+2020-08-18 15:49:53,311 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-08-18 15:49:53,525 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), null, null, null
+2020-08-18 15:49:53,689 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 8
+2020-08-18 15:49:53,690 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-08-18 15:51:18,098 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 18972 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-18 15:51:18,099 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-18 15:51:18,099 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-18 15:51:19,244 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.183 seconds (JVM running for 213.61)
+2020-08-18 15:51:25,075 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 18972 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-18 15:51:25,076 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-18 15:51:25,077 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-18 15:51:33,439 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 19432 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-18 15:51:33,443 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-18 15:51:33,444 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-18 15:51:37,394 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 4.449 seconds (JVM running for 5.441)
+2020-08-18 15:51:51,143 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-08-18 15:51:51,420 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), null, null, null
+2020-08-18 15:51:51,521 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 8
+2020-08-18 15:51:51,522 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-08-18 15:52:38,647 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 19432 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-18 15:52:38,648 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-18 15:52:38,648 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-18 15:52:39,945 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.34 seconds (JVM running for 67.994)
+2020-08-18 15:52:46,400 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-08-18 15:52:46,646 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), null, null, null
+2020-08-18 15:52:47,087 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 8
+2020-08-18 15:52:47,087 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-08-18 15:52:47,096 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor LEFT JOIN visit_visitor_alarm ON visit_visitor.id = visit_visitor_alarm.visit_id WHERE visit_visitor.attribution_dept in ( ? , ? , ? , ? , ? , ? , ? , ? ) 
+2020-08-18 15:52:47,098 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 110972509915651469(String), 281361287361287638(String), 308511184308968738(String), 662392645610717606(String), 826199507250059543(String), 906974456174983694(String), 285553390036786335(String), 525191794643643223(String)
+2020-08-18 15:52:47,301 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-18 15:54:36,845 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-08-18 15:54:37,078 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), null, null, null
+2020-08-18 15:54:37,166 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 8
+2020-08-18 15:54:37,166 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-08-18 15:54:37,168 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor LEFT JOIN visit_visitor_alarm ON visit_visitor.id = visit_visitor_alarm.visit_id WHERE visit_visitor.attribution_dept in ( ? , ? , ? , ? , ? , ? , ? , ? ) 
+2020-08-18 15:54:37,170 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 110972509915651469(String), 281361287361287638(String), 308511184308968738(String), 662392645610717606(String), 826199507250059543(String), 906974456174983694(String), 285553390036786335(String), 525191794643643223(String)
+2020-08-18 15:54:37,206 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-18 15:56:10,688 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-08-18 15:56:10,911 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), null, null, null
+2020-08-18 15:56:11,012 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 8
+2020-08-18 15:56:11,013 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-08-18 15:56:11,019 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor LEFT JOIN visit_visitor_alarm ON visit_visitor.id = visit_visitor_alarm.visit_id WHERE visit_visitor.attribution_dept in ( ? , ? , ? , ? , ? , ? , ? , ? ) 
+2020-08-18 15:56:11,021 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 110972509915651469(String), 281361287361287638(String), 308511184308968738(String), 662392645610717606(String), 826199507250059543(String), 906974456174983694(String), 285553390036786335(String), 525191794643643223(String)
+2020-08-18 15:56:11,060 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-18 15:57:28,713 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 16844 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-18 15:57:28,717 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-18 15:57:28,719 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-18 15:57:32,407 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 4.187 seconds (JVM running for 5.174)
+2020-08-18 15:58:06,305 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-08-18 15:58:06,730 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), null, null, null
+2020-08-18 15:58:06,940 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 8
+2020-08-18 15:58:06,941 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-08-18 15:58:07,026 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor LEFT JOIN visit_visitor_alarm ON visit_visitor.id = visit_visitor_alarm.visit_id WHERE visit_visitor.attribution_dept in ( ? , ? , ? , ? , ? , ? , ? , ? ) 
+2020-08-18 15:58:07,033 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 110972509915651469(String), 281361287361287638(String), 308511184308968738(String), 662392645610717606(String), 826199507250059543(String), 906974456174983694(String), 285553390036786335(String), 525191794643643223(String)
+2020-08-18 15:58:07,041 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-18 15:58:18,096 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-08-18 15:58:18,143 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), null, null, null
+2020-08-18 15:58:18,168 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 8
+2020-08-18 15:58:18,170 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-08-18 15:58:18,172 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT visit_visitor.id as id, visit_visitor.name as name, visit_visitor.id_card as id_card, visit_visitor.phone as phone, visit_visitor.temperature as temperature, visit_visitor.img_picture as img_picture, visit_visitor.car_no as car_no, visit_visitor.health_code as health_code, visit_visitor.visit_group as visit_group, visit_visitor.visit_person as visit_person, visit_visitor.visit_reason as visit_reason, visit_visitor.rank as rank, DATE_FORMAT(visit_visitor.create_time,"%Y-%m-%d %H:%i") as create_time, visit_visitor.create_user as create_user, visit_visitor.apparatus_name as apparatus_name, visit_visitor.address as address, visit_visitor.event_type as event_type, visit_visitor.attribution_dept as attribution_dept, CASE WHEN visit_visitor_alarm.id is not null THEN visit_visitor_alarm.alarm_message ELSE '正常访客' END as visitor_type FROM visit_visitor LEFT JOIN visit_visitor_alarm ON visit_visitor.id = visit_visitor_alarm.visit_id WHERE visit_visitor.attribution_dept in ( ? , ? , ? , ? , ? , ? , ? , ? ) ORDER BY visit_visitor.create_time DESC LIMIT ?,? 
+2020-08-18 15:58:18,173 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 110972509915651469(String), 281361287361287638(String), 308511184308968738(String), 662392645610717606(String), 826199507250059543(String), 906974456174983694(String), 285553390036786335(String), 525191794643643223(String), 0(Integer), 10(Integer)
+2020-08-18 15:58:18,188 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 4
+2020-08-18 15:59:24,066 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-08-18 15:59:24,111 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), null, null, null
+2020-08-18 15:59:24,147 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 8
+2020-08-18 15:59:24,148 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-08-18 15:59:24,150 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor LEFT JOIN visit_visitor_alarm ON visit_visitor.id = visit_visitor_alarm.visit_id WHERE visit_visitor.attribution_dept in ( ? , ? , ? , ? , ? , ? , ? , ? ) 
+2020-08-18 15:59:24,150 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 110972509915651469(String), 281361287361287638(String), 308511184308968738(String), 662392645610717606(String), 826199507250059543(String), 906974456174983694(String), 285553390036786335(String), 525191794643643223(String)
+2020-08-18 15:59:24,155 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-18 15:59:24,155 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-08-18 15:59:24,203 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), null, null, null
+2020-08-18 15:59:24,226 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 8
+2020-08-18 15:59:24,227 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-08-18 15:59:24,229 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT visit_visitor.id as id, visit_visitor.name as name, visit_visitor.id_card as id_card, visit_visitor.phone as phone, visit_visitor.temperature as temperature, visit_visitor.img_picture as img_picture, visit_visitor.car_no as car_no, visit_visitor.health_code as health_code, visit_visitor.visit_group as visit_group, visit_visitor.visit_person as visit_person, visit_visitor.visit_reason as visit_reason, visit_visitor.rank as rank, DATE_FORMAT(visit_visitor.create_time,"%Y-%m-%d %H:%i") as create_time, visit_visitor.create_user as create_user, visit_visitor.apparatus_name as apparatus_name, visit_visitor.address as address, visit_visitor.event_type as event_type, visit_visitor.attribution_dept as attribution_dept, CASE WHEN visit_visitor_alarm.id is not null THEN visit_visitor_alarm.alarm_message ELSE '正常访客' END as visitor_type FROM visit_visitor LEFT JOIN visit_visitor_alarm ON visit_visitor.id = visit_visitor_alarm.visit_id WHERE visit_visitor.attribution_dept in ( ? , ? , ? , ? , ? , ? , ? , ? ) ORDER BY visit_visitor.create_time DESC LIMIT ?,? 
+2020-08-18 15:59:24,230 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 110972509915651469(String), 281361287361287638(String), 308511184308968738(String), 662392645610717606(String), 826199507250059543(String), 906974456174983694(String), 285553390036786335(String), 525191794643643223(String), 0(Integer), 10(Integer)
+2020-08-18 15:59:24,237 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 4
+2020-08-18 15:59:56,158 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-08-18 15:59:56,231 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), null, null, null
+2020-08-18 15:59:56,247 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 8
+2020-08-18 15:59:56,248 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-08-18 15:59:56,250 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor LEFT JOIN visit_visitor_alarm ON visit_visitor.id = visit_visitor_alarm.visit_id WHERE visit_visitor.attribution_dept in ( ? , ? , ? , ? , ? , ? , ? , ? ) 
+2020-08-18 15:59:56,251 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 110972509915651469(String), 281361287361287638(String), 308511184308968738(String), 662392645610717606(String), 826199507250059543(String), 906974456174983694(String), 285553390036786335(String), 525191794643643223(String)
+2020-08-18 15:59:56,256 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-18 15:59:56,257 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-08-18 15:59:56,327 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), null, null, null
+2020-08-18 15:59:56,358 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 8
+2020-08-18 15:59:56,360 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-08-18 15:59:56,362 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT visit_visitor.id as id, visit_visitor.name as name, visit_visitor.id_card as id_card, visit_visitor.phone as phone, visit_visitor.temperature as temperature, visit_visitor.img_picture as img_picture, visit_visitor.car_no as car_no, visit_visitor.health_code as health_code, visit_visitor.visit_group as visit_group, visit_visitor.visit_person as visit_person, visit_visitor.visit_reason as visit_reason, visit_visitor.rank as rank, DATE_FORMAT(visit_visitor.create_time,"%Y-%m-%d %H:%i") as create_time, visit_visitor.create_user as create_user, visit_visitor.apparatus_name as apparatus_name, visit_visitor.address as address, visit_visitor.event_type as event_type, visit_visitor.attribution_dept as attribution_dept, CASE WHEN visit_visitor_alarm.id is not null THEN visit_visitor_alarm.alarm_message ELSE '正常访客' END as visitor_type FROM visit_visitor LEFT JOIN visit_visitor_alarm ON visit_visitor.id = visit_visitor_alarm.visit_id WHERE visit_visitor.attribution_dept in ( ? , ? , ? , ? , ? , ? , ? , ? ) ORDER BY visit_visitor.create_time DESC LIMIT ?,? 
+2020-08-18 15:59:56,363 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 110972509915651469(String), 281361287361287638(String), 308511184308968738(String), 662392645610717606(String), 826199507250059543(String), 906974456174983694(String), 285553390036786335(String), 525191794643643223(String), 0(Integer), 10(Integer)
+2020-08-18 15:59:56,368 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 4
+2020-08-18 16:10:18,408 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 16844 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-18 16:10:18,409 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-18 16:10:18,409 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-18 16:10:19,779 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.464 seconds (JVM running for 772.546)
+2020-08-18 16:14:15,541 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 15812 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-18 16:14:15,544 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-18 16:14:15,545 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-18 16:14:18,669 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 3.551 seconds (JVM running for 4.366)
+2020-08-18 16:15:10,376 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-08-18 16:15:10,589 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), null, null, null
+2020-08-18 16:15:10,660 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 8
+2020-08-18 16:15:10,661 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-08-18 16:15:10,686 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access WHERE event_type = '1' AND attribution_dept in ( ? , ? , ? , ? , ? , ? , ? , ? ) AND TO_DAYS(create_time) = TO_DAYS(NOW()) 
+2020-08-18 16:15:10,689 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 110972509915651469(String), 281361287361287638(String), 308511184308968738(String), 662392645610717606(String), 826199507250059543(String), 906974456174983694(String), 285553390036786335(String), 525191794643643223(String)
+2020-08-18 16:15:10,700 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-18 16:15:10,702 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept in ( ? , ? , ? , ? , ? , ? , ? , ? ) AND TO_DAYS(create_time) = TO_DAYS(NOW()) 
+2020-08-18 16:15:10,703 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 110972509915651469(String), 281361287361287638(String), 308511184308968738(String), 662392645610717606(String), 826199507250059543(String), 906974456174983694(String), 285553390036786335(String), 525191794643643223(String)
+2020-08-18 16:15:10,711 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-18 16:15:10,713 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_alarm WHERE 1=1 AND attribution_dept in ( ? , ? , ? , ? , ? , ? , ? , ? ) AND TO_DAYS(create_time) = TO_DAYS(NOW()) 
+2020-08-18 16:15:10,713 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 110972509915651469(String), 281361287361287638(String), 308511184308968738(String), 662392645610717606(String), 826199507250059543(String), 906974456174983694(String), 285553390036786335(String), 525191794643643223(String)
+2020-08-18 16:15:10,742 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-18 16:15:10,745 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access WHERE handle_status = '1' AND attribution_dept in ( ? , ? , ? , ? , ? , ? , ? , ? ) AND TO_DAYS(create_time) = TO_DAYS(NOW()) 
+2020-08-18 16:15:10,745 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 110972509915651469(String), 281361287361287638(String), 308511184308968738(String), 662392645610717606(String), 826199507250059543(String), 906974456174983694(String), 285553390036786335(String), 525191794643643223(String)
+2020-08-18 16:15:10,766 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-18 16:15:10,768 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access WHERE event_type = '2' AND attribution_dept in ( ? , ? , ? , ? , ? , ? , ? , ? ) AND TO_DAYS(create_time) = TO_DAYS(NOW()) 
+2020-08-18 16:15:10,770 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 110972509915651469(String), 281361287361287638(String), 308511184308968738(String), 662392645610717606(String), 826199507250059543(String), 906974456174983694(String), 285553390036786335(String), 525191794643643223(String)
+2020-08-18 16:15:10,836 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-18 16:15:10,839 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access WHERE handle_result like concat('%','异常','%') AND attribution_dept in ( ? , ? , ? , ? , ? , ? , ? , ? ) AND TO_DAYS(create_time) = TO_DAYS(NOW()) 
+2020-08-18 16:15:10,840 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 110972509915651469(String), 281361287361287638(String), 308511184308968738(String), 662392645610717606(String), 826199507250059543(String), 906974456174983694(String), 285553390036786335(String), 525191794643643223(String)
+2020-08-18 16:15:10,867 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-18 16:15:10,867 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_monitor WHERE person_name = '陌生人' AND attribution_dept in ( ? , ? , ? , ? , ? , ? , ? , ? ) 
+2020-08-18 16:15:10,868 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 110972509915651469(String), 281361287361287638(String), 308511184308968738(String), 662392645610717606(String), 826199507250059543(String), 906974456174983694(String), 285553390036786335(String), 525191794643643223(String)
+2020-08-18 16:15:10,879 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-18 16:47:12,273 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 15812 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-18 16:47:12,273 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-18 16:47:12,273 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-18 16:47:13,245 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.003 seconds (JVM running for 1978.942)
+2020-08-18 16:47:58,448 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 15812 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-18 16:47:58,448 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-18 16:47:58,448 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-18 16:47:59,233 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.81 seconds (JVM running for 2024.93)
+2020-08-18 16:48:06,007 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 15812 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-18 16:48:06,007 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-18 16:48:06,007 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-18 16:48:06,721 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.737 seconds (JVM running for 2032.418)
+2020-08-18 16:48:48,813 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 15812 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-18 16:48:48,813 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-18 16:48:48,814 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-18 16:48:49,497 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.711 seconds (JVM running for 2075.194)
+2020-08-18 16:49:13,375 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 15812 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-18 16:49:13,375 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-18 16:49:13,375 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-18 16:49:14,009 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.656 seconds (JVM running for 2099.705)
+2020-08-18 16:52:41,435 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 15812 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-18 16:52:41,435 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-18 16:52:41,436 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-18 16:52:42,145 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.754 seconds (JVM running for 2307.843)
+2020-08-18 16:52:46,921 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 15812 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-18 16:52:46,921 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-18 16:52:46,922 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-18 16:52:47,608 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.71 seconds (JVM running for 2313.304)
+2020-08-18 17:06:19,835 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 11628 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-18 17:06:19,840 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-18 17:06:19,841 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-18 17:06:23,725 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 4.403 seconds (JVM running for 5.366)
+2020-08-18 17:06:42,341 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-08-18 17:06:42,443 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), null, null, null
+2020-08-18 17:06:42,512 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 8
+2020-08-18 17:06:42,513 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-08-18 17:06:42,547 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access WHERE event_type = '1' AND attribution_dept in ( ? , ? , ? , ? , ? , ? , ? , ? ) AND TO_DAYS(create_time) = TO_DAYS(NOW()) 
+2020-08-18 17:06:42,550 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 110972509915651469(String), 281361287361287638(String), 308511184308968738(String), 662392645610717606(String), 826199507250059543(String), 906974456174983694(String), 285553390036786335(String), 525191794643643223(String)
+2020-08-18 17:06:42,560 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-18 17:06:42,562 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept in ( ? , ? , ? , ? , ? , ? , ? , ? ) AND TO_DAYS(create_time) = TO_DAYS(NOW()) 
+2020-08-18 17:06:42,564 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 110972509915651469(String), 281361287361287638(String), 308511184308968738(String), 662392645610717606(String), 826199507250059543(String), 906974456174983694(String), 285553390036786335(String), 525191794643643223(String)
+2020-08-18 17:06:42,578 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-18 17:06:42,579 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_alarm WHERE 1=1 AND attribution_dept in ( ? , ? , ? , ? , ? , ? , ? , ? ) AND TO_DAYS(create_time) = TO_DAYS(NOW()) 
+2020-08-18 17:06:42,580 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 110972509915651469(String), 281361287361287638(String), 308511184308968738(String), 662392645610717606(String), 826199507250059543(String), 906974456174983694(String), 285553390036786335(String), 525191794643643223(String)
+2020-08-18 17:06:42,591 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-18 17:06:42,592 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access WHERE handle_status = '1' AND attribution_dept in ( ? , ? , ? , ? , ? , ? , ? , ? ) AND TO_DAYS(create_time) = TO_DAYS(NOW()) 
+2020-08-18 17:06:42,593 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 110972509915651469(String), 281361287361287638(String), 308511184308968738(String), 662392645610717606(String), 826199507250059543(String), 906974456174983694(String), 285553390036786335(String), 525191794643643223(String)
+2020-08-18 17:06:42,598 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-18 17:06:42,599 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access WHERE event_type = '2' AND attribution_dept in ( ? , ? , ? , ? , ? , ? , ? , ? ) AND TO_DAYS(create_time) = TO_DAYS(NOW()) 
+2020-08-18 17:06:42,601 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 110972509915651469(String), 281361287361287638(String), 308511184308968738(String), 662392645610717606(String), 826199507250059543(String), 906974456174983694(String), 285553390036786335(String), 525191794643643223(String)
+2020-08-18 17:06:42,606 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-18 17:06:42,608 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access WHERE handle_result like concat('%','异常','%') AND attribution_dept in ( ? , ? , ? , ? , ? , ? , ? , ? ) AND TO_DAYS(create_time) = TO_DAYS(NOW()) 
+2020-08-18 17:06:42,609 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 110972509915651469(String), 281361287361287638(String), 308511184308968738(String), 662392645610717606(String), 826199507250059543(String), 906974456174983694(String), 285553390036786335(String), 525191794643643223(String)
+2020-08-18 17:06:42,616 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-18 17:06:42,618 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_monitor WHERE person_name = '陌生人' AND attribution_dept in ( ? , ? , ? , ? , ? , ? , ? , ? ) 
+2020-08-18 17:06:42,619 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 110972509915651469(String), 281361287361287638(String), 308511184308968738(String), 662392645610717606(String), 826199507250059543(String), 906974456174983694(String), 285553390036786335(String), 525191794643643223(String)
+2020-08-18 17:06:42,626 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-18 17:07:16,166 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-08-18 17:07:16,212 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), null, null, null
+2020-08-18 17:07:16,247 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 8
+2020-08-18 17:07:16,247 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-08-18 17:07:41,567 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-08-18 17:07:41,669 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), null, null, null
+2020-08-18 17:07:41,702 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 8
+2020-08-18 17:07:41,703 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-08-18 17:08:54,716 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 13012 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-08-18 17:08:54,722 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-08-18 17:08:54,723 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-08-18 17:08:59,072 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 4.922 seconds (JVM running for 6.231)
+2020-08-18 17:09:12,716 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-08-18 17:09:12,829 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), null, null, null
+2020-08-18 17:09:12,877 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 8
+2020-08-18 17:09:12,878 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-08-18 17:09:12,912 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept in ( ? , ? , ? , ? , ? , ? , ? , ? ) 
+2020-08-18 17:09:12,914 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 110972509915651469(String), 281361287361287638(String), 308511184308968738(String), 662392645610717606(String), 826199507250059543(String), 906974456174983694(String), 285553390036786335(String), 525191794643643223(String)
+2020-08-18 17:09:12,924 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-08-18 17:09:12,926 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-08-18 17:09:12,961 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), null, null, null
+2020-08-18 17:09:12,987 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 8
+2020-08-18 17:09:12,988 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-08-18 17:09:12,990 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept in ( ? , ? , ? , ? , ? , ? , ? , ? ) ORDER BY a.create_time DESC LIMIT ?,? 
+2020-08-18 17:09:12,992 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 110972509915651469(String), 281361287361287638(String), 308511184308968738(String), 662392645610717606(String), 826199507250059543(String), 906974456174983694(String), 285553390036786335(String), 525191794643643223(String), 0(Integer), 10(Integer)
+2020-08-18 17:09:13,002 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 10

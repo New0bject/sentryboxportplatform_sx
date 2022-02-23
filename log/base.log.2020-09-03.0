@@ -1,0 +1,49 @@
+2020-09-03 13:48:15,166 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 11764 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-09-03 13:48:15,183 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-09-03 13:48:15,183 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-09-03 13:48:21,433 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 8.017 seconds (JVM running for 12.717)
+2020-09-03 13:55:17,322 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-09-03 13:55:17,600 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, null, null, null
+2020-09-03 13:55:17,692 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-09-03 13:55:17,692 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-09-03 13:56:58,641 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-09-03 13:56:58,857 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 418430456456282145(String), null, null, null
+2020-09-03 13:56:58,944 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-09-03 13:56:58,944 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-09-03 13:57:15,911 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 22092 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-09-03 13:57:15,916 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-09-03 13:57:15,917 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-09-03 13:57:19,819 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 4.416 seconds (JVM running for 5.62)
+2020-09-03 14:00:00,608 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-09-03 14:00:01,182 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 418430456456282145(String), null, null, null
+2020-09-03 14:00:01,449 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-09-03 14:00:01,451 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-09-03 14:00:39,992 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-09-03 14:00:40,237 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 418430456456282145(String), null, null, null
+2020-09-03 14:00:40,338 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-09-03 14:00:40,340 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-09-03 14:01:02,075 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 22092 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-09-03 14:01:02,075 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-09-03 14:01:02,076 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-09-03 14:01:03,414 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.38 seconds (JVM running for 229.214)
+2020-09-03 14:01:31,323 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 28292 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-09-03 14:01:31,325 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-09-03 14:01:31,326 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-09-03 14:01:34,456 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 3.551 seconds (JVM running for 4.38)
+2020-09-03 14:02:58,663 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-09-03 14:02:58,919 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 418430456456282145(String), null, null, null
+2020-09-03 14:02:59,021 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-09-03 14:02:59,022 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-09-03 14:02:59,059 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.create_time, CASE WHEN b.id IS NULL AND c.id is null THEN 0 WHEN b.id IS NULL AND c.id IS NOT NULL THEN 1 WHEN b.id IS NOT NULL AND c.id IS NOT NULL THEN 2 END as unusual_type FROM (SELECT ADDDATE(y.first, x.d - 1) as create_time FROM (SELECT 1 AS d UNION ALL SELECT 2 UNION ALL SELECT 3 UNION ALL SELECT 4 UNION ALL SELECT 5 UNION ALL SELECT 6 UNION ALL SELECT 7 UNION ALL SELECT 8 UNION ALL SELECT 9 UNION ALL SELECT 10 UNION ALL SELECT 11 UNION ALL SELECT 12 UNION ALL SELECT 13 UNION ALL SELECT 14 UNION ALL SELECT 15 UNION ALL SELECT 16 UNION ALL SELECT 17 UNION ALL SELECT 18 UNION ALL SELECT 19 UNION ALL SELECT 20 UNION ALL SELECT 21 UNION ALL SELECT 22 UNION ALL SELECT 23 UNION ALL SELECT 24 UNION ALL SELECT 25 UNION ALL SELECT 26 UNION ALL SELECT 27 UNION ALL SELECT 28 UNION ALL SELECT 29 UNION ALL SELECT 30 UNION ALL SELECT 31) x, (SELECT CONCAT(?,'-01') as FIRST, DAY(LAST_DAY(str_to_date(?,'%Y-%m'))) AS last) y WHERE x.d <= y.last) a LEFT JOIN (SELECT * from visit_visitor_alarm WHERE visit_visitor.attribution_dept in ( ? ) ) b ON a.create_time = DATE_FORMAT(b.create_time,"%Y-%m-%d") LEFT JOIN (SELECT * from visit_visitor WHERE visit_visitor.attribution_dept in ( ? ) ) c ON a.create_time = DATE_FORMAT(c.create_time,"%Y-%m-%d") GROUP BY a.create_time 
+2020-09-03 14:02:59,062 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 2020-08(String), 2020-08(String), 418430456456282145(String), 418430456456282145(String)
+2020-09-03 14:03:43,592 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 28292 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-09-03 14:03:43,593 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-09-03 14:03:43,593 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-09-03 14:03:44,747 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.192 seconds (JVM running for 134.672)
+2020-09-03 14:03:48,218 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-09-03 14:03:48,435 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 418430456456282145(String), null, null, null
+2020-09-03 14:03:48,534 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-09-03 14:03:48,535 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-09-03 14:03:48,536 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.create_time, CASE WHEN b.id IS NULL AND c.id is null THEN 0 WHEN b.id IS NULL AND c.id IS NOT NULL THEN 1 WHEN b.id IS NOT NULL AND c.id IS NOT NULL THEN 2 END as unusual_type FROM (SELECT ADDDATE(y.first, x.d - 1) as create_time FROM (SELECT 1 AS d UNION ALL SELECT 2 UNION ALL SELECT 3 UNION ALL SELECT 4 UNION ALL SELECT 5 UNION ALL SELECT 6 UNION ALL SELECT 7 UNION ALL SELECT 8 UNION ALL SELECT 9 UNION ALL SELECT 10 UNION ALL SELECT 11 UNION ALL SELECT 12 UNION ALL SELECT 13 UNION ALL SELECT 14 UNION ALL SELECT 15 UNION ALL SELECT 16 UNION ALL SELECT 17 UNION ALL SELECT 18 UNION ALL SELECT 19 UNION ALL SELECT 20 UNION ALL SELECT 21 UNION ALL SELECT 22 UNION ALL SELECT 23 UNION ALL SELECT 24 UNION ALL SELECT 25 UNION ALL SELECT 26 UNION ALL SELECT 27 UNION ALL SELECT 28 UNION ALL SELECT 29 UNION ALL SELECT 30 UNION ALL SELECT 31) x, (SELECT CONCAT(?,'-01') as FIRST, DAY(LAST_DAY(str_to_date(?,'%Y-%m'))) AS last) y WHERE x.d <= y.last) a LEFT JOIN (SELECT * from visit_visitor_alarm WHERE visit_visitor_alarm.attribution_dept in ( ? ) ) b ON a.create_time = DATE_FORMAT(b.create_time,"%Y-%m-%d") LEFT JOIN (SELECT * from visit_visitor WHERE visit_visitor.attribution_dept in ( ? ) ) c ON a.create_time = DATE_FORMAT(c.create_time,"%Y-%m-%d") GROUP BY a.create_time 
+2020-09-03 14:03:48,537 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 2020-08(String), 2020-08(String), 418430456456282145(String), 418430456456282145(String)
+2020-09-03 14:03:48,576 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 31

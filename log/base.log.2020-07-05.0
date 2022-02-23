@@ -1,0 +1,107 @@
+2020-07-05 13:47:35,885 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 21800 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-05 13:47:35,919 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-05 13:47:35,920 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-05 13:47:42,390 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 8.295 seconds (JVM running for 12.795)
+2020-07-05 13:48:34,481 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_alarm WHERE attribution_dept = ? 
+2020-07-05 13:48:34,524 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-05 13:48:34,578 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-05 13:48:34,582 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM visit_alarm WHERE attribution_dept = ? ORDER BY create_time DESC LIMIT ?,? 
+2020-07-05 13:48:34,583 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 2(Integer)
+2020-07-05 13:48:34,615 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-05 13:49:06,781 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_alarm WHERE attribution_dept = ? 
+2020-07-05 13:49:06,781 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-05 13:49:06,809 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-05 13:49:06,810 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM visit_alarm WHERE attribution_dept = ? ORDER BY create_time DESC LIMIT ?,? 
+2020-07-05 13:49:06,811 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 5(Integer)
+2020-07-05 13:49:06,839 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 5
+2020-07-05 13:49:14,864 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_alarm WHERE attribution_dept = ? 
+2020-07-05 13:49:14,864 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-05 13:49:14,892 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-05 13:49:14,892 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM visit_alarm WHERE attribution_dept = ? ORDER BY create_time DESC LIMIT ?,? 
+2020-07-05 13:49:14,892 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 5(Integer)
+2020-07-05 13:49:14,923 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 5
+2020-07-05 13:49:43,889 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_alarm WHERE attribution_dept = ? 
+2020-07-05 13:49:43,890 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-05 13:49:43,919 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-05 13:49:43,920 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM visit_alarm WHERE attribution_dept = ? ORDER BY create_time DESC LIMIT ?,? 
+2020-07-05 13:49:43,921 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 5(Integer)
+2020-07-05 13:49:43,958 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 5
+2020-07-05 14:07:04,451 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_alarm WHERE attribution_dept = ? 
+2020-07-05 14:07:04,452 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-05 14:07:04,478 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-05 14:07:04,479 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM visit_alarm WHERE attribution_dept = ? ORDER BY create_time DESC LIMIT ?,? 
+2020-07-05 14:07:04,480 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 5(Integer)
+2020-07-05 14:07:04,507 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 5
+2020-07-05 14:08:01,898 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_alarm WHERE attribution_dept = ? 
+2020-07-05 14:08:01,898 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-05 14:08:01,924 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-05 14:08:01,925 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM visit_alarm WHERE attribution_dept = ? ORDER BY create_time DESC LIMIT ?,? 
+2020-07-05 14:08:01,926 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 6(Integer)
+2020-07-05 14:08:01,956 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 5
+2020-07-05 16:25:46,292 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 10136 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-05 16:25:46,294 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-05 16:25:46,295 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-05 16:25:49,090 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 3.192 seconds (JVM running for 3.996)
+2020-07-05 17:19:00,568 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 1096 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-05 17:19:00,573 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-05 17:19:00,574 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-05 17:19:03,884 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 3.826 seconds (JVM running for 4.942)
+2020-07-05 17:19:26,974 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM ef_apparatus_category GROUP BY apparatus_category_name 
+2020-07-05 17:19:27,001 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-07-05 17:19:27,053 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2020-07-05 17:19:27,058 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id,apparatus_name FROM ef_apparatus where apparatus_category_id = ? and competent_unit_id = ? 
+2020-07-05 17:19:27,059 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 2(Integer), null
+2020-07-05 17:19:27,087 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-07-05 17:19:27,089 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id,apparatus_name FROM ef_apparatus where apparatus_category_id = ? and competent_unit_id = ? 
+2020-07-05 17:19:27,090 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 3(Integer), null
+2020-07-05 17:19:27,118 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-07-05 17:19:27,119 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id,apparatus_name FROM ef_apparatus where apparatus_category_id = ? and competent_unit_id = ? 
+2020-07-05 17:19:27,120 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1(Integer), null
+2020-07-05 17:19:27,151 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-07-05 17:19:46,036 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 1096 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-05 17:19:46,036 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-05 17:19:46,037 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-05 17:19:47,046 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.043 seconds (JVM running for 48.103)
+2020-07-05 17:20:13,591 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM ef_apparatus_category GROUP BY apparatus_category_name 
+2020-07-05 17:20:13,593 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-07-05 17:20:13,624 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2020-07-05 17:20:13,625 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id,apparatus_name FROM ef_apparatus where apparatus_category_id = ? and competent_unit_id = ? 
+2020-07-05 17:20:13,625 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 2(Integer), null
+2020-07-05 17:20:13,657 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-07-05 17:20:13,657 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id,apparatus_name FROM ef_apparatus where apparatus_category_id = ? and competent_unit_id = ? 
+2020-07-05 17:20:13,658 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 3(Integer), null
+2020-07-05 17:20:13,687 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-07-05 17:20:13,688 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id,apparatus_name FROM ef_apparatus where apparatus_category_id = ? and competent_unit_id = ? 
+2020-07-05 17:20:13,688 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1(Integer), null
+2020-07-05 17:20:13,730 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-07-05 17:20:44,958 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM ef_apparatus_category GROUP BY apparatus_category_name 
+2020-07-05 17:20:44,958 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-07-05 17:20:44,989 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2020-07-05 17:20:44,990 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id,apparatus_name FROM ef_apparatus where apparatus_category_id = ? and competent_unit_id = ? 
+2020-07-05 17:20:44,990 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 2(Integer), null
+2020-07-05 17:20:45,015 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-07-05 17:20:45,016 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id,apparatus_name FROM ef_apparatus where apparatus_category_id = ? and competent_unit_id = ? 
+2020-07-05 17:20:45,016 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 3(Integer), null
+2020-07-05 17:20:45,060 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-07-05 17:20:45,061 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id,apparatus_name FROM ef_apparatus where apparatus_category_id = ? and competent_unit_id = ? 
+2020-07-05 17:20:45,061 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1(Integer), null
+2020-07-05 17:20:45,097 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-07-05 17:28:23,085 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 6756 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-05 17:28:23,090 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-05 17:28:23,091 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-05 17:28:26,430 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 3.822 seconds (JVM running for 4.706)
+2020-07-05 17:28:59,548 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM ef_apparatus_category GROUP BY apparatus_category_name 
+2020-07-05 17:28:59,806 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-07-05 17:29:00,046 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 3
+2020-07-05 17:29:07,856 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id,apparatus_name FROM ef_apparatus where apparatus_category_id = ? and competent_unit_id = ? 
+2020-07-05 17:29:07,857 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 2(Integer), 525191794643643223(String)
+2020-07-05 17:29:07,887 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-05 17:29:07,888 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id,apparatus_name FROM ef_apparatus where apparatus_category_id = ? and competent_unit_id = ? 
+2020-07-05 17:29:07,889 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 3(Integer), 525191794643643223(String)
+2020-07-05 17:29:07,918 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 15
+2020-07-05 17:29:07,919 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id,apparatus_name FROM ef_apparatus where apparatus_category_id = ? and competent_unit_id = ? 
+2020-07-05 17:29:07,920 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1(Integer), 525191794643643223(String)
+2020-07-05 17:29:07,947 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 0
+2020-07-05 17:30:11,586 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 6756 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-05 17:30:11,586 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-05 17:30:11,586 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default

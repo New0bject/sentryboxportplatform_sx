@@ -1,0 +1,470 @@
+2020-07-15 15:08:24,515 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 2136 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-15 15:08:24,530 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-15 15:08:24,530 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-15 15:08:29,488 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 6.328 seconds (JVM running for 9.371)
+2020-07-15 15:13:15,171 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 2136 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-15 15:13:15,172 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-15 15:13:15,172 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-15 15:13:16,096 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.952 seconds (JVM running for 295.979)
+2020-07-15 15:15:23,042 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 3984 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-15 15:15:23,045 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-15 15:15:23,046 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-15 15:15:25,861 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 3.205 seconds (JVM running for 3.941)
+2020-07-15 15:28:00,944 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_alarm WHERE attribution_dept = ? 
+2020-07-15 15:28:00,970 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-15 15:28:01,021 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-15 15:28:01,024 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visiter_alarm WHERE attribution_dept = ? 
+2020-07-15 15:28:01,025 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-15 15:28:01,058 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-15 15:28:01,059 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_car_alarm WHERE attribution_dept = ? 
+2020-07-15 15:28:01,060 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-15 15:28:01,097 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-15 15:28:22,012 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_alarm WHERE attribution_dept = ? 
+2020-07-15 15:28:22,013 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-15 15:28:22,043 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-15 15:28:22,044 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visiter_alarm WHERE attribution_dept = ? 
+2020-07-15 15:28:22,045 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-15 15:28:22,086 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-15 15:28:22,087 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_car_alarm WHERE attribution_dept = ? 
+2020-07-15 15:28:22,088 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-15 15:28:22,116 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-15 15:33:08,273 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor LEFT JOIN sys_use ON visit_visitor.visit_person = sys_use.real_name WHERE visit_visito.rattribution_dept = ? AND sys_use.id = ? 
+2020-07-15 15:33:08,275 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 188248930010120287(String), guchengcheng-13872790504(String)
+2020-07-15 15:33:25,155 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 3984 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-15 15:33:25,156 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-15 15:33:25,156 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-15 15:33:26,015 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.887 seconds (JVM running for 1084.096)
+2020-07-15 15:33:27,836 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 3984 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-15 15:33:27,836 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-15 15:33:27,836 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-15 15:33:28,545 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.73 seconds (JVM running for 1086.626)
+2020-07-15 15:33:32,725 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor LEFT JOIN sys_use ON visit_visitor.visit_person = sys_use.real_name WHERE visit_visito.rattribution_dept = ? AND sys_use.id = ? 
+2020-07-15 15:33:32,728 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 188248930010120287(String), guchengcheng-13872790504(String)
+2020-07-15 15:33:53,566 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 3984 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-15 15:33:53,567 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-15 15:33:53,567 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-15 15:33:54,178 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.64 seconds (JVM running for 1112.259)
+2020-07-15 15:33:56,767 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor LEFT JOIN sys_user ON visit_visitor.visit_person = sys_user.real_name WHERE visit_visito.rattribution_dept = ? AND sys_user.id = ? 
+2020-07-15 15:33:56,770 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 188248930010120287(String), guchengcheng-13872790504(String)
+2020-07-15 15:34:09,039 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 3984 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-15 15:34:09,039 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-15 15:34:09,039 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-15 15:34:09,581 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.563 seconds (JVM running for 1127.661)
+2020-07-15 15:34:15,325 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 3984 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-15 15:34:15,325 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-15 15:34:15,325 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-15 15:34:15,878 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.573 seconds (JVM running for 1133.959)
+2020-07-15 15:34:18,913 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor LEFT JOIN sys_user ON visit_visitor.visit_person = sys_user.real_name WHERE visit_visitor.rattribution_dept = ? AND sys_user.id = ? 
+2020-07-15 15:34:18,916 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 188248930010120287(String), guchengcheng-13872790504(String)
+2020-07-15 15:34:34,869 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 3984 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-15 15:34:34,870 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-15 15:34:34,870 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-15 15:34:35,359 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.51 seconds (JVM running for 1153.441)
+2020-07-15 15:34:37,076 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 3984 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-15 15:34:37,076 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-15 15:34:37,077 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-15 15:34:37,560 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.506 seconds (JVM running for 1155.64)
+2020-07-15 15:34:43,167 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor LEFT JOIN sys_user ON visit_visitor.visit_person = sys_user.real_name WHERE visit_visitor.attribution_dept = ? AND sys_user.id = ? 
+2020-07-15 15:34:43,169 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 188248930010120287(String), guchengcheng-13872790504(String)
+2020-07-15 15:34:43,250 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-15 15:35:50,534 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor LEFT JOIN sys_user ON visit_visitor.visit_person = sys_user.real_name WHERE visit_visitor.attribution_dept = ? AND sys_user.id = ? 
+2020-07-15 15:35:50,536 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 188248930010120287(String), guchengcheng-13872790504(String)
+2020-07-15 15:35:50,586 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-15 15:35:50,589 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT visit_visitor.id as id, visit_visitor.name as name, visit_visitor.id_card as id_card, visit_visitor.phone as phone, visit_visitor.temperature as temperature, visit_visitor.img_picture as img_picture, visit_visitor.car_no as car_no, visit_visitor.health_code as health_code, visit_visitor.visit_group as visit_group, visit_visitor.visit_person as visit_person, visit_visitor.visit_reason as visit_reason, visit_visitor.rank as rank, DATE_FORMAT(visit_visitor.create_time,"%Y-%m-%d %H:%i") as create_time, visit_visitor.create_user as create_user, visit_visitor.apparatus_name as apparatus_name, visit_visitor.address as address, visit_visitor.event_type as event_type FROM visit_visitor LEFT JOIN sys_user ON visit_visitor.visit_person = sys_user.real_name WHERE visit_visitor.attribution_dept = ? AND sys_user.id = ? ORDER BY visit_visitor.create_time DESC LIMIT ?,? 
+2020-07-15 15:35:50,591 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 188248930010120287(String), guchengcheng-13872790504(String), 0(Integer), 2(Integer)
+2020-07-15 15:35:50,628 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-15 16:04:07,487 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 3984 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-15 16:04:07,487 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-15 16:04:07,487 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-15 16:16:58,081 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 1724 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-15 16:16:58,084 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-15 16:16:58,084 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-15 16:17:00,953 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 3.257 seconds (JVM running for 3.999)
+2020-07-15 16:18:46,621 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? 
+2020-07-15 16:18:46,645 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 188248930010120287(String)
+2020-07-15 16:18:46,695 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-15 16:18:46,697 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id, name, id_card, phone, temperature, img_picture, car_no, health_code, visit_group, visit_person, visit_reason, rank, DATE_FORMAT(create_time,"%Y-%m-%d %H:%i") as create_time, create_user, apparatus_name, address, event_type FROM visit_visitor WHERE attribution_dept = ? ORDER BY create_time DESC LIMIT ?,? 
+2020-07-15 16:18:46,698 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 188248930010120287(String), 0(Integer), 2(Integer)
+2020-07-15 16:18:46,732 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-15 16:19:17,106 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 1724 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-15 16:19:17,106 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-15 16:19:17,106 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-15 16:19:18,040 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.965 seconds (JVM running for 141.086)
+2020-07-15 16:19:20,380 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? 
+2020-07-15 16:19:20,383 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 188248930010120287(String)
+2020-07-15 16:19:20,417 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-15 16:19:20,420 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id, name, id_card, phone, temperature, img_picture, car_no, health_code, visit_group, visit_person, visit_reason, rank, DATE_FORMAT(create_time,"%Y-%m-%d %H:%i") as create_time, create_user, apparatus_name, address, event_type FROM visit_visitor WHERE attribution_dept = ? ORDER BY create_time DESC LIMIT ?,? 
+2020-07-15 16:19:20,421 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 188248930010120287(String), 0(Integer), 2(Integer)
+2020-07-15 16:19:20,455 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-15 16:19:35,954 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 1724 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-15 16:19:35,954 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-15 16:19:35,954 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-15 16:19:36,627 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.695 seconds (JVM running for 159.673)
+2020-07-15 16:20:41,822 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id, name, id_card, phone, temperature, img_picture, car_no, health_code, visit_group, visit_person, visit_reason, rank, DATE_FORMAT(create_time,"%Y-%m-%d %H:%i") as create_time, create_user, apparatus_name, address, event_type FROM visit_visitor WHERE id = ? 
+2020-07-15 16:20:41,825 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 1(Integer)
+2020-07-15 16:20:41,861 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-15 16:20:46,593 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id, name, id_card, phone, temperature, img_picture, car_no, health_code, visit_group, visit_person, visit_reason, rank, DATE_FORMAT(create_time,"%Y-%m-%d %H:%i") as create_time, create_user, apparatus_name, address, event_type FROM visit_visitor WHERE id = ? 
+2020-07-15 16:20:46,594 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 2(Integer)
+2020-07-15 16:20:46,625 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-15 16:21:11,384 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor_alarm WHERE attribution_dept = ? 
+2020-07-15 16:21:11,385 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null
+2020-07-15 16:22:21,165 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 1724 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-15 16:22:21,166 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-15 16:22:21,166 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-15 16:22:21,822 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.681 seconds (JVM running for 324.867)
+2020-07-15 16:22:26,566 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 1724 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-15 16:22:26,567 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-15 16:22:26,567 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-15 16:22:27,166 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.622 seconds (JVM running for 330.212)
+2020-07-15 16:22:44,058 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor_alarm WHERE attribution_dept = ? 
+2020-07-15 16:22:44,060 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null
+2020-07-15 16:22:44,095 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-15 16:23:27,604 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor_alarm WHERE attribution_dept = ? 
+2020-07-15 16:23:27,605 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null
+2020-07-15 16:23:27,644 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-15 16:23:54,919 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor_alarm WHERE attribution_dept = ? 
+2020-07-15 16:23:54,919 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null
+2020-07-15 16:23:54,951 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-15 16:24:40,416 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? 
+2020-07-15 16:24:40,417 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-15 16:24:40,451 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-15 16:24:40,452 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id, name, id_card, phone, temperature, img_picture, car_no, health_code, visit_group, visit_person, visit_reason, rank, DATE_FORMAT(create_time,"%Y-%m-%d %H:%i") as create_time, create_user, apparatus_name, address, event_type FROM visit_visitor WHERE attribution_dept = ? ORDER BY create_time DESC LIMIT ?,? 
+2020-07-15 16:24:40,452 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 2(Integer)
+2020-07-15 16:24:40,486 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-15 16:24:51,982 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor_alarm WHERE attribution_dept = ? 
+2020-07-15 16:24:51,983 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-15 16:24:52,020 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-15 16:24:52,022 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM visit_visitor_alarm WHERE attribution_dept = ? ORDER BY create_time DESC LIMIT ?,? 
+2020-07-15 16:24:52,024 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 2(Integer)
+2020-07-15 16:24:52,062 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-15 16:25:54,513 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 1724 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-15 16:25:54,514 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-15 16:25:54,514 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-15 16:25:55,207 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.715 seconds (JVM running for 538.252)
+2020-07-15 16:26:02,044 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 1724 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-15 16:26:02,044 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-15 16:26:02,045 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-15 16:26:02,604 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.586 seconds (JVM running for 545.649)
+2020-07-15 16:26:57,865 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 1724 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-15 16:26:57,866 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-15 16:26:57,866 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-15 16:26:58,498 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.656 seconds (JVM running for 601.543)
+2020-07-15 16:27:03,743 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 1724 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-15 16:27:03,743 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-15 16:27:03,743 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-15 16:27:04,196 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.472 seconds (JVM running for 607.243)
+2020-07-15 16:27:05,919 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 1724 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-15 16:27:05,919 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-15 16:27:05,920 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-15 16:27:06,382 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.481 seconds (JVM running for 609.428)
+2020-07-15 16:27:19,252 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 1724 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-15 16:27:19,253 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-15 16:27:19,253 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-15 16:27:19,698 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.464 seconds (JVM running for 622.744)
+2020-07-15 16:27:34,991 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 1724 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-15 16:27:34,992 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-15 16:27:34,992 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-15 16:27:37,784 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 1724 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-15 16:27:37,784 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-15 16:27:37,784 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-15 16:27:38,211 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.443 seconds (JVM running for 641.257)
+2020-07-15 16:27:42,042 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 1724 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-15 16:27:42,042 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-15 16:27:42,043 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-15 16:27:42,515 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.498 seconds (JVM running for 645.56)
+2020-07-15 16:27:49,300 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 1724 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-15 16:27:49,300 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-15 16:27:49,300 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-15 16:27:49,781 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.5 seconds (JVM running for 652.827)
+2020-07-15 16:27:51,534 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 1724 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-15 16:27:51,535 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-15 16:27:51,535 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-15 16:27:52,014 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.502 seconds (JVM running for 655.059)
+2020-07-15 16:28:01,000 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 1724 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-15 16:28:01,000 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-15 16:28:01,002 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-15 16:28:01,476 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.492 seconds (JVM running for 664.522)
+2020-07-15 16:28:06,288 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 1724 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-15 16:28:06,289 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-15 16:28:06,289 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-15 16:28:06,708 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.437 seconds (JVM running for 669.754)
+2020-07-15 16:28:11,107 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor_alarm WHERE attribution_dept = ? 
+2020-07-15 16:28:11,109 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-15 16:28:11,141 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-15 16:28:11,142 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT * FROM visit_visitor_alarm WHERE attribution_dept = ? ORDER BY create_time DESC LIMIT ?,? 
+2020-07-15 16:28:11,143 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 2(Integer)
+2020-07-15 16:28:11,189 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-16 17:51:58,475 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 1724 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-16 17:51:58,475 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-16 17:51:58,475 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-16 17:52:00,236 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.837 seconds (JVM running for 92101.014)
+2020-07-16 17:52:04,142 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 1724 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-16 17:52:04,143 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-16 17:52:04,143 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-16 17:52:04,783 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.661 seconds (JVM running for 92105.561)
+2020-07-16 18:46:44,319 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 17848 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-16 18:46:44,323 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-16 18:46:44,324 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-16 18:46:48,996 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 5.802 seconds (JVM running for 9.152)
+2020-07-16 18:48:36,211 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor LEFT JOIN visit_visitor_alarm ON visit_visitor.id = visit_visitor_alarm.visit_id WHERE visit_visitor.attribution_dept = ? 
+2020-07-16 18:48:36,254 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-16 18:48:36,306 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 18:48:36,310 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT visit_visitor.id as id, visit_visitor.name as name, visit_visitor.id_card as id_card, visit_visitor.phone as phone, visit_visitor.temperature as temperature, visit_visitor.img_picture as img_picture, visit_visitor.car_no as car_no, visit_visitor.health_code as health_code, visit_visitor.visit_group as visit_group, visit_visitor.visit_person as visit_person, visit_visitor.visit_reason as visit_reason, visit_visitor.rank as rank, DATE_FORMAT(visit_visitor.create_time,"%Y-%m-%d %H:%i") as create_time, visit_visitor.create_user as create_user, visit_visitor.apparatus_name as apparatus_name, visit_visitor.address as address, visit_visitor.event_type as event_type, CASE WHEN visit_visitor_alarm.id is not null THEN visit_visitor_alarm.alarm_message ELSE '正常访客' END as visitor_type FROM visit_visitor LEFT JOIN visit_visitor_alarm ON visit_visitor.id = visit_visitor_alarm.visit_id WHERE visit_visitor.attribution_dept = ? ORDER BY visit_visitor.create_time DESC LIMIT ?,? 
+2020-07-16 18:48:36,311 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 2(Integer)
+2020-07-16 18:48:36,343 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-16 18:48:36,344 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor_alarm WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 18:48:36,345 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, 11(String)
+2020-07-16 18:49:34,824 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 17848 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-16 18:49:34,825 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-16 18:49:34,825 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-16 18:49:35,718 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.929 seconds (JVM running for 175.873)
+2020-07-16 18:52:51,298 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor LEFT JOIN visit_visitor_alarm ON visit_visitor.id = visit_visitor_alarm.visit_id WHERE visit_visitor.attribution_dept = ? 
+2020-07-16 18:52:51,302 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-16 18:52:51,333 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 18:52:51,335 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT visit_visitor.id as id, visit_visitor.name as name, visit_visitor.id_card as id_card, visit_visitor.phone as phone, visit_visitor.temperature as temperature, visit_visitor.img_picture as img_picture, visit_visitor.car_no as car_no, visit_visitor.health_code as health_code, visit_visitor.visit_group as visit_group, visit_visitor.visit_person as visit_person, visit_visitor.visit_reason as visit_reason, visit_visitor.rank as rank, DATE_FORMAT(visit_visitor.create_time,"%Y-%m-%d %H:%i") as create_time, visit_visitor.create_user as create_user, visit_visitor.apparatus_name as apparatus_name, visit_visitor.address as address, visit_visitor.event_type as event_type, CASE WHEN visit_visitor_alarm.id is not null THEN visit_visitor_alarm.alarm_message ELSE '正常访客' END as visitor_type FROM visit_visitor LEFT JOIN visit_visitor_alarm ON visit_visitor.id = visit_visitor_alarm.visit_id WHERE visit_visitor.attribution_dept = ? ORDER BY visit_visitor.create_time DESC LIMIT ?,? 
+2020-07-16 18:52:51,336 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 2(Integer)
+2020-07-16 18:52:51,368 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-16 18:52:51,369 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 18:52:51,370 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, 啊啊(String)
+2020-07-16 18:52:51,404 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 18:52:51,405 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 18:52:51,406 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, 11(String)
+2020-07-16 18:52:51,435 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 18:53:05,547 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor LEFT JOIN visit_visitor_alarm ON visit_visitor.id = visit_visitor_alarm.visit_id WHERE visit_visitor.attribution_dept = ? 
+2020-07-16 18:53:05,548 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-16 18:53:05,580 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 18:53:05,582 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT visit_visitor.id as id, visit_visitor.name as name, visit_visitor.id_card as id_card, visit_visitor.phone as phone, visit_visitor.temperature as temperature, visit_visitor.img_picture as img_picture, visit_visitor.car_no as car_no, visit_visitor.health_code as health_code, visit_visitor.visit_group as visit_group, visit_visitor.visit_person as visit_person, visit_visitor.visit_reason as visit_reason, visit_visitor.rank as rank, DATE_FORMAT(visit_visitor.create_time,"%Y-%m-%d %H:%i") as create_time, visit_visitor.create_user as create_user, visit_visitor.apparatus_name as apparatus_name, visit_visitor.address as address, visit_visitor.event_type as event_type, CASE WHEN visit_visitor_alarm.id is not null THEN visit_visitor_alarm.alarm_message ELSE '正常访客' END as visitor_type FROM visit_visitor LEFT JOIN visit_visitor_alarm ON visit_visitor.id = visit_visitor_alarm.visit_id WHERE visit_visitor.attribution_dept = ? ORDER BY visit_visitor.create_time DESC LIMIT ?,? 
+2020-07-16 18:53:05,583 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 10(Integer)
+2020-07-16 18:53:05,621 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 9
+2020-07-16 18:53:05,622 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 18:53:05,624 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, 啊啊(String)
+2020-07-16 18:53:05,654 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 18:53:05,655 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 18:53:05,655 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, 11(String)
+2020-07-16 18:53:05,698 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 18:53:05,699 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 18:53:05,699 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, 啊啊(String)
+2020-07-16 18:53:05,732 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 18:53:05,733 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 18:53:05,734 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, 11(String)
+2020-07-16 18:53:05,764 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 18:53:05,765 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 18:53:05,766 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, 啊啊(String)
+2020-07-16 18:53:05,799 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 18:53:05,801 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 18:53:05,801 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, 啊啊(String)
+2020-07-16 18:53:05,832 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 18:53:05,834 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 18:53:05,835 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, 11(String)
+2020-07-16 18:53:05,866 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 18:53:05,868 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 18:53:05,869 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, 啊啊(String)
+2020-07-16 18:53:05,904 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 18:53:05,905 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 18:53:05,906 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, 11(String)
+2020-07-16 18:53:05,932 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 18:55:11,972 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 13600 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-16 18:55:11,978 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-16 18:55:11,978 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-16 18:55:16,085 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 4.644 seconds (JVM running for 7.91)
+2020-07-16 18:56:43,071 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor LEFT JOIN visit_visitor_alarm ON visit_visitor.id = visit_visitor_alarm.visit_id WHERE visit_visitor.attribution_dept = ? 
+2020-07-16 18:56:43,100 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-16 18:56:43,149 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 18:56:43,153 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT visit_visitor.id as id, visit_visitor.name as name, visit_visitor.id_card as id_card, visit_visitor.phone as phone, visit_visitor.temperature as temperature, visit_visitor.img_picture as img_picture, visit_visitor.car_no as car_no, visit_visitor.health_code as health_code, visit_visitor.visit_group as visit_group, visit_visitor.visit_person as visit_person, visit_visitor.visit_reason as visit_reason, visit_visitor.rank as rank, DATE_FORMAT(visit_visitor.create_time,"%Y-%m-%d %H:%i") as create_time, visit_visitor.create_user as create_user, visit_visitor.apparatus_name as apparatus_name, visit_visitor.address as address, visit_visitor.event_type as event_type, CASE WHEN visit_visitor_alarm.id is not null THEN visit_visitor_alarm.alarm_message ELSE '正常访客' END as visitor_type FROM visit_visitor LEFT JOIN visit_visitor_alarm ON visit_visitor.id = visit_visitor_alarm.visit_id WHERE visit_visitor.attribution_dept = ? ORDER BY visit_visitor.create_time DESC LIMIT ?,? 
+2020-07-16 18:56:43,154 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 10(Integer)
+2020-07-16 18:56:43,188 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 10
+2020-07-16 18:56:43,189 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 18:56:43,190 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, 11(String)
+2020-07-16 18:56:43,214 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 18:56:43,215 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 18:56:43,216 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, 啊啊(String)
+2020-07-16 18:56:43,240 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 18:56:43,241 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 18:56:43,242 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, 啊啊(String)
+2020-07-16 18:56:43,267 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 18:56:43,269 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 18:56:43,269 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, 11(String)
+2020-07-16 18:56:43,295 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 18:56:43,295 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 18:56:43,296 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, 啊啊(String)
+2020-07-16 18:56:43,325 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 18:56:43,326 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 18:56:43,327 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, 11(String)
+2020-07-16 18:56:43,349 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 18:56:43,351 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 18:56:43,351 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, 啊啊(String)
+2020-07-16 18:56:43,376 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 18:56:43,376 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 18:56:43,377 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, 11(String)
+2020-07-16 18:56:43,407 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 18:56:43,408 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 18:56:43,409 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, 啊啊(String)
+2020-07-16 18:56:43,437 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 18:56:43,438 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 18:56:43,438 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, 啊啊(String)
+2020-07-16 18:56:43,464 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:01:58,579 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor LEFT JOIN visit_visitor_alarm ON visit_visitor.id = visit_visitor_alarm.visit_id WHERE visit_visitor.attribution_dept = ? 
+2020-07-16 19:01:58,580 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-16 19:01:58,604 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:03:07,496 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT visit_visitor.id as id, visit_visitor.name as name, visit_visitor.id_card as id_card, visit_visitor.phone as phone, visit_visitor.temperature as temperature, visit_visitor.img_picture as img_picture, visit_visitor.car_no as car_no, visit_visitor.health_code as health_code, visit_visitor.visit_group as visit_group, visit_visitor.visit_person as visit_person, visit_visitor.visit_reason as visit_reason, visit_visitor.rank as rank, DATE_FORMAT(visit_visitor.create_time,"%Y-%m-%d %H:%i") as create_time, visit_visitor.create_user as create_user, visit_visitor.apparatus_name as apparatus_name, visit_visitor.address as address, visit_visitor.event_type as event_type, CASE WHEN visit_visitor_alarm.id is not null THEN visit_visitor_alarm.alarm_message ELSE '正常访客' END as visitor_type FROM visit_visitor LEFT JOIN visit_visitor_alarm ON visit_visitor.id = visit_visitor_alarm.visit_id WHERE visit_visitor.attribution_dept = ? ORDER BY visit_visitor.create_time DESC LIMIT ?,? 
+2020-07-16 19:03:07,498 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 10(Integer)
+2020-07-16 19:03:07,585 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 10
+2020-07-16 19:03:09,255 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 19:03:09,256 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, 11(String)
+2020-07-16 19:03:09,290 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:03:14,842 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 19:03:14,850 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, 啊啊(String)
+2020-07-16 19:03:14,885 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:05:08,192 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 19:05:08,194 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, 啊啊(String)
+2020-07-16 19:05:08,219 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:05:08,221 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 19:05:08,221 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, 11(String)
+2020-07-16 19:05:08,246 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:05:08,247 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 19:05:08,247 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, 啊啊(String)
+2020-07-16 19:05:08,268 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:05:08,270 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 19:05:08,271 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, 11(String)
+2020-07-16 19:05:08,300 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:05:08,302 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 19:05:08,302 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, 啊啊(String)
+2020-07-16 19:05:08,329 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:05:08,329 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 19:05:08,330 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, 11(String)
+2020-07-16 19:05:08,355 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:05:08,356 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 19:05:08,357 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, 啊啊(String)
+2020-07-16 19:05:08,386 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:05:08,388 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 19:05:08,389 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: null, 啊啊(String)
+2020-07-16 19:05:08,414 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:05:37,419 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 13600 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-16 19:05:37,419 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-16 19:05:37,419 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-16 19:05:38,630 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.248 seconds (JVM running for 630.455)
+2020-07-16 19:05:52,465 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor LEFT JOIN visit_visitor_alarm ON visit_visitor.id = visit_visitor_alarm.visit_id WHERE visit_visitor.attribution_dept = ? 
+2020-07-16 19:05:52,467 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-16 19:05:52,502 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:05:55,796 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT visit_visitor.id as id, visit_visitor.name as name, visit_visitor.id_card as id_card, visit_visitor.phone as phone, visit_visitor.temperature as temperature, visit_visitor.img_picture as img_picture, visit_visitor.car_no as car_no, visit_visitor.health_code as health_code, visit_visitor.visit_group as visit_group, visit_visitor.visit_person as visit_person, visit_visitor.visit_reason as visit_reason, visit_visitor.rank as rank, DATE_FORMAT(visit_visitor.create_time,"%Y-%m-%d %H:%i") as create_time, visit_visitor.create_user as create_user, visit_visitor.apparatus_name as apparatus_name, visit_visitor.address as address, visit_visitor.event_type as event_type, visit_visitor.attribution_dept as attribution_dept, CASE WHEN visit_visitor_alarm.id is not null THEN visit_visitor_alarm.alarm_message ELSE '正常访客' END as visitor_type FROM visit_visitor LEFT JOIN visit_visitor_alarm ON visit_visitor.id = visit_visitor_alarm.visit_id WHERE visit_visitor.attribution_dept = ? ORDER BY visit_visitor.create_time DESC LIMIT ?,? 
+2020-07-16 19:05:55,798 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 10(Integer)
+2020-07-16 19:05:55,854 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 10
+2020-07-16 19:05:56,643 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 19:05:56,648 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 11(String)
+2020-07-16 19:05:56,680 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:06:01,127 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 19:06:01,132 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 啊啊(String)
+2020-07-16 19:06:01,167 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:06:10,732 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 19:06:10,732 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 11(String)
+2020-07-16 19:06:10,763 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:06:10,764 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 19:06:10,764 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 啊啊(String)
+2020-07-16 19:06:10,793 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:06:10,794 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 19:06:10,794 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 11(String)
+2020-07-16 19:06:10,823 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:06:10,823 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 19:06:10,824 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 11(String)
+2020-07-16 19:06:10,857 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:06:10,858 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 19:06:10,858 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 啊啊(String)
+2020-07-16 19:06:10,896 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:06:10,897 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 19:06:10,898 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 啊啊(String)
+2020-07-16 19:06:10,932 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:06:10,933 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 19:06:10,934 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 11(String)
+2020-07-16 19:06:11,017 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:06:11,018 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 19:06:11,019 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 啊啊(String)
+2020-07-16 19:06:11,047 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:06:33,038 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 13600 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-16 19:06:33,038 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-16 19:06:33,038 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-16 19:06:34,156 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.155 seconds (JVM running for 685.981)
+2020-07-16 19:07:34,762 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? 
+2020-07-16 19:07:34,764 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-16 19:07:34,789 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:07:34,790 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count( * ) FROM visit_visitor WHERE `name` IN ( SELECT `name` FROM visit_visitor WHERE GROUP BY `name` HAVING COUNT( NAME ) > 3 ) AND attribution_dept = ? 
+2020-07-16 19:07:34,791 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-16 19:12:31,897 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 13600 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-16 19:12:31,897 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-16 19:12:31,897 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-16 19:12:32,773 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.913 seconds (JVM running for 1044.598)
+2020-07-16 19:13:18,391 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? 
+2020-07-16 19:13:18,395 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-16 19:13:18,433 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:13:18,434 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count( * ) FROM visit_visitor WHERE `name` IN ( SELECT `name` FROM visit_visitor WHERE GROUP BY `name` HAVING COUNT( `name` ) > 3 ) AND attribution_dept = ? 
+2020-07-16 19:13:18,434 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-16 19:15:52,236 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 13600 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-16 19:15:52,236 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-16 19:15:52,237 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-16 19:15:53,008 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.807 seconds (JVM running for 1244.832)
+2020-07-16 19:15:55,587 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? 
+2020-07-16 19:15:55,591 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-16 19:15:55,620 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:15:55,623 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count( * ) FROM visit_visitor WHERE `name` IN ( SELECT `name` FROM visit_visitor GROUP BY `name` HAVING COUNT( `name` ) > 3 ) AND attribution_dept = ? 
+2020-07-16 19:15:55,625 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-16 19:15:55,653 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:15:55,654 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor_alarm WHERE attribution_dept = ? 
+2020-07-16 19:15:55,655 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-16 19:15:55,688 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:16:08,449 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor LEFT JOIN visit_visitor_alarm ON visit_visitor.id = visit_visitor_alarm.visit_id WHERE visit_visitor.attribution_dept = ? 
+2020-07-16 19:16:08,450 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-16 19:16:08,477 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:16:13,367 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT visit_visitor.id as id, visit_visitor.name as name, visit_visitor.id_card as id_card, visit_visitor.phone as phone, visit_visitor.temperature as temperature, visit_visitor.img_picture as img_picture, visit_visitor.car_no as car_no, visit_visitor.health_code as health_code, visit_visitor.visit_group as visit_group, visit_visitor.visit_person as visit_person, visit_visitor.visit_reason as visit_reason, visit_visitor.rank as rank, DATE_FORMAT(visit_visitor.create_time,"%Y-%m-%d %H:%i") as create_time, visit_visitor.create_user as create_user, visit_visitor.apparatus_name as apparatus_name, visit_visitor.address as address, visit_visitor.event_type as event_type, visit_visitor.attribution_dept as attribution_dept, CASE WHEN visit_visitor_alarm.id is not null THEN visit_visitor_alarm.alarm_message ELSE '正常访客' END as visitor_type FROM visit_visitor LEFT JOIN visit_visitor_alarm ON visit_visitor.id = visit_visitor_alarm.visit_id WHERE visit_visitor.attribution_dept = ? ORDER BY visit_visitor.create_time DESC LIMIT ?,? 
+2020-07-16 19:16:13,369 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 13(Integer)
+2020-07-16 19:16:13,403 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 13
+2020-07-16 19:16:13,405 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 19:16:13,406 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 11(String)
+2020-07-16 19:16:13,433 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:16:13,434 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 19:16:13,434 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 啊啊(String)
+2020-07-16 19:16:13,461 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:16:13,462 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 19:16:13,463 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 啊啊(String)
+2020-07-16 19:16:13,491 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:16:13,492 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 19:16:13,492 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 11(String)
+2020-07-16 19:16:13,522 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:16:13,523 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 19:16:13,524 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 啊啊(String)
+2020-07-16 19:16:13,553 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:16:13,554 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 19:16:13,554 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 啊啊(String)
+2020-07-16 19:16:13,582 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:16:13,583 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 19:16:13,583 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 11(String)
+2020-07-16 19:16:13,613 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:16:13,614 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 19:16:13,614 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 啊啊(String)
+2020-07-16 19:16:13,642 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:16:13,643 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 19:16:13,643 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 11(String)
+2020-07-16 19:16:13,672 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:16:13,673 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 19:16:13,673 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 11(String)
+2020-07-16 19:16:13,702 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:16:13,703 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 19:16:13,704 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 啊啊(String)
+2020-07-16 19:16:13,732 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:16:13,733 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 19:16:13,733 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 11(String)
+2020-07-16 19:16:13,768 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:16:13,770 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? AND `name` = ? 
+2020-07-16 19:16:13,771 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 啊啊(String)
+2020-07-16 19:16:13,800 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:29:23,533 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 408 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-16 19:29:23,535 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-16 19:29:23,536 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-16 19:29:26,441 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 3.296 seconds (JVM running for 4.065)
+2020-07-16 19:29:33,640 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor WHERE attribution_dept = ? 
+2020-07-16 19:29:33,668 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-16 19:29:33,713 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:29:33,717 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count( * ) FROM visit_visitor WHERE `name` IN ( SELECT `name` FROM visit_visitor GROUP BY `name` HAVING COUNT( `name` ) > 3 ) AND attribution_dept = ? 
+2020-07-16 19:29:33,717 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-16 19:29:33,742 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-16 19:29:33,743 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_visitor_alarm WHERE attribution_dept = ? 
+2020-07-16 19:29:33,743 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-16 19:29:33,770 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1

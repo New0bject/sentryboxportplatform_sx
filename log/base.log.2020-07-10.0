@@ -1,0 +1,606 @@
+2020-07-10 14:07:07,736 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 19304 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 14:07:07,742 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 14:07:07,743 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 14:07:13,123 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 6.633 seconds (JVM running for 10.487)
+2020-07-10 14:08:39,447 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? 
+2020-07-10 14:08:39,481 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-10 14:09:05,174 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 19304 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 14:09:05,175 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 14:09:05,175 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 14:09:06,227 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.085 seconds (JVM running for 123.592)
+2020-07-10 14:09:13,103 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 19304 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 14:09:13,104 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 14:09:13,104 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 14:09:14,096 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.033 seconds (JVM running for 131.461)
+2020-07-10 14:09:34,137 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 17248 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 14:09:34,141 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 14:09:34,142 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 14:09:37,744 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 4.088 seconds (JVM running for 4.988)
+2020-07-10 14:09:42,887 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? 
+2020-07-10 14:09:42,919 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-10 14:09:43,038 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 14:09:43,041 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 14:09:43,042 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 2(Integer)
+2020-07-10 14:09:43,072 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 14:10:31,793 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? WHERE a.person_id = ? 
+2020-07-10 14:10:31,793 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), zhangweicheng-15921120077(String)
+2020-07-10 14:11:59,222 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? WHERE a.person_id = ? 
+2020-07-10 14:11:59,225 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), zhangweicheng-15921120077(String)
+2020-07-10 14:12:05,286 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? WHERE a.person_id = ? 
+2020-07-10 14:12:05,286 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), zhangweicheng-15921120077(String)
+2020-07-10 14:12:32,503 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 17248 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 14:12:32,503 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 14:12:32,503 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 14:12:33,587 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.122 seconds (JVM running for 180.832)
+2020-07-10 14:12:38,431 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? WHERE a.person_id = ? 
+2020-07-10 14:12:38,435 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), zhangweicheng-15921120077(String)
+2020-07-10 14:13:39,408 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? WHERE a.person_id = ? 
+2020-07-10 14:13:39,408 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), zhangweicheng-15921120077(String)
+2020-07-10 14:15:45,558 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 17248 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 14:15:45,559 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 14:15:45,559 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 14:15:46,685 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.162 seconds (JVM running for 373.931)
+2020-07-10 15:58:32,547 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 2244 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 15:58:32,562 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 15:58:32,562 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 15:58:38,144 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 6.75 seconds (JVM running for 10.189)
+2020-07-10 15:59:08,239 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? WHERE a.person_id = ? 
+2020-07-10 15:59:08,287 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), zhangweicheng-15921120077(String)
+2020-07-10 15:59:57,613 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 2244 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 15:59:57,613 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 15:59:57,614 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 15:59:58,561 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.979 seconds (JVM running for 90.607)
+2020-07-10 16:00:01,414 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 2244 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:00:01,414 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:00:01,415 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:00:02,291 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.913 seconds (JVM running for 94.337)
+2020-07-10 16:13:59,910 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 2244 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:13:59,910 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:13:59,911 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:14:00,627 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.745 seconds (JVM running for 932.672)
+2020-07-10 16:14:25,011 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 8104 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:14:25,014 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:14:25,016 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:14:28,859 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 4.354 seconds (JVM running for 5.494)
+2020-07-10 16:15:19,073 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 8104 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:15:19,073 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:15:19,073 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:15:20,238 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.205 seconds (JVM running for 56.873)
+2020-07-10 16:15:31,550 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 8104 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:15:31,550 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:15:31,550 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:15:32,603 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.089 seconds (JVM running for 69.237)
+2020-07-10 16:16:04,563 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 13432 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:16:04,566 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:16:04,567 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:16:07,878 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 3.737 seconds (JVM running for 4.564)
+2020-07-10 16:16:46,701 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id 
+2020-07-10 16:16:46,729 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-07-10 16:16:46,819 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:16:46,822 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:16:46,823 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 2(Integer)
+2020-07-10 16:16:46,854 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 16:18:26,830 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id 
+2020-07-10 16:18:26,831 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-07-10 16:18:26,868 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:18:26,869 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:18:26,870 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 2(Integer)
+2020-07-10 16:18:26,899 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 16:19:40,641 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id 
+2020-07-10 16:19:40,642 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-07-10 16:19:40,678 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:19:40,682 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:19:40,683 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 2(Integer)
+2020-07-10 16:19:40,714 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 16:19:58,175 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id 
+2020-07-10 16:19:58,176 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-07-10 16:19:58,205 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:19:58,207 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:19:58,208 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 2(Integer)
+2020-07-10 16:19:58,244 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 16:20:22,184 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 13432 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:20:22,184 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:20:22,184 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:20:23,037 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.883 seconds (JVM running for 259.722)
+2020-07-10 16:20:37,954 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 13432 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:20:37,954 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:20:37,955 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:20:38,682 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.756 seconds (JVM running for 275.366)
+2020-07-10 16:20:42,103 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id 
+2020-07-10 16:20:42,106 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-07-10 16:20:42,137 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:20:42,139 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:20:42,139 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 2(Integer)
+2020-07-10 16:20:42,171 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 16:25:10,267 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 13432 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:25:10,267 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:25:10,268 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:25:10,957 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.714 seconds (JVM running for 547.642)
+2020-07-10 16:25:18,519 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id 
+2020-07-10 16:25:18,520 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-07-10 16:25:18,596 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:25:18,599 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:25:18,600 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 2(Integer)
+2020-07-10 16:25:18,779 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 16:25:40,986 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 13432 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:25:40,987 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:25:40,987 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:25:41,650 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.691 seconds (JVM running for 578.334)
+2020-07-10 16:25:49,436 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 13432 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:25:49,436 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:25:49,436 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:25:50,088 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.673 seconds (JVM running for 586.772)
+2020-07-10 16:25:55,908 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id 
+2020-07-10 16:25:55,909 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-07-10 16:25:55,947 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:25:55,949 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:25:55,950 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 2(Integer)
+2020-07-10 16:25:55,980 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 16:26:16,154 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 13432 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:26:16,155 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:26:16,155 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:26:16,687 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.56 seconds (JVM running for 613.372)
+2020-07-10 16:26:19,202 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? 
+2020-07-10 16:26:19,204 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-10 16:26:19,234 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:26:19,235 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:26:19,236 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 2(Integer)
+2020-07-10 16:26:19,265 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 16:26:32,866 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? WHERE a.person_id = ? 
+2020-07-10 16:26:32,867 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), caoweiwei-17740828884(String)
+2020-07-10 16:26:58,124 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? 
+2020-07-10 16:26:58,125 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-10 16:26:58,151 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:26:58,153 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:26:58,154 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 2(Integer)
+2020-07-10 16:26:58,186 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 16:27:13,198 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.person_id = ? 
+2020-07-10 16:27:13,199 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: caoweiwei-17740828884(String)
+2020-07-10 16:27:13,230 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:27:13,232 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.person_id = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:27:13,232 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: caoweiwei-17740828884(String), 0(Integer), 2(Integer)
+2020-07-10 16:27:13,275 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:30:37,453 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 13432 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:30:37,454 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:30:37,454 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:30:38,007 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.576 seconds (JVM running for 874.692)
+2020-07-10 16:32:12,835 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 13432 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:32:12,836 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:32:12,836 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:32:26,821 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 13432 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:32:26,821 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:32:26,822 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:32:27,327 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.533 seconds (JVM running for 984.011)
+2020-07-10 16:32:56,484 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 15196 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:32:56,487 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:32:56,488 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:32:59,994 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 3.935 seconds (JVM running for 4.834)
+2020-07-10 16:33:10,812 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? WHERE a.person_id = ? 
+2020-07-10 16:33:10,837 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), caoweiwei-17740828884(String)
+2020-07-10 16:33:53,261 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 15196 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:33:53,262 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:33:53,262 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:33:54,105 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.875 seconds (JVM running for 58.946)
+2020-07-10 16:33:59,635 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id 
+2020-07-10 16:33:59,637 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-07-10 16:33:59,689 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:33:59,691 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? WHERE a.person_id = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:33:59,692 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), caoweiwei-17740828884(String), 0(Integer), 2(Integer)
+2020-07-10 16:34:18,117 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 15196 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:34:18,117 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:34:18,117 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:34:18,849 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.757 seconds (JVM running for 83.689)
+2020-07-10 16:34:21,380 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id 
+2020-07-10 16:34:21,383 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-07-10 16:34:21,413 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:34:21,417 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:34:21,418 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 2(Integer)
+2020-07-10 16:34:21,451 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 16:34:58,115 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 15196 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:34:58,115 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:34:58,116 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:34:58,780 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.692 seconds (JVM running for 123.621)
+2020-07-10 16:35:08,657 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 15196 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:35:08,657 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:35:08,658 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:35:09,288 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.656 seconds (JVM running for 134.128)
+2020-07-10 16:35:16,002 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? 
+2020-07-10 16:35:16,004 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-10 16:35:16,034 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:35:16,036 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:35:16,037 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 2(Integer)
+2020-07-10 16:35:16,067 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 16:35:26,183 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 15196 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:35:26,184 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:35:26,184 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:35:26,834 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.673 seconds (JVM running for 151.674)
+2020-07-10 16:35:29,597 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 15196 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:35:29,597 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:35:29,598 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:35:30,274 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.701 seconds (JVM running for 155.114)
+2020-07-10 16:35:33,848 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? 
+2020-07-10 16:35:33,850 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-10 16:35:33,880 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:35:33,881 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:35:33,882 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 2(Integer)
+2020-07-10 16:35:33,914 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 16:35:46,852 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id 
+2020-07-10 16:35:46,853 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-07-10 16:35:46,885 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:35:46,886 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:35:46,886 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 2(Integer)
+2020-07-10 16:35:46,917 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 16:36:04,667 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id 
+2020-07-10 16:36:04,668 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-07-10 16:36:04,696 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:36:04,698 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:36:04,700 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 2(Integer)
+2020-07-10 16:36:04,732 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 16:36:23,637 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 15196 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:36:23,637 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:36:23,638 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:36:24,242 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.635 seconds (JVM running for 209.082)
+2020-07-10 16:36:33,168 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 15196 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:36:33,169 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:36:33,169 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:36:33,679 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.531 seconds (JVM running for 218.519)
+2020-07-10 16:36:41,558 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id 
+2020-07-10 16:36:41,559 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-07-10 16:36:41,604 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:36:41,605 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:36:41,606 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 2(Integer)
+2020-07-10 16:36:41,637 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 16:37:02,323 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id 
+2020-07-10 16:37:02,325 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-07-10 16:37:02,377 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:37:02,379 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:37:02,381 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 2(Integer)
+2020-07-10 16:37:02,411 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 16:37:20,852 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 12948 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:37:20,854 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:37:20,855 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:37:23,917 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 3.483 seconds (JVM running for 4.339)
+2020-07-10 16:37:30,651 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id 
+2020-07-10 16:37:30,680 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-07-10 16:37:30,727 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:37:30,730 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:37:30,732 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 2(Integer)
+2020-07-10 16:37:30,762 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 16:37:50,891 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 12948 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:37:50,892 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:37:50,893 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:37:51,769 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.907 seconds (JVM running for 32.191)
+2020-07-10 16:37:57,566 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 12948 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:37:57,566 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:37:57,566 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:37:58,342 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.801 seconds (JVM running for 38.763)
+2020-07-10 16:38:01,511 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id 
+2020-07-10 16:38:01,512 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-07-10 16:38:01,547 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:38:01,549 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:38:01,549 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 2(Integer)
+2020-07-10 16:38:01,598 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 16:38:13,253 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 12948 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:38:13,253 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:38:13,254 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:38:13,982 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.754 seconds (JVM running for 54.403)
+2020-07-10 16:38:17,046 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? 
+2020-07-10 16:38:17,048 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-10 16:38:17,083 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:38:17,085 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:38:17,086 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 2(Integer)
+2020-07-10 16:38:17,118 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 16:38:44,073 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 12948 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:38:44,073 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:38:44,073 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:38:44,767 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.718 seconds (JVM running for 85.188)
+2020-07-10 16:38:47,610 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? WHERE a.person_id = ? 
+2020-07-10 16:38:47,612 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), caoweiwei-17740828884(String)
+2020-07-10 16:39:23,046 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 12948 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:39:23,046 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:39:23,046 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:39:23,793 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.768 seconds (JVM running for 124.214)
+2020-07-10 16:39:24,290 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? 
+2020-07-10 16:39:24,291 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-10 16:39:24,320 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:39:24,321 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:39:24,322 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 2(Integer)
+2020-07-10 16:39:24,356 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 16:39:35,690 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 12948 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:39:35,690 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:39:35,690 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:39:36,239 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.57 seconds (JVM running for 136.66)
+2020-07-10 16:39:41,614 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.person_id = ? 
+2020-07-10 16:39:41,616 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: caoweiwei-17740828884(String)
+2020-07-10 16:39:41,646 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:39:41,648 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.person_id = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:39:41,648 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: caoweiwei-17740828884(String), 0(Integer), 2(Integer)
+2020-07-10 16:39:41,676 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:40:16,471 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 12948 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:40:16,471 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:40:16,471 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:40:17,000 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.559 seconds (JVM running for 177.422)
+2020-07-10 16:40:26,931 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 12948 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:40:26,931 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:40:26,931 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:40:27,462 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.552 seconds (JVM running for 187.883)
+2020-07-10 16:40:31,092 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id 
+2020-07-10 16:40:31,093 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-07-10 16:40:31,121 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:40:31,122 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:40:31,123 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 2(Integer)
+2020-07-10 16:40:31,152 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 16:40:45,396 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 12948 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:40:45,397 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:40:45,397 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:40:45,870 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.499 seconds (JVM running for 206.291)
+2020-07-10 16:40:48,961 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id 
+2020-07-10 16:40:48,963 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 
+2020-07-10 16:40:48,999 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:40:49,001 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:40:49,002 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 2(Integer)
+2020-07-10 16:40:49,032 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 16:41:08,913 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 12948 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:41:08,913 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:41:08,914 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:41:09,389 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.495 seconds (JVM running for 229.81)
+2020-07-10 16:41:15,822 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.person_id = ? 
+2020-07-10 16:41:15,824 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: caoweiwei-17740828884(String)
+2020-07-10 16:41:15,852 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:41:15,853 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.person_id = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:41:15,854 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: caoweiwei-17740828884(String), 0(Integer), 2(Integer)
+2020-07-10 16:41:15,885 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:41:43,513 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 12948 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:41:43,513 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:41:43,513 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:42:08,760 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 23296 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:42:08,763 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:42:08,764 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:42:11,783 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 3.443 seconds (JVM running for 4.255)
+2020-07-10 16:42:16,921 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? 
+2020-07-10 16:42:16,947 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-10 16:42:16,995 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:42:16,998 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:42:16,998 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 2(Integer)
+2020-07-10 16:42:17,028 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 16:42:26,400 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? 
+2020-07-10 16:42:26,401 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-10 16:42:26,430 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:42:26,431 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:42:26,433 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 2(Integer)
+2020-07-10 16:42:26,465 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 16:42:37,661 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? 
+2020-07-10 16:42:37,662 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-10 16:42:37,690 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:42:37,692 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:42:37,693 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 2(Integer)
+2020-07-10 16:42:37,722 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 16:43:39,416 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 23296 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:43:39,416 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:43:39,416 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:43:40,324 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.942 seconds (JVM running for 92.796)
+2020-07-10 16:43:50,237 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? 
+2020-07-10 16:43:50,240 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-10 16:43:50,268 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:43:50,269 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:43:50,270 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 2(Integer)
+2020-07-10 16:43:50,298 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 16:44:05,379 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 23296 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:44:05,380 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:44:05,380 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:44:06,186 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.843 seconds (JVM running for 118.658)
+2020-07-10 16:44:09,666 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? WHERE a.person_id = ? 
+2020-07-10 16:44:09,667 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), caoweiwei-17740828884(String)
+2020-07-10 16:45:15,766 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 23296 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:45:15,766 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:45:15,766 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:45:16,461 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.717 seconds (JVM running for 188.933)
+2020-07-10 16:45:28,337 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 23296 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:45:28,338 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:45:28,338 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:45:28,950 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.634 seconds (JVM running for 201.422)
+2020-07-10 16:45:34,921 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? WHERE a.person_id = ? 
+2020-07-10 16:45:34,922 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), caoweiwei-17740828884(String)
+2020-07-10 16:46:25,183 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 23296 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:46:25,183 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:46:25,183 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:46:25,795 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.634 seconds (JVM running for 258.267)
+2020-07-10 16:46:29,036 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.person_id = ? 
+2020-07-10 16:46:29,039 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: caoweiwei-17740828884(String)
+2020-07-10 16:46:29,070 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:46:29,073 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.person_id = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:46:29,075 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: caoweiwei-17740828884(String), 0(Integer), 2(Integer)
+2020-07-10 16:46:29,108 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:46:37,174 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? 
+2020-07-10 16:46:37,174 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-10 16:46:37,201 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:46:37,203 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:46:37,204 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 2(Integer)
+2020-07-10 16:46:37,241 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 16:48:26,714 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 23296 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:48:26,715 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:48:26,715 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:48:27,335 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.645 seconds (JVM running for 379.807)
+2020-07-10 16:48:41,399 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.person_id = ? 
+2020-07-10 16:48:41,401 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: caoweiwei-17740828884(String)
+2020-07-10 16:48:41,439 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:48:41,440 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.person_id = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:48:41,442 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: caoweiwei-17740828884(String), 0(Integer), 2(Integer)
+2020-07-10 16:48:41,472 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:48:44,327 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.person_id = ? 
+2020-07-10 16:48:44,329 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: caoweiwei-17740828884(String)
+2020-07-10 16:48:44,361 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:48:44,366 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:48:44,368 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 0(Integer), 2(Integer)
+2020-07-10 16:48:44,405 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 16:49:04,428 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 23296 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:49:04,429 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:49:04,429 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 16:49:05,025 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.62 seconds (JVM running for 417.497)
+2020-07-10 16:49:09,626 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.person_id = ? 
+2020-07-10 16:49:09,628 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: caoweiwei-17740828884(String)
+2020-07-10 16:49:09,697 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:49:09,698 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.person_id = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:49:09,698 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: caoweiwei-17740828884(String), 0(Integer), 2(Integer)
+2020-07-10 16:49:09,723 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:49:12,035 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.person_id = ? 
+2020-07-10 16:49:12,035 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: caoweiwei-17740828884(String)
+2020-07-10 16:49:12,169 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:49:12,170 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.person_id = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:49:12,171 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: caoweiwei-17740828884(String), 0(Integer), 2(Integer)
+2020-07-10 16:49:12,283 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:49:14,860 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.person_id = ? 
+2020-07-10 16:49:14,861 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: caoweiwei-17740828884(String)
+2020-07-10 16:49:14,901 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:49:14,902 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.person_id = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:49:14,902 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: caoweiwei-17740828884(String), 0(Integer), 2(Integer)
+2020-07-10 16:49:14,957 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:49:18,147 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.person_id = ? 
+2020-07-10 16:49:18,148 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: caoweiwei-17740828884(String)
+2020-07-10 16:49:18,252 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:49:18,253 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.person_id = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:49:18,254 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: caoweiwei-17740828884(String), 0(Integer), 2(Integer)
+2020-07-10 16:49:18,322 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:49:21,984 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? 
+2020-07-10 16:49:21,985 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-10 16:49:22,021 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:49:22,025 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:49:22,026 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 2(Integer)
+2020-07-10 16:49:22,059 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 16:49:27,554 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? 
+2020-07-10 16:49:27,555 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-10 16:49:27,583 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:49:27,584 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:49:27,585 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 2(Integer)
+2020-07-10 16:49:27,660 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 16:49:30,795 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.person_id = ? 
+2020-07-10 16:49:30,795 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: caoweiwei-17740828884(String)
+2020-07-10 16:49:30,822 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:49:30,823 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.person_id = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:49:30,824 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: caoweiwei-17740828884(String), 0(Integer), 2(Integer)
+2020-07-10 16:49:30,855 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:49:34,068 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? 
+2020-07-10 16:49:34,069 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-10 16:49:34,105 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:49:34,106 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:49:34,106 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 2(Integer)
+2020-07-10 16:49:34,132 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 16:49:39,178 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? 
+2020-07-10 16:49:39,179 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-10 16:49:39,207 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:49:39,209 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:49:39,210 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 2(Integer)
+2020-07-10 16:49:39,240 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 16:49:41,698 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.person_id = ? 
+2020-07-10 16:49:41,700 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: caoweiwei-17740828884(String)
+2020-07-10 16:49:41,728 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:49:41,730 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.person_id = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:49:41,731 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: caoweiwei-17740828884(String), 0(Integer), 2(Integer)
+2020-07-10 16:49:41,757 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:49:44,143 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.person_id = ? 
+2020-07-10 16:49:44,144 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: caoweiwei-17740828884(String)
+2020-07-10 16:49:44,171 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:49:44,173 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.person_id = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:49:44,174 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: caoweiwei-17740828884(String), 0(Integer), 2(Integer)
+2020-07-10 16:49:44,210 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:49:47,116 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.person_id = ? 
+2020-07-10 16:49:47,117 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: caoweiwei-17740828884(String)
+2020-07-10 16:49:47,146 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:49:47,146 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.person_id = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:49:47,147 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: caoweiwei-17740828884(String), 0(Integer), 2(Integer)
+2020-07-10 16:49:47,176 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:50:01,282 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? 
+2020-07-10 16:50:01,283 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String)
+2020-07-10 16:50:01,318 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:50:01,320 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.attribution_dept = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:50:01,321 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 525191794643643223(String), 0(Integer), 2(Integer)
+2020-07-10 16:50:01,354 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 2
+2020-07-10 16:50:04,771 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.person_id = ? 
+2020-07-10 16:50:04,771 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: caoweiwei-17740828884(String)
+2020-07-10 16:50:04,797 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:50:04,798 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.person_id = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:50:04,799 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: caoweiwei-17740828884(String), 0(Integer), 2(Integer)
+2020-07-10 16:50:04,829 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:50:07,893 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT count(*) FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.person_id = ? 
+2020-07-10 16:50:07,894 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: caoweiwei-17740828884(String)
+2020-07-10 16:50:07,920 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:50:07,921 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT a.id, a.apparatus_id, a.apparatus_name, a.address, a.event_type, a.person_id, a.person_name, a.group_id, a.group_name, a.car_no, a.temperature, a.handle_result, a.handle_status, a.handle_user, DATE_FORMAT(a.handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(a.create_time,"%Y-%m-%d %H:%i") as create_time, a.create_user, replace(CONVERT(a.img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access a LEFT JOIN sys_role_user b ON a.person_id = b.user_id WHERE a.person_id = ? ORDER BY a.create_time DESC LIMIT ?,? 
+2020-07-10 16:50:07,921 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: caoweiwei-17740828884(String), 0(Integer), 2(Integer)
+2020-07-10 16:50:07,950 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 16:50:40,733 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 23296 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 16:50:40,733 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 16:50:40,734 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 17:05:21,958 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 20068 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 17:05:21,962 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 17:05:21,963 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 17:05:25,832 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 4.411 seconds (JVM running for 5.466)
+2020-07-10 17:07:12,845 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: UPDATE visit_user_access SET handle_result = ?, handle_time = NOW(), handle_status = ?, handle_user = ? WHERE id = ? 
+2020-07-10 17:07:13,109 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 公务正常进入(String), 2(String), admin(String), 142(Integer)
+2020-07-10 17:07:13,167 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-07-10 17:07:17,070 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id, apparatus_id, apparatus_name, address, event_type, person_id, person_name, group_id, group_name, car_no, temperature, handle_result, handle_status, handle_user, DATE_FORMAT(handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(create_time,"%Y-%m-%d %H:%i") as create_time, create_user, replace(CONVERT(img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access WHERE id = ? 
+2020-07-10 17:07:17,072 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 142(Integer)
+2020-07-10 17:07:17,306 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 17:16:47,477 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 20068 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 17:16:47,478 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 17:16:47,478 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 17:16:48,677 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.249 seconds (JVM running for 688.311)
+2020-07-10 17:16:51,506 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 20068 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 17:16:51,506 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 17:16:51,507 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 17:16:52,569 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.101 seconds (JVM running for 692.203)
+2020-07-10 17:16:59,777 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: UPDATE visit_user_access SET handle_result = ?, handle_time = NOW(), handle_status = ?, handle_user = ? WHERE id = ? 
+2020-07-10 17:16:59,781 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 公务正常进入(String), 2(String), admin(String), 142(Integer)
+2020-07-10 17:16:59,837 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-07-10 17:17:00,630 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id, apparatus_id, apparatus_name, address, event_type, person_id, person_name, group_id, group_name, car_no, temperature, handle_result, handle_status, handle_user, DATE_FORMAT(handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(create_time,"%Y-%m-%d %H:%i") as create_time, create_user, replace(CONVERT(img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access WHERE id = ? 
+2020-07-10 17:17:00,634 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 142(Integer)
+2020-07-10 17:17:00,707 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 17:18:51,758 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 20068 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 17:18:51,758 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 17:18:51,759 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 17:18:52,582 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.864 seconds (JVM running for 812.215)
+2020-07-10 17:19:00,430 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: UPDATE visit_user_access SET handle_result = ?, handle_time = NOW(), handle_status = ?, handle_user = ? WHERE id = ? 
+2020-07-10 17:19:00,437 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 公务正常进入(String), 2(String), admin(String), 142(Integer)
+2020-07-10 17:19:00,499 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-07-10 17:19:01,172 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id, apparatus_id, apparatus_name, address, event_type, person_id, person_name, group_id, group_name, car_no, temperature, handle_result, handle_status, handle_user, DATE_FORMAT(handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(create_time,"%Y-%m-%d %H:%i") as create_time, create_user, replace(CONVERT(img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access WHERE id = ? 
+2020-07-10 17:19:01,179 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 142(Integer)
+2020-07-10 17:19:01,217 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 17:20:48,203 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: UPDATE visit_user_access SET handle_result = ?, handle_time = NOW(), handle_status = ?, handle_user = ? WHERE id = ? 
+2020-07-10 17:20:48,207 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 公务正常进入(String), 2(String), admin(String), 142(Integer)
+2020-07-10 17:20:48,270 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-07-10 17:20:49,617 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id, apparatus_id, apparatus_name, address, event_type, person_id, person_name, group_id, group_name, car_no, temperature, handle_result, handle_status, handle_user, DATE_FORMAT(handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(create_time,"%Y-%m-%d %H:%i") as create_time, create_user, replace(CONVERT(img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access WHERE id = ? 
+2020-07-10 17:20:49,620 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 142(Integer)
+2020-07-10 17:20:49,970 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 17:21:40,075 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 20068 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 17:21:40,075 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 17:21:40,075 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 17:21:40,867 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 0.825 seconds (JVM running for 980.502)
+2020-07-10 17:21:54,796 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: UPDATE visit_user_access SET handle_result = ?, handle_time = NOW(), handle_status = ?, handle_user = ? WHERE id = ? 
+2020-07-10 17:21:54,803 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 公务正常进入(String), 2(String), admin(String), 142(Integer)
+2020-07-10 17:21:54,862 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-07-10 17:21:55,658 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id, apparatus_id, apparatus_name, address, event_type, person_id, person_name, group_id, group_name, car_no, temperature, handle_result, handle_status, handle_user, DATE_FORMAT(handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(create_time,"%Y-%m-%d %H:%i") as create_time, create_user, replace(CONVERT(img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access WHERE id = ? 
+2020-07-10 17:21:55,663 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 142(Integer)
+2020-07-10 17:21:55,793 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 17:22:44,117 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 23008 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 17:22:44,122 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 17:22:44,123 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 17:22:47,897 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 4.287 seconds (JVM running for 5.307)
+2020-07-10 17:22:56,777 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: UPDATE visit_user_access SET handle_result = ?, handle_time = NOW(), handle_status = ?, handle_user = ? WHERE id = ? 
+2020-07-10 17:22:57,047 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 公务正常进入(String), 2(String), admin(String), 142(Integer)
+2020-07-10 17:22:57,139 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-07-10 17:22:57,495 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id, apparatus_id, apparatus_name, address, event_type, person_id, person_name, group_id, group_name, car_no, temperature, handle_result, handle_status, handle_user, DATE_FORMAT(handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(create_time,"%Y-%m-%d %H:%i") as create_time, create_user, replace(CONVERT(img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access WHERE id = ? 
+2020-07-10 17:22:57,497 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 142(Integer)
+2020-07-10 17:22:57,751 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 17:27:16,695 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 23008 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 17:27:16,695 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 17:27:16,696 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 17:27:18,046 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.4 seconds (JVM running for 275.456)
+2020-07-10 17:27:44,725 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: UPDATE visit_user_access SET handle_result = ?, handle_time = NOW(), handle_status = ?, handle_user = ? WHERE id = ? 
+2020-07-10 17:27:44,730 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 公务正常外出(String), 2(String), admin(String), 142(Integer)
+2020-07-10 17:27:44,789 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 1
+2020-07-10 17:27:45,395 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: SELECT id, apparatus_id, apparatus_name, address, event_type, person_id, person_name, group_id, group_name, car_no, temperature, handle_result, handle_status, handle_user, DATE_FORMAT(handle_time,"%Y-%m-%d %H:%i") as handle_time, DATE_FORMAT(create_time,"%Y-%m-%d %H:%i") as create_time, create_user, replace(CONVERT(img_url USING utf8mb4),' ','+') as img_url FROM visit_user_access WHERE id = ? 
+2020-07-10 17:27:45,400 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 142(Integer)
+2020-07-10 17:27:45,438 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 1
+2020-07-10 17:38:26,958 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 23008 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-07-10 17:38:26,959 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-07-10 17:38:26,959 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-07-10 17:38:28,085 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.192 seconds (JVM running for 945.495)

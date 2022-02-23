@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.InspectMessageMapper">
+
+	<select id="getInspectMessage" resultType="com.example.demo.model.InspectMessageBean" parameterType="com.example.demo.model.InspectMessageBean">
+		SELECT
+			visit_inspect.*,
+			sys_group.name_ as group_name,
+			sys_user.real_name as handle_user_name
+		FROM
+			visit_inspect
+		LEFT JOIN 
+			sys_group ON visit_inspect.group_id = sys_group.id_
+		LEFT JOIN 
+			sys_user ON visit_inspect.handle_user = sys_user.id
+		WHERE visit_inspect.attribution_dept = #{attribution_dept,jdbcType=VARCHAR}
+		<if test="handle_status != '' and handle_status != null">
+			and visit_inspect.handle_status = #{handle_status,jdbcType=VARCHAR}
+		</if>
+		<if test="real_name != '' and real_name != null">
+			and sys_user.real_name like concat('%',#{real_name,jdbcType=VARCHAR},'%')
+		</if>
+		<if test="start_time != '' and start_time != null">
+			and visit_inspect.create_time &gt;= #{start_time,jdbcType=VARCHAR}
+		</if>
+		<if test="end_time != '' and end_time != null">
+			and visit_inspect.create_time &lt;= #{end_time,jdbcType=VARCHAR}
+		</if>
+		ORDER BY visit_inspect.create_time DESC
+		LIMIT
+		#{page,jdbcType=VARCHAR},#{lineCount,jdbcType=VARCHAR}
+	</select>
+	
+	<select id="getCount" resultType="java.lang.Integer" parameterType="com.example.demo.model.InspectMessageBean">
+		SELECT
+			count(*)
+		FROM
+			visit_inspect
+		LEFT JOIN 
+			sys_group ON visit_inspect.group_id = sys_group.id_
+		LEFT JOIN 
+			sys_user ON visit_inspect.handle_user = sys_user.id
+		WHERE visit_inspect.attribution_dept = #{attribution_dept,jdbcType=VARCHAR}
+		<if test="handle_status != '' and handle_status != null">
+			and visit_inspect.handle_status = #{handle_status,jdbcType=VARCHAR}
+		</if>
+		<if test="handle_user != '' and handle_user != null">
+			and sys_user.real_name like concat('%',#{handle_user,jdbcType=VARCHAR},'%')
+		</if>
+		<if test="start_time != '' and start_time != null">
+			and visit_inspect.create_time &gt;= #{start_time,jdbcType=VARCHAR}
+		</if>
+		<if test="end_time != '' and end_time != null">
+			and visit_inspect.create_time &lt;= #{end_time,jdbcType=VARCHAR}
+		</if>
+		ORDER BY visit_inspect.create_time DESC
+		LIMIT
+		#{page,jdbcType=VARCHAR},#{lineCount,jdbcType=VARCHAR}
+	</select>
+	
+	<insert id="insertInspectMessage" parameterType="com.example.demo.model.InspectMessageBean" useGeneratedKeys="true" keyProperty="id">
+	    INSERT INTO
+		visit_inspect (
+			event_name,
+			group_id,
+			handle_user,
+			handle_time,
+			handle_status,
+			attribution_dept,
+			create_time
+		)
+		VALUES
+		(
+			#{event_name,jdbcType=VARCHAR},
+			#{group_id,jdbcType=VARCHAR},
+			#{handle_user,jdbcType=INTEGER},
+			#{handle_time,jdbcType=VARCHAR},
+			#{handle_status,jdbcType=VARCHAR},
+			#{attribution_dept,jdbcType=VARCHAR},
+			now()
+		)
+	</insert>
+	
+	<update id="updateInspectMessage" parameterType="com.example.demo.model.InspectMessageBean">
+	    UPDATE 
+			visit_inspect 
+		SET
+			handle_time = now(),
+			handle_status = #{handle_status,jdbcType=VARCHAR}
+		WHERE
+			id = #{id,jdbcType=INTEGER}
+	</update>
+</mapper>

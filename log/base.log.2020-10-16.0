@@ -1,0 +1,20 @@
+2020-10-16 19:10:01,217 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 33412 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-10-16 19:10:01,228 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-10-16 19:10:01,228 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-10-16 19:10:07,943 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 8.518 seconds (JVM running for 13.047)
+2020-10-16 19:10:36,973 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 33412 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-10-16 19:10:36,973 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-10-16 19:10:36,974 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-10-16 19:10:38,225 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 1.291 seconds (JVM running for 43.329)
+2020-10-16 19:10:56,086 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-10-16 19:10:56,544 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 423458681322154876(String), null, null, null
+2020-10-16 19:10:56,803 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 59
+2020-10-16 19:10:56,804 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0
+2020-10-16 22:09:31,425 INFO (StartupInfoLogger.java:50)- Starting SpringbootTestApplication on DESKTOP-RHAJTTV with PID 38988 (D:\work\workspace\workspace6\sentryboxportplatform\target\classes started by admin in D:\work\workspace\workspace6\sentryboxportplatform)
+2020-10-16 22:09:31,443 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.5.RELEASE, Spring v5.1.7.RELEASE
+2020-10-16 22:09:31,444 INFO (SpringApplication.java:675)- No active profile set, falling back to default profiles: default
+2020-10-16 22:09:38,612 INFO (StartupInfoLogger.java:59)- Started SpringbootTestApplication in 8.768 seconds (JVM running for 13.218)
+2020-10-16 22:09:56,761 DEBUG (BaseJdbcLogger.java:143)- ==>  Preparing: { call getGroupList(?, ?, ?, ?) } 
+2020-10-16 22:09:56,866 DEBUG (BaseJdbcLogger.java:143)- ==> Parameters: 423458681322154876(String), null, null, null
+2020-10-16 22:09:56,929 DEBUG (BaseJdbcLogger.java:143)- <==      Total: 59
+2020-10-16 22:09:56,930 DEBUG (BaseJdbcLogger.java:143)- <==    Updates: 0

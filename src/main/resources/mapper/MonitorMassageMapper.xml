@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.demo.mapper.MonitorMassageMapper">
+
+	<select id="getMonitorMessage" resultType="com.example.demo.model.MonitorMessageBean" parameterType="com.example.demo.model.MonitorMessageBean">
+		SELECT
+			id,
+			apparatus_id,
+			apparatus_name,
+			address,
+			person_id,
+			person_name,
+			sex,
+			age,
+			group_id,
+			group_name,
+			temperature,
+			DATE_FORMAT(create_time,"%Y-%m-%d %H:%i") as create_time,
+			create_user,
+			replace(CONVERT(img_url USING utf8mb4),' ','+') as img_url
+		FROM
+			visit_monitor
+		WHERE 
+			attribution_dept = #{attribution_dept,jdbcType=VARCHAR}
+		<if test="start_time != '' and start_time != null">
+			and create_time &gt;= #{start_time,jdbcType=VARCHAR}
+		</if>
+		<if test="end_time != '' and end_time != null">
+			and create_time &lt;= #{end_time,jdbcType=VARCHAR}
+		</if>
+		ORDER BY create_time DESC
+		LIMIT
+		#{page,jdbcType=VARCHAR},#{lineCount,jdbcType=VARCHAR}
+	</select>
+	
+	<select id="getCount" resultType="java.lang.Integer" parameterType="com.example.demo.model.MonitorMessageBean">
+		SELECT
+			count(*)
+		FROM
+			visit_monitor
+		WHERE attribution_dept = #{attribution_dept,jdbcType=VARCHAR}
+		<if test="start_time != '' and start_time != null">
+			and create_time &gt;= #{start_time,jdbcType=VARCHAR}
+		</if>
+		<if test="end_time != '' and end_time != null">
+			and create_time &lt;= #{end_time,jdbcType=VARCHAR}
+		</if>
+	</select>
+	
+	<select id="getMonitorById" resultType="com.example.demo.model.MonitorMessageBean" parameterType="com.example.demo.model.MonitorMessageBean">
+		SELECT
+			id,
+			apparatus_id,
+			apparatus_name,
+			address,
+			person_id,
+			person_name,
+			sex,
+			age,
+			group_id,
+			group_name,
+			temperature,
+			DATE_FORMAT(create_time,"%Y-%m-%d %H:%i") as create_time,
+			create_user,
+			replace(CONVERT(img_url USING utf8mb4),' ','+') as img_url
+		FROM
+			visit_monitor
+		WHERE
+			id = #{id,jdbcType=INTEGER}
+	</select>
+	
+	<select id="getGroupByPerson" resultType="java.util.HashMap" parameterType="java.lang.String">
+		SELECT
+			c.id_ AS group_id,
+			c.name_ AS group_name,
+			a.id as user_id
+		FROM
+			sys_user a
+			LEFT JOIN sys_group_user b ON a.id = b.user_id
+			LEFT JOIN sys_group c ON b.group_id = c.id_ 
+		WHERE
+			a.id like concat('%',#{person_id,jdbcType=VARCHAR},'%') 
+	</select>
+	
+	<insert id="insertMonitorMessage" parameterType="com.example.demo.model.MonitorMessageBean"
+		useGeneratedKeys="true" keyProperty="id">
+		INSERT INTO
+		visit_monitor (
+			apparatus_id,
+			apparatus_name,
+			address,
+			person_id,
+			person_name,
+			sex,
+			age,
+			group_id,
+			group_name,
+			temperature,
+			create_time,
+			create_user,
+			img_url,
+			attribution_dept
+			
+		)
+		VALUES
+		(
+			#{apparatus_id,jdbcType=VARCHAR},
+			#{apparatus_name,jdbcType=VARCHAR},
+			#{address,jdbcType=VARCHAR},
+			#{person_id,jdbcType=VARCHAR},
+			#{person_name,jdbcType=VARCHAR},
+			#{sex,jdbcType=VARCHAR},
+			#{age,jdbcType=VARCHAR},
+			#{group_id,jdbcType=VARCHAR},
+			#{group_name,jdbcType=VARCHAR},
+			#{temperature,jdbcType=FLOAT},
+			now(),
+			#{create_user,jdbcType=VARCHAR},
+			#{save_img},
+			#{attribution_dept,jdbcType=VARCHAR}
+		)
+	</insert>
+	
+	<select id="getApparatusById" resultType="java.util.HashMap" parameterType="java.lang.String">
+		SELECT
+			id,
+			apparatus_name,
+			address,
+			competent_unit_id
+		FROM
+			ef_apparatus 
+		WHERE 
+			serial_no = #{serialNo,jdbcType=VARCHAR}
+	</select>
+</mapper>
